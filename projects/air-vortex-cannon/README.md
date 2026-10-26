@@ -16,6 +16,17 @@
 
 The fit coupon is the next physical check, after actual hardware and slicer inspection. It is not a strength specimen. No print, purchase or printer change has been performed.
 
+## Bambu Studio files
+
+The current 3MFs live in `design-c/manufacturing/`:
+
+| File | Contents |
+|---|---|
+| [air-vortex-cannon-revision-c.3mf](design-c/manufacturing/air-vortex-cannon-revision-c.3mf) | Complete selected build: 17 printed parts on five plates. |
+| [revision-c-fit-coupon.3mf](design-c/manufacturing/revision-c-fit-coupon.3mf) | Separate fit trial: shell coupon, receiver coupon and front adapter on one plate. |
+
+Open either **as a project** in Bambu Studio 2.8.2 or later. Embedded settings target **Bambu Lab X2D, 0.4 mm nozzle, Textured PEI Plate and Generic PLA**. Keep scale at 100% and retain the supplied orientations. The [manufacturing handoff](design-c/manufacturing/README.md) owns the detailed layer/wall/infill/support/brim settings, plate previews, rebuild instructions and verification limits. Settings are proposed; confirm the actual spool and inspect the slice before a physical trial.
+
 ## Asset map
 
 | Location | Role |
