@@ -1,0 +1,23 @@
+{
+  "status": "Conditional load-study handoff; native sources/results and independent audit, not a physical rating",
+  "files": {
+    "README.md": "7343e60b3e07e57020e5a753b35632647078c8a68fba70ed7e47ef9ce6cdf045",
+    "analyze_loads.py": "549d644fed33de03a533b02e21c8bfe493a974a4bbf8f6c6bfcce45b5d6cf1f8",
+    "audit.md": "1aa9867f9b753a27768616792d86c08d8a75e06eef0889fc160133394f4e5d4c",
+    "band-path-results.json": "9deb6995659bf22d8d8b62f3392197717e2371f12fdc76b3fe778c893985304e",
+    "band_path_screen.py": "d4c36e85480fefad78d115c101174c8ab536c3d05eace2492bbfab8b920dd196",
+    "contact-wrench-results.json": "e26e3bc630e6e90824e47915fb3b3c88e73ba3ae45de433ac79238d5c669a150",
+    "contact_wrench_screen.py": "e4f8a109382a1617c6ecc7b64d693de16e4e87f273bc73715a148cb3ba8101ec",
+    "load-sensitivity.png": "dc663bc23ec89508cdc9fc4158e75c090be91f7a2391b92f2c04f1fbc2e1c522",
+    "load-vectors.json": "f0c498f245cea6cbb03087330a8cd6d0c95258706bd109b817fc5d6d12aef72f",
+    "outer-washer-beam-screen.json": "b78b388e013f4a904aafe5fb7d7e3bd1ddb14b495db95a8be53dd39a55a5a3a7",
+    "parameters.json": "5f302640e10f0da0cef56fb502c5656c335b202b62bd21faaeecb5e874196e99",
+    "render_washer_screen.py": "6197f752034aeaa18db9b5f461e552e20b80901c08e1e40f9634afc9ed8f44fc",
+    "results.json": "048f2e2f2e424f136235f4b92576ab8ab180fb18833877939eba10c922e26a98",
+    "stock-geometry-mass.json": "976720d066d49df5318a21f976716a15bfabf7456e4193f4cff7523fb0fdc479",
+    "washer-fea-results.json": "759b883e8f1289cb51df393f3e393d21c10c79287197a3d30471d5fe57df21ba",
+    "washer-fea-review.png": "1de80aacef1092e997d6ee9afa386365e6a290089decf0e33b672228bc5f9432",
+    "washer_fea.py": "3420d006f0e9ded5d98d6b76baf01c7397404df8c76cfeca00f9b74fe28cf370"
+  },
+  "raw_solver_intermediates": "washer-fea/; regenerable, not required in main ZIP"
+}

@@ -1,0 +1,138 @@
+{
+  "status": "LOCAL CONDITIONAL LINEAR-ELASTIC FE SCREEN \u2014 not a washer load rating",
+  "solvers": "Gmsh4.15.0 + CalculiX2.23; quadratic C3D10 tetrahedra",
+  "assumed_material": {
+    "E_MPa": 200000.0,
+    "poisson": 0.3,
+    "yield_strength": "Not assumed or verified"
+  },
+  "assumed_boundary_conditions": {
+    "rail_gap_mm": 8.0,
+    "support": "Uz=0 only at bottom-face nodes with |X|>=4mm; minimal X/Y rigid-body constraints",
+    "load": "Total1N downward on quadratic top-surface triangles approximating annulus ID/2<R<3.5mm, normalized by actual selected area"
+  },
+  "hardware_source": "https://www.accu.co.uk/metric-flat-washers/63172-HDTW-M4-A2",
+  "limits": [
+    "Rail and nut are modeled as prescribed rigid bearing patches, not nonlinear compliant contact",
+    "Sharp support/load boundary peaks may be mesh-sensitive; bulk and full maxima reported separately",
+    "No washer yield, fatigue, corrosion, manufacturing residual stress or nut seating validation",
+    "Linear results scale with force only while assumptions remain elastic/small-displacement"
+  ],
+  "cases": [
+    {
+      "case": "nominal_t1p6",
+      "OD_mm": 12.0,
+      "ID_mm": 4.3,
+      "thickness_mm": 1.6,
+      "target_element_size_mm": 0.65,
+      "mesh": {
+        "nodes": 5880,
+        "quadratic_tets": 3108,
+        "support_nodes": 328,
+        "top_loaded_triangles": 147,
+        "approximated_load_area_mm2": 23.940141751740494,
+        "analytic_target_area_mm2": 23.962497965256148,
+        "total_applied_Fz_N": -1.0000000000000009
+      },
+      "max_displacement_mm_per_N": 8.948459567031753e-06,
+      "most_negative_Uz_mm_per_N": -8.923696e-06,
+      "max_integration_point_von_mises_MPa_per_N": 0.4110555836249555,
+      "bulk_region_max_von_mises_MPa_per_N": 0.24385586326925207,
+      "bulk_region_p95_von_mises_MPa_per_N": 0.13266377598424436,
+      "support_reaction_Fz_N": 1.00000002174,
+      "bulk_exclusion": "Within0.30mm of |X|=4mm support edges or R=3.5mm pressure boundary excluded; full maximum also reported"
+    },
+    {
+      "case": "nominal_t1p6",
+      "OD_mm": 12.0,
+      "ID_mm": 4.3,
+      "thickness_mm": 1.6,
+      "target_element_size_mm": 0.45,
+      "mesh": {
+        "nodes": 15584,
+        "quadratic_tets": 9128,
+        "support_nodes": 668,
+        "top_loaded_triangles": 310,
+        "approximated_load_area_mm2": 24.216213438742592,
+        "analytic_target_area_mm2": 23.962497965256148,
+        "total_applied_Fz_N": -0.9999999999999997
+      },
+      "max_displacement_mm_per_N": 9.020503427184925e-06,
+      "most_negative_Uz_mm_per_N": -8.997982e-06,
+      "max_integration_point_von_mises_MPa_per_N": 0.4647828414263151,
+      "bulk_region_max_von_mises_MPa_per_N": 0.2519891939727502,
+      "bulk_region_p95_von_mises_MPa_per_N": 0.13081975725990705,
+      "support_reaction_Fz_N": 0.999999958401,
+      "bulk_exclusion": "Within0.30mm of |X|=4mm support edges or R=3.5mm pressure boundary excluded; full maximum also reported"
+    },
+    {
+      "case": "worst_tolerance_t1p3",
+      "OD_mm": 11.3,
+      "ID_mm": 4.48,
+      "thickness_mm": 1.3,
+      "target_element_size_mm": 0.6,
+      "mesh": {
+        "nodes": 6142,
+        "quadratic_tets": 3217,
+        "support_nodes": 304,
+        "top_loaded_triangles": 173,
+        "approximated_load_area_mm2": 23.049585217497558,
+        "analytic_target_area_mm2": 22.72125470782282,
+        "total_applied_Fz_N": -1.0000000000000004
+      },
+      "max_displacement_mm_per_N": 1.5377068332071835e-05,
+      "most_negative_Uz_mm_per_N": -1.536781e-05,
+      "max_integration_point_von_mises_MPa_per_N": 0.5908972509018058,
+      "bulk_region_max_von_mises_MPa_per_N": 0.36720404368736825,
+      "bulk_region_p95_von_mises_MPa_per_N": 0.2179256091252191,
+      "support_reaction_Fz_N": 0.99999993169,
+      "bulk_exclusion": "Within0.30mm of |X|=4mm support edges or R=3.5mm pressure boundary excluded; full maximum also reported"
+    },
+    {
+      "case": "worst_tolerance_t1p3",
+      "OD_mm": 11.3,
+      "ID_mm": 4.48,
+      "thickness_mm": 1.3,
+      "target_element_size_mm": 0.4,
+      "mesh": {
+        "nodes": 16353,
+        "quadratic_tets": 9510,
+        "support_nodes": 622,
+        "top_loaded_triangles": 363,
+        "approximated_load_area_mm2": 23.027158940416488,
+        "analytic_target_area_mm2": 22.72125470782282,
+        "total_applied_Fz_N": -1.0
+      },
+      "max_displacement_mm_per_N": 1.5199500462072438e-05,
+      "most_negative_Uz_mm_per_N": -1.518947e-05,
+      "max_integration_point_von_mises_MPa_per_N": 0.6894128914340589,
+      "bulk_region_max_von_mises_MPa_per_N": 0.37378148645061665,
+      "bulk_region_p95_von_mises_MPa_per_N": 0.20817783229163828,
+      "support_reaction_Fz_N": 0.999999944494,
+      "bulk_exclusion": "Within0.30mm of |X|=4mm support edges or R=3.5mm pressure boundary excluded; full maximum also reported"
+    },
+    {
+      "case": "thin_comparison_t1",
+      "OD_mm": 12.0,
+      "ID_mm": 4.3,
+      "thickness_mm": 1.0,
+      "target_element_size_mm": 0.45,
+      "mesh": {
+        "nodes": 11488,
+        "quadratic_tets": 6157,
+        "support_nodes": 668,
+        "top_loaded_triangles": 309,
+        "approximated_load_area_mm2": 23.992659739000192,
+        "analytic_target_area_mm2": 23.962497965256148,
+        "total_applied_Fz_N": -0.9999999999999994
+      },
+      "max_displacement_mm_per_N": 2.408354834514531e-05,
+      "most_negative_Uz_mm_per_N": -2.407922e-05,
+      "max_integration_point_von_mises_MPa_per_N": 0.6783931843227102,
+      "bulk_region_max_von_mises_MPa_per_N": 0.5066067907798052,
+      "bulk_region_p95_von_mises_MPa_per_N": 0.27968822676488087,
+      "support_reaction_Fz_N": 1.0000000260761999,
+      "bulk_exclusion": "Within0.30mm of |X|=4mm support edges or R=3.5mm pressure boundary excluded; full maximum also reported"
+    }
+  ]
+}

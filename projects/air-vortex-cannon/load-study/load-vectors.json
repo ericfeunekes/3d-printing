@@ -1,0 +1,104 @@
+{
+  "case": "transient_example_2x_20N_plus_1g",
+  "status": "assumed statics arrows, not measured",
+  "arrows": [
+    {
+      "group": "lower_three_equal_stiffness",
+      "joint_index": 0,
+      "point_xyz_mm": [
+        0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "reaction_xyz_N": [
+        0,
+        -32.374314884353076,
+        -18.933601372985738
+      ]
+    },
+    {
+      "group": "lower_three_equal_stiffness",
+      "joint_index": 1,
+      "point_xyz_mm": [
+        0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "reaction_xyz_N": [
+        0,
+        7.4570743357633,
+        -12.743477847863366
+      ]
+    },
+    {
+      "group": "lower_three_equal_stiffness",
+      "joint_index": 2,
+      "point_xyz_mm": [
+        0,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "reaction_xyz_N": [
+        0,
+        30.803240548589923,
+        -8.322920779150879
+      ]
+    },
+    {
+      "group": "lower_front_rear_only",
+      "joint_index": 0,
+      "point_xyz_mm": [
+        0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "reaction_xyz_N": [
+        0,
+        -29.418420021101298,
+        -25.43510569621993
+      ]
+    },
+    {
+      "group": "lower_front_rear_only",
+      "joint_index": 2,
+      "point_xyz_mm": [
+        0,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "reaction_xyz_N": [
+        0,
+        35.304420021101315,
+        -14.56489430378007
+      ]
+    },
+    {
+      "group": "lower_middle_rear_only",
+      "joint_index": 1,
+      "point_xyz_mm": [
+        0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "reaction_xyz_N": [
+        0,
+        -84.25658632381698,
+        -36.51109412134553
+      ]
+    },
+    {
+      "group": "lower_middle_rear_only",
+      "joint_index": 2,
+      "point_xyz_mm": [
+        0,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "reaction_xyz_N": [
+        0,
+        90.14258632381673,
+        -3.4889058786546725
+      ]
+    }
+  ]
+}

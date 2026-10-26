@@ -1,0 +1,28 @@
+{
+  "scope": "Presentation/export checks only; not physical design proof",
+  "native_units": "mm",
+  "glb_units": "m",
+  "final_fused_shells_used": true,
+  "inputs_sha256": {
+    "design-b/recommended-assembly.json": "0da393cbfee8e15170a6922520c1d0588d93fee1bd9dc96c5bd5487c4e7d9e0b",
+    "design-b/recommended-shells.json": "f500b11cbbffb673951135999b073533bd4c0ba0104baec24bd210afd3c19213",
+    "assembly-study/core-assembly.json": "a34dfaa88d2080469b4ce075c565e20f2c24a84d16598cf8604ccdfbd26296f4",
+    "ancillary-study/model_ancillary.py": "42943051775331a76603efdf00881403f4b7a116984de22b2c5b09abf951b132",
+    "design-b/reinforced-shells/shell-6-assembled.stl": "2bcee198c3f28cee21803c9303e838f4d28d5e362c05e7cc9b0cecebb5623f95",
+    "design-b/reinforced-shells/shell-8-assembled.stl": "007f74ccee3afee6fa7dbaf1f3ac77622277ad9375dfa47b5a7da93e486bacb7",
+    "design-b/reinforced-shells/shell-7-assembled.stl": "01065403fce392753db868f54c120156da2a58e821083af5ac36390ce2920e9b"
+  },
+  "glb_roundtrips": "export-roundtrip.json",
+  "viewer_mesh_buffers": 55,
+  "viewer_configuration_object_counts": {
+    "core": 22,
+    "recommended": 46
+  },
+  "viewer_data_byte_lengths_checked": true,
+  "viewer_javascript_syntax_checked": true,
+  "viewer_browser_ui_verified": false,
+  "browser_verification_blocker": "Browser URL security policy rejected file: protocol and forbade alternate routes or workarounds; none attempted.",
+  "deployed_sight_matches_corrected_current_source": true,
+  "sight_html_max_coordinate_difference_mm": 1.21334e-06,
+  "motion": "0\u201360mm assumed travel; film and junction schematic; no dynamics or aerodynamic proof"
+}

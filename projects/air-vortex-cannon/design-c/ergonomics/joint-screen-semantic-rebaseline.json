@@ -1,0 +1,187 @@
+{
+  "status": "EXPLICIT METADATA-ONLY SEMANTIC REBASELINE; prior numerical screen unchanged",
+  "original_screen_path": "design-c/ergonomics/final-lower-joint-demand-screen.json",
+  "original_screen_sha256_preserved": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+  "original_manifest_input_sha256_preserved": "3895b3e3f76c2d354093fa6d8dbbb7478eb5b70f8d1991daba48f4becdf9940f",
+  "accepted_final_manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+  "producer_metadata_revision_sha256": "3872c0b7dfc05175e0ab8270cd855e13a2f2548ccc50401adb707619a5a9f080",
+  "producer_metadata_revision_reason": "Metadata correction only: prior source_subtraction_mm3 values measured the pre-simplification union, not final exported shell. Added independent actual-export differences and sampled surface distances; component geometry, poses and hardware stack unchanged. Additional qualification: native0.05mm curved-face gap is not a uniform STL clearance; actual exported normal contact travel is separately probed.",
+  "new_gap_qualification": "0.05mm is the native CAD design gap, not a uniform exported-STL clearance. Independent mesh first-overlap probes along outward normal are approximately0.0138/0.0133/0.0163mm(front/middle/rear); no overlap at rest. Independent tessellation and STL serialization change the curved-face envelope. Physical fit remains untested.",
+  "consumed_section_inputs_old_and_final": {
+    "collar_nominal_inward_depth_mm": {
+      "original": 2.5,
+      "final": 2.5,
+      "exactly_unchanged": true
+    },
+    "collar_aperture_axial_circumferential_mm": {
+      "original": [
+        15.6,
+        7.8
+      ],
+      "final": [
+        15.6,
+        7.8
+      ],
+      "exactly_unchanged": true
+    },
+    "key_axial_circumferential_mm": {
+      "original": [
+        15.0,
+        7.4
+      ],
+      "final": [
+        15.0,
+        7.4
+      ],
+      "exactly_unchanged": true
+    },
+    "normal_face_native_design_gap_mm": {
+      "original": 0.05,
+      "final": 0.05,
+      "exactly_unchanged": true
+    },
+    "bridge_span_mm": {
+      "original": 7.8,
+      "final": 7.8,
+      "exactly_unchanged": true
+    },
+    "adapter_axial_length_mm": {
+      "original": 30.0,
+      "final": 30.0,
+      "exactly_unchanged": true
+    },
+    "central_hole_mm": {
+      "original": 5.4,
+      "final": 5.4,
+      "exactly_unchanged": true
+    },
+    "bridge_net_width_mm": {
+      "original": 24.6,
+      "final": 24.6,
+      "exactly_unchanged": true
+    }
+  },
+  "per_joint_checks": [
+    {
+      "joint": "bottom-front",
+      "point_xyz_mm": [
+        0.0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "basis_axial_circumferential_outward_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578
+        ]
+      ],
+      "sampled_minimum_adapter_body_thickness_mm": 3.910350179672241,
+      "all_consumed_fields_exactly_unchanged": true
+    },
+    {
+      "joint": "bottom-middle",
+      "point_xyz_mm": [
+        0.0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "basis_axial_circumferential_outward_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578
+        ]
+      ],
+      "sampled_minimum_adapter_body_thickness_mm": 3.9869879245758053,
+      "all_consumed_fields_exactly_unchanged": true
+    },
+    {
+      "joint": "bottom-rear",
+      "point_xyz_mm": [
+        -0.24357605,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "basis_axial_circumferential_outward_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578
+        ]
+      ],
+      "sampled_minimum_adapter_body_thickness_mm": 4.0083154201507565,
+      "all_consumed_fields_exactly_unchanged": true
+    }
+  ],
+  "handle_centroid_metadata_rebaseline": {
+    "original_results_sha256_preserved": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+    "original_handle_validation_input_sha256_preserved": "d853f24c282cb408816562948f3e9702e90b29e3ddeb2acb945861a569cebc8c",
+    "accepted_current_handle_validation_sha256": "a8b2b08bc3abdf7c117a8c700e451d0964bcb3a0a75da08495774d65039cc708",
+    "scope": "Producer/proof-reviewer reported added C collision, STEP-roundtrip and middle-tool service-limit metadata. Verify all consumed mass/centroid/grasp fields without changing original results.",
+    "current_optional_handle_volume_mm3": 110345.2494287683,
+    "current_optional_handle_centroid_xyz_mm": [
+      0.0033319697738942817,
+      -142.77445077349657,
+      125.533378748721
+    ],
+    "current_optional_grasp_xyz_mm": [
+      0.0,
+      -175.0,
+      140.4
+    ],
+    "recomputed_stock_with_optional_handle_only": {
+      "total_volume_mm3": 443748.0672916894,
+      "centroid_xyz_mm": [
+        0.00012857253203356545,
+        -23.67855528568948,
+        137.05133906434736
+      ],
+      "reference_mass_kg_at_1p28_g_cm3": 0.5679975261333624,
+      "hold_balance_rear_shift_from_original_grasp_mm": 26.651339064347354
+    },
+    "all_consumed_accounting_results_exactly_unchanged": true,
+    "original_large_results_bytes_unchanged": true,
+    "new_service_limit": "Optional replacement grip blocks the assumed middle exterior R6 x 30 mm tool envelope; see motion-service-checks.json. It is not a service-qualified recommendation.",
+    "claim_boundary": "This checks consumed geometry accounting fields. It does not establish optional grip service access, comfort, strength or a full C assembly COM. Original grip remains selected."
+  },
+  "verification": {
+    "geometry_files_before_after_and_current_identical": 57,
+    "all_three_consumed_mount_frames_and_sampled_thicknesses_exactly_unchanged": true,
+    "original_prior_reaction_owner_and_mount_owner_hashes_unchanged": true,
+    "original_reaction_rows_exactly_unchanged": 98,
+    "prior_screen_bytes_unchanged": true,
+    "CAD_or_large_grid_rerun": false
+  },
+  "claim_boundary": "Only provenance and gap/source-export qualifications were amended. The nominal native0.05mm face gap is not uniform exported-STL clearance. This rebaseline adds no contact, physical capacity, material, strength or sharing validation."
+}

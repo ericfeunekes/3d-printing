@@ -1,0 +1,13 @@
+{
+  "known_box_radial_bounds": [
+    5.0,
+    15.297058540778355
+  ],
+  "known_annulus_bounds": [
+    9.987954562051723,
+    20.0
+  ],
+  "outside_samples": 7,
+  "max_lower_bound_excess_mm": 0.0,
+  "pass": true
+}

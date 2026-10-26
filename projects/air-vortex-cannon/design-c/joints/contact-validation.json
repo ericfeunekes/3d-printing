@@ -1,0 +1,432 @@
+{
+  "units": "mm",
+  "source_manifest": "design-c/joints/lower-assembly.json",
+  "manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+  "results": [
+    {
+      "joint": "bottom-front",
+      "collar_world_Y_bounds_mm": [
+        -97.34544372558594,
+        -91.04889678955078
+      ],
+      "collar_entirely_in_lower_half": true,
+      "key_edge_contact_sequence": [
+        {
+          "axis": "axial",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008792877197266,
+            "intersecting_displacement_mm": 0.30008888244628906,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.45864009857177734,
+            "intersecting_displacement_mm": 0.45864105224609375,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008792877197266,
+            "intersecting_displacement_mm": 0.30008888244628906,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.15855121612548828,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "axial",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008792877197266,
+            "intersecting_displacement_mm": 0.30008888244628906,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.5323457717895508,
+            "intersecting_displacement_mm": 0.5323467254638672,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008888244628906,
+            "intersecting_displacement_mm": 0.30008983612060547,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.23225688934326172,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20000553131103516,
+            "intersecting_displacement_mm": 0.20000648498535156,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30001163482666016,
+            "intersecting_displacement_mm": 0.30001258850097656,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.17284488677978516,
+            "intersecting_displacement_mm": 0.17284584045410156,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.1000051498413086,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20000553131103516,
+            "intersecting_displacement_mm": 0.20000648498535156,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30001163482666016,
+            "intersecting_displacement_mm": 0.30001258850097656,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.17284488677978516,
+            "intersecting_displacement_mm": 0.17284584045410156,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.1000051498413086,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        }
+      ],
+      "exported_curved_face_outward_normal_first_contact": {
+        "nonintersecting_displacement_mm": 0.013774871826171875,
+        "intersecting_displacement_mm": 0.013775825500488281,
+        "intersection_threshold_mm3": 0.0001
+      },
+      "actual_outer_washer_footprint": {
+        "annular_probe_radii_mm": [
+          2.15,
+          6.0
+        ],
+        "annular_probe_count": 10496,
+        "receiver_hit_count": 2090,
+        "actual_receiver_surface_normal_z_range_mm": [
+          10.292302529440565,
+          10.95035491120636
+        ],
+        "first_contact_travel_from_nominal_washer_mm": 0.7496450887936419,
+        "dominant_plane_capture_gap_mm": 0.6813971663000284,
+        "qualification": "Annular ray probes against actual receiver mesh. Sampling locates footprint first-contact approximately; it neither supplies full contact area nor validates washer stress."
+      },
+      "hardware_pose_comparison_B": [
+        {
+          "name": "shoulder-bolt-reference",
+          "world_pose_matrix_max_difference_from_B": 7.105427357601002e-15,
+          "world_bounds_max_difference_from_B_mm": 0.000888824462890625,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "inner-M5-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 7.105427357601002e-15,
+          "world_bounds_max_difference_from_B_mm": 0.0033416748046875,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "outer-M4-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 7.105427357601002e-15,
+          "world_bounds_max_difference_from_B_mm": 0.0026702880859375,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "M4-nyloc-envelope-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        }
+      ]
+    },
+    {
+      "joint": "bottom-middle",
+      "collar_world_Y_bounds_mm": [
+        -110.11601257324219,
+        -103.89944458007812
+      ],
+      "collar_entirely_in_lower_half": true,
+      "key_edge_contact_sequence": [
+        {
+          "axis": "axial",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008888244628906,
+            "intersecting_displacement_mm": 0.30008983612060547,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.5146818161010742,
+            "intersecting_displacement_mm": 0.5146827697753906,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008888244628906,
+            "intersecting_displacement_mm": 0.30008983612060547,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.21459197998046875,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "axial",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008697509765625,
+            "intersecting_displacement_mm": 0.30008792877197266,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.4763059616088867,
+            "intersecting_displacement_mm": 0.4763069152832031,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008506774902344,
+            "intersecting_displacement_mm": 0.30008602142333984,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.17621803283691406,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20000839233398438,
+            "intersecting_displacement_mm": 0.20000934600830078,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30001163482666016,
+            "intersecting_displacement_mm": 0.30001258850097656,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.19882488250732422,
+            "intersecting_displacement_mm": 0.19882583618164062,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.10000228881835938,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20000934600830078,
+            "intersecting_displacement_mm": 0.2000102996826172,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30001163482666016,
+            "intersecting_displacement_mm": 0.30001258850097656,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.19686031341552734,
+            "intersecting_displacement_mm": 0.19686126708984375,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.10000133514404297,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        }
+      ],
+      "exported_curved_face_outward_normal_first_contact": {
+        "nonintersecting_displacement_mm": 0.013291358947753906,
+        "intersecting_displacement_mm": 0.013292312622070312,
+        "intersection_threshold_mm3": 0.0001
+      },
+      "actual_outer_washer_footprint": {
+        "annular_probe_radii_mm": [
+          2.15,
+          6.0
+        ],
+        "annular_probe_count": 10496,
+        "receiver_hit_count": 2090,
+        "actual_receiver_surface_normal_z_range_mm": [
+          10.281529370115148,
+          10.939576666054098
+        ],
+        "first_contact_travel_from_nominal_washer_mm": 0.7604233339459032,
+        "dominant_plane_capture_gap_mm": 0.6921739376823677,
+        "qualification": "Annular ray probes against actual receiver mesh. Sampling locates footprint first-contact approximately; it neither supplies full contact area nor validates washer stress."
+      },
+      "hardware_pose_comparison_B": [
+        {
+          "name": "shoulder-bolt-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.000885009765625,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "inner-M5-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0033416748046875,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "outer-M4-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0026702880859375,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "M4-nyloc-envelope-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        }
+      ]
+    },
+    {
+      "joint": "bottom-rear",
+      "collar_world_Y_bounds_mm": [
+        -119.23194885253906,
+        -113.04309844970703
+      ],
+      "collar_entirely_in_lower_half": true,
+      "key_edge_contact_sequence": [
+        {
+          "axis": "axial",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008602142333984,
+            "intersecting_displacement_mm": 0.30008697509765625,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.5133752822875977,
+            "intersecting_displacement_mm": 0.5133762359619141,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008411407470703,
+            "intersecting_displacement_mm": 0.30008506774902344,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.2132883071899414,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "axial",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.30008697509765625,
+            "intersecting_displacement_mm": 0.30008792877197266,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.4776115417480469,
+            "intersecting_displacement_mm": 0.4776124954223633,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.30008697509765625,
+            "intersecting_displacement_mm": 0.30008792877197266,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.17752361297607422,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": -1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20000839233398438,
+            "intersecting_displacement_mm": 0.20000934600830078,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.3000144958496094,
+            "intersecting_displacement_mm": 0.3000154495239258,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.20000839233398438,
+            "intersecting_displacement_mm": 0.20000934600830078,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.1000051498413086,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        },
+        {
+          "axis": "circumferential",
+          "direction_sign": 1,
+          "collar_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.20001220703125,
+            "intersecting_displacement_mm": 0.2000131607055664,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "original_slot_key_region_first_contact": {
+            "nonintersecting_displacement_mm": 0.3000144958496094,
+            "intersecting_displacement_mm": 0.3000154495239258,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "whole_adapter_first_contact_with_collar": {
+            "nonintersecting_displacement_mm": 0.20001220703125,
+            "intersecting_displacement_mm": 0.2000131607055664,
+            "intersection_threshold_mm3": 0.0001
+          },
+          "nominal_collar_contact_precedence_mm": 0.10000133514404297,
+          "basis": "Rigid translated exported adapter clipped to key15x7.4 footprint, positive Boolean overlap1e-4mm3 threshold. Whole-adapter contact also recorded: matching curved base faces can contact before key edge. No preload/friction credited; this is CAD sequence, not physical stiffness/load sharing."
+        }
+      ],
+      "exported_curved_face_outward_normal_first_contact": {
+        "nonintersecting_displacement_mm": 0.016259193420410156,
+        "intersecting_displacement_mm": 0.016260147094726562,
+        "intersection_threshold_mm3": 0.0001
+      },
+      "actual_outer_washer_footprint": {
+        "annular_probe_radii_mm": [
+          2.15,
+          6.0
+        ],
+        "annular_probe_count": 10496,
+        "receiver_hit_count": 2090,
+        "actual_receiver_surface_normal_z_range_mm": [
+          10.281739136499446,
+          10.957583085088892
+        ],
+        "first_contact_travel_from_nominal_washer_mm": 0.7424169149111091,
+        "dominant_plane_capture_gap_mm": 0.691959638231948,
+        "qualification": "Annular ray probes against actual receiver mesh. Sampling locates footprint first-contact approximately; it neither supplies full contact area nor validates washer stress."
+      },
+      "hardware_pose_comparison_B": [
+        {
+          "name": "shoulder-bolt-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.000885009765625,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "inner-M5-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0033416748046875,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "outer-M4-wide-washer-reference",
+          "world_pose_matrix_max_difference_from_B": 2.842170943040401e-14,
+          "world_bounds_max_difference_from_B_mm": 0.0026702880859375,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        },
+        {
+          "name": "M4-nyloc-envelope-reference",
+          "world_pose_matrix_max_difference_from_B": 0.0,
+          "world_bounds_max_difference_from_B_mm": 0.0,
+          "note": "Same hardware parameters and pose; independent tessellation tolerances can differ."
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Contact thresholds and clearance geometry are ideal meshes, not tolerances or strength.",
+    "Small collar-before-source contact margin can reverse with real print error.",
+    "Curved/recessed exterior washer support remains narrow and no B washer FEA transfer is claimed."
+  ]
+}

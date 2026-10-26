@@ -1,0 +1,126 @@
+{
+  "units": "mm",
+  "scope": "Handles only. Exterior tool is an assumed R6\u00d730mm cylinder identical to prior study, not a purchased tool. C hardware worldposes equal B. No full assembly service certificate asserted.",
+  "results": [
+    {
+      "handle": "selected-original",
+      "bottom_exterior_tool_checks": [
+        {
+          "joint": "bottom-front",
+          "tool_origin_mm": [
+            0.0,
+            -113.83255315174227,
+            59.33044619688889
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 0.0
+        },
+        {
+          "joint": "bottom-middle",
+          "tool_origin_mm": [
+            0.0,
+            -126.61037360261491,
+            141.55147744091568
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 0.0
+        },
+        {
+          "joint": "bottom-rear",
+          "tool_origin_mm": [
+            -0.24357605,
+            -135.73540709953974,
+            189.74326535484607
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 0.0
+        }
+      ],
+      "assumed_motion_clearance_bounds_mm": {
+        "taut_film_cone_all_axial_strokes_0to60mm_axial_gap": 44.73826476797416,
+        "central_male_ring_all_axial_strokes_0to60mm_axial_gap": 39.738264772606726,
+        "central_cap_all_axial_strokes_0to60mm_axial_gap": 44.78826472600639,
+        "straight_elastic_tube_radius1p5mm_Y_gap": 92.11556842517726
+      },
+      "limits": "Taut film and straight bands are chosen prior geometry; actual bag folds, band slack, knot motion and human fingers not modeled. OffaxisXY motion does not change these axial bounds. Carabiner remains on assumed centerline."
+    },
+    {
+      "handle": "optional-rear30-down20",
+      "bottom_exterior_tool_checks": [
+        {
+          "joint": "bottom-front",
+          "tool_origin_mm": [
+            0.0,
+            -113.83255315174227,
+            59.33044619688889
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 0.0
+        },
+        {
+          "joint": "bottom-middle",
+          "tool_origin_mm": [
+            0.0,
+            -126.61037360261491,
+            141.55147744091568
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 413.66159110460615
+        },
+        {
+          "joint": "bottom-rear",
+          "tool_origin_mm": [
+            -0.24357605,
+            -135.73540709953974,
+            189.74326535484607
+          ],
+          "tool_axis": [
+            0.0,
+            -0.9954090291002812,
+            -0.0957124066442578
+          ],
+          "tool_diameter_mm": 12,
+          "tool_length_mm": 30,
+          "handle_tool_intersection_mm3": 0.0
+        }
+      ],
+      "assumed_motion_clearance_bounds_mm": {
+        "taut_film_cone_all_axial_strokes_0to60mm_axial_gap": 44.738258361816406,
+        "central_male_ring_all_axial_strokes_0to60mm_axial_gap": 39.738258366448974,
+        "central_cap_all_axial_strokes_0to60mm_axial_gap": 44.78825831984864,
+        "straight_elastic_tube_radius1p5mm_Y_gap": 92.11557006835938
+      },
+      "limits": "Taut film and straight bands are chosen prior geometry; actual bag folds, band slack, knot motion and human fingers not modeled. OffaxisXY motion does not change these axial bounds. Carabiner remains on assumed centerline."
+    }
+  ]
+}

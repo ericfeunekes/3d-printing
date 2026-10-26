@@ -1,0 +1,134 @@
+[
+  {
+    "joint": "top-front",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 0.015021607884756864,
+      "intersection_uv_bounds": [
+        -11.151429984453467,
+        1.9970589888292423,
+        11.152950166444148,
+        2.000000000000014
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.22318249578253818,
+      "intersection_uv_bounds": [
+        -8.650009155273466,
+        6.800979941775147,
+        8.650009155273413,
+        7.72022388353152
+      ]
+    }
+  },
+  {
+    "joint": "top-middle",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 1.8128950159437078e-05,
+      "intersection_uv_bounds": [
+        7.931125459316942,
+        1.9999457957822804,
+        11.150011410139467,
+        2.0
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.21335394026800997,
+      "intersection_uv_bounds": [
+        -8.650009155273395,
+        6.782252471259611,
+        8.650009155273482,
+        7.725637563194188
+      ]
+    }
+  },
+  {
+    "joint": "top-rear",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 0.0037527457898753895,
+      "intersection_uv_bounds": [
+        -11.14939630073972,
+        1.9991529738275973,
+        11.150850652702832,
+        1.9999999999999858
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.2086726119109056,
+      "intersection_uv_bounds": [
+        -8.650009137937236,
+        6.833479550049179,
+        8.650009137937316,
+        7.677626653012153
+      ]
+    }
+  },
+  {
+    "joint": "bottom-front",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 0.015016606355862154,
+      "intersection_uv_bounds": [
+        -11.151432658020958,
+        1.997059545813683,
+        11.152949579266357,
+        1.9999999999999987
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.22050476545195102,
+      "intersection_uv_bounds": [
+        -8.650006096834657,
+        6.815285775639823,
+        8.650009120601196,
+        7.70590476545585
+      ]
+    }
+  },
+  {
+    "joint": "bottom-middle",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 3.169238653473305e-05,
+      "intersection_uv_bounds": [
+        -9.091051845681285,
+        1.9999410928876122,
+        8.153727181747435,
+        2.0000000000000058
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.20458603536163641,
+      "intersection_uv_bounds": [
+        -8.65000616327311,
+        6.831222273558056,
+        8.650009120601158,
+        7.676562823215432
+      ]
+    }
+  },
+  {
+    "joint": "bottom-rear",
+    "scope": "pinlocalY0section; undeformed source snap geometry",
+    "shell": {
+      "intersection_area_mm2": 0.008070485316458023,
+      "intersection_uv_bounds": [
+        -11.150227059368017,
+        1.9983115887684137,
+        11.151677619122777,
+        2.000000000000013
+      ]
+    },
+    "rail": {
+      "intersection_area_mm2": 0.20476697494425117,
+      "intersection_uv_bounds": [
+        -8.64999090343529,
+        6.832152147652309,
+        8.64999386199751,
+        7.675848214991281
+      ]
+    }
+  }
+]

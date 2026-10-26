@@ -1,0 +1,489 @@
+{
+  "units": "mm",
+  "coordinate_system": "Xhorizontal,Yup,Zrearward;frontoutletZ0",
+  "status": "Original source grip selected. Optional rear/drop native grip is a comparison prototype, unqualified for strength/comfort.",
+  "geometry_owner": "design-c/handle/build_handle.py",
+  "selected_handle": {
+    "source_id": 4,
+    "source_path": "source/egordv/obj_4_Handle03.STEP.stl",
+    "source_sha256": "404b462aa45ca9a91f559c2a42df47019ec6e86e9604634e74c31e18872f1093",
+    "source_to_assembly": [
+      [
+        0.0,
+        0.0,
+        -1.0,
+        12.5
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -237.93128802966945
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -312.67156097158744
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "hand_point_mm": [
+      0.0,
+      -155.0,
+      110.4
+    ],
+    "volume_mm3": 91431.47956274364,
+    "centroid_mm": [
+      0.0042879490492560195,
+      -133.46931005880856,
+      114.35275369862184
+    ]
+  },
+  "optional_handle": {
+    "parameters": {
+      "rearward_grasp_shift_mm": 30.0,
+      "grasp_drop_mm": 20.0,
+      "grip_width_x_mm": 25.0,
+      "grip_fore_aft_at_grasp_mm": 30.0,
+      "edge_radius_mm": 3.0,
+      "source_grip_cut_y_mm": -123.0,
+      "source_grip_cut_z_interval_mm": [
+        70.0,
+        135.0
+      ],
+      "native_top_y_mm": -120.0,
+      "native_top_z_interval_mm": [
+        84.0,
+        119.0
+      ],
+      "native_mesh_tolerance_mm": 0.04,
+      "native_mesh_angular_tolerance_rad": 0.12
+    },
+    "hand_point_mm": [
+      0.0,
+      -175.0,
+      140.4
+    ],
+    "native_profile_front_zy_mm": [
+      [
+        84.0,
+        -120.0
+      ],
+      [
+        92,
+        -135.0
+      ],
+      [
+        110.0,
+        -155.0
+      ],
+      [
+        125.4,
+        -175.0
+      ],
+      [
+        126.5,
+        -194.0
+      ],
+      [
+        129.0,
+        -205.0
+      ]
+    ],
+    "native_profile_rear_zy_mm": [
+      [
+        157.0,
+        -204.0
+      ],
+      [
+        158.0,
+        -194.0
+      ],
+      [
+        155.4,
+        -175.0
+      ],
+      [
+        144.0,
+        -158.0
+      ],
+      [
+        127,
+        -140.0
+      ],
+      [
+        119.0,
+        -120.0
+      ]
+    ],
+    "native_solid_valid": true,
+    "native_solid_count": 1,
+    "native_volume_mm3": 66519.77012544843,
+    "removed_source_grip_volume_mm3": 45446.19491305473,
+    "native_overlap_with_retained_rail_mm3": 2092.32141011615,
+    "final_manifold_status": "Error.NoError",
+    "watertight": true,
+    "winding_consistent": true,
+    "components": 1,
+    "volume_mm3": 110345.2494287683,
+    "centroid_mm": [
+      0.0033319697738942817,
+      -142.77445077349657,
+      125.533378748721
+    ],
+    "assembled_bounds_mm": [
+      [
+        -12.5,
+        -208.0140838623047,
+        36.315895080566406
+      ],
+      [
+        12.5,
+        -93.61557006835938,
+        217.15138244628906
+      ]
+    ],
+    "print_bounds_mm": [
+      180.83547973632812,
+      114.39851379394531,
+      25.0
+    ],
+    "assembly_to_print": [
+      [
+        0.0,
+        0.0,
+        1.0,
+        -36.315895080566406
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        208.0140838623047
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0,
+        12.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "print_orientation": "Broad side on plate; assembledX is buildnormal, all main hand/rail in-plane forcepaths lie in layers. Confirm source receiver bridges/supports in actual slicer.",
+    "print_envelope_limit": "Fits nominal256\u00d7256\u00d7260mmbuildenvelope; noactualprinterprofile,slicing,print ormaterialstrengthcheckperformed.",
+    "mount_protection": [
+      {
+        "joint": "bottom-front",
+        "changed_material_volume_mm3": 0.0,
+        "protected_joint_local_box_mm": {
+          "axial": [
+            -15,
+            15
+          ],
+          "cross": [
+            -20,
+            20
+          ],
+          "normal": [
+            -2,
+            22
+          ]
+        },
+        "position_and_original_receiver_geometry": "unchanged"
+      },
+      {
+        "joint": "bottom-middle",
+        "changed_material_volume_mm3": 0.0,
+        "protected_joint_local_box_mm": {
+          "axial": [
+            -15,
+            15
+          ],
+          "cross": [
+            -20,
+            20
+          ],
+          "normal": [
+            -2,
+            22
+          ]
+        },
+        "position_and_original_receiver_geometry": "unchanged"
+      },
+      {
+        "joint": "bottom-rear",
+        "changed_material_volume_mm3": 0.0,
+        "protected_joint_local_box_mm": {
+          "axial": [
+            -15,
+            15
+          ],
+          "cross": [
+            -20,
+            20
+          ],
+          "normal": [
+            -2,
+            22
+          ]
+        },
+        "position_and_original_receiver_geometry": "unchanged"
+      }
+    ],
+    "solid_part_intersections": [
+      {
+        "obstacle": "source-6",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-8",
+        "intersection_volume_mm3": 2.147381887897933
+      },
+      {
+        "obstacle": "source-7",
+        "intersection_volume_mm3": 1.965694445907142
+      },
+      {
+        "obstacle": "source-3",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-11",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-12",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-13",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-10",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-17",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-5",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-9",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-2",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "source-1",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--M4-nyloc-envelope-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--shoulder-bolt-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--conforming-keyed-adapter",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--inner-M5-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--M4-nyloc-envelope-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--shoulder-bolt-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--outer-M4-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--outer-M4-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--outer-M4-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--inner-M5-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--inner-M5-wide-washer-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--conforming-keyed-adapter",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--M4-nyloc-envelope-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--shoulder-bolt-reference",
+        "intersection_volume_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--conforming-keyed-adapter",
+        "intersection_volume_mm3": 0.0
+      }
+    ],
+    "native_added_region_intersections": [
+      {
+        "obstacle": "source-6",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-8",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-7",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-3",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-11",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-12",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-13",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-10",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-17",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-5",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-9",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-2",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "source-1",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--M4-nyloc-envelope-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--shoulder-bolt-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--conforming-keyed-adapter",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--inner-M5-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--M4-nyloc-envelope-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--shoulder-bolt-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--outer-M4-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--outer-M4-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--outer-M4-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-rear--inner-M5-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--inner-M5-wide-washer-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--conforming-keyed-adapter",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--M4-nyloc-envelope-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-front--shoulder-bolt-reference",
+        "added_native_intersection_mm3": 0.0
+      },
+      {
+        "obstacle": "C/bottom-middle--conforming-keyed-adapter",
+        "added_native_intersection_mm3": 0.0
+      }
+    ],
+    "source_and_export_units": "Millimetres,STLisunitless;GLBconsumermustscale0.001.",
+    "native_step_roundtrip": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 66519.78968557437,
+      "volume_relative_error": 2.940498127184771e-07,
+      "note": "STEP import/re-export kernel volume integration differs slightly; no claim of identical tessellation."
+    }
+  },
+  "exchange_limit": "Source handle is supplied only as triangulated STL despite STEP in filename. STEP represents the exact new native replacement region only; fused wholehandle is a boolean mesh, rebuilt from thisowner.",
+  "physical_limits": [
+    "Hand ellipsoid is a chosen proxy, not measured anthropometry; positive clearance does not prove finger articulation or comfort.",
+    "New throat web loads the unmodified original rail, then three receivers, keys, washers and bolts; actual reaction distribution and root/rail capacity are unproved.",
+    "FDM fillets and valid solids do not prove strength, fatigue, layer bonds or hardware locking.",
+    "Original upper rail/pins, three body positions, bag/elastic/outlet remain outside handle modification.",
+    "Optional replacement grip blocks the assumed middle exterior R6 x 30 mm tool envelope; see motion-service-checks.json. It is not a service-qualified recommendation."
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "joint": "top-front",
+    "declared_reinforced_grip_mm": 13.518735404300017,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.450873905690882,
+        "first_contact_gap_mm": 0.7491260943091174,
+        "declared_grip_minus_contact_mm": 0.06786149860913504
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.391346657466086,
+        "first_contact_gap_mm": 0.8086533425339137,
+        "declared_grip_minus_contact_mm": 0.12738874683393142
+      }
+    ]
+  },
+  {
+    "joint": "top-middle",
+    "declared_reinforced_grip_mm": 13.507965329617662,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.440102158774192,
+        "first_contact_gap_mm": 0.7598978412258077,
+        "declared_grip_minus_contact_mm": 0.06786317084347004
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.380573480994206,
+        "first_contact_gap_mm": 0.819426519005793,
+        "declared_grip_minus_contact_mm": 0.12739184862345532
+      }
+    ]
+  },
+  {
+    "joint": "top-rear",
+    "declared_reinforced_grip_mm": 13.5081761534681,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.458848930251815,
+        "first_contact_gap_mm": 0.7411510697481845,
+        "declared_grip_minus_contact_mm": 0.049327223216284466
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.425109299713634,
+        "first_contact_gap_mm": 0.774890700286365,
+        "declared_grip_minus_contact_mm": 0.08306685375446499
+      }
+    ]
+  },
+  {
+    "joint": "bottom-front",
+    "declared_reinforced_grip_mm": 13.518602833699973,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.450742299168398,
+        "first_contact_gap_mm": 0.7492577008316008,
+        "declared_grip_minus_contact_mm": 0.06786053453157415
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.391213616171852,
+        "first_contact_gap_mm": 0.8087863838281475,
+        "declared_grip_minus_contact_mm": 0.12738921752812082
+      }
+    ]
+  },
+  {
+    "joint": "bottom-middle",
+    "declared_reinforced_grip_mm": 13.507826062317633,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.43996917310028,
+        "first_contact_gap_mm": 0.7600308268997189,
+        "declared_grip_minus_contact_mm": 0.067856889217353
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.380438270673425,
+        "first_contact_gap_mm": 0.8195617293265745,
+        "declared_grip_minus_contact_mm": 0.12738779164420855
+      }
+    ]
+  },
+  {
+    "joint": "bottom-rear",
+    "declared_reinforced_grip_mm": 13.508040361768053,
+    "declared_washer_bottom_mm": 14.2,
+    "OD": [
+      {
+        "diameter": 12.0,
+        "max_rail_z_in_washer_footprint_mm": 13.458714673259239,
+        "first_contact_gap_mm": 0.7412853267407602,
+        "declared_grip_minus_contact_mm": 0.049325688508814025
+      },
+      {
+        "diameter": 11.3,
+        "max_rail_z_in_washer_footprint_mm": 13.380652013580416,
+        "first_contact_gap_mm": 0.819347986419583,
+        "declared_grip_minus_contact_mm": 0.12738834818763678
+      }
+    ]
+  }
+]

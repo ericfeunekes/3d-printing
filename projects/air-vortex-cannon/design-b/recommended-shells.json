@@ -1,0 +1,18 @@
+{
+  "units": "mm",
+  "shells": [
+    {
+      "object_id": 6,
+      "path": "design-b/reinforced-shells/shell-6-assembled.stl"
+    },
+    {
+      "object_id": 8,
+      "path": "design-b/reinforced-shells/shell-8-assembled.stl"
+    },
+    {
+      "object_id": 7,
+      "path": "design-b/reinforced-shells/shell-7-assembled.stl"
+    }
+  ],
+  "validation": "design-b/reinforced-shells/validation.json"
+}

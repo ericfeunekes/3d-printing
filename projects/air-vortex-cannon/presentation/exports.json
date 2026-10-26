@@ -1,0 +1,38 @@
+[
+  {
+    "path": "core-rest.glb",
+    "configuration": "core",
+    "assumed_pull_mm": 0,
+    "rigid_parts": 17,
+    "status": "Recovered stock assembly; source snaps remain unvalidated",
+    "glb_units": "m",
+    "native_units": "mm"
+  },
+  {
+    "path": "core-pull-60mm-study.glb",
+    "configuration": "core",
+    "assumed_pull_mm": 60,
+    "rigid_parts": 17,
+    "status": "Recovered stock assembly; source snaps remain unvalidated",
+    "glb_units": "m",
+    "native_units": "mm"
+  },
+  {
+    "path": "recommended-rest.glb",
+    "configuration": "recommended",
+    "assumed_pull_mm": 0,
+    "rigid_parts": 41,
+    "status": "Uses the fused proposed-shell exports; validation is a separate report",
+    "glb_units": "m",
+    "native_units": "mm"
+  },
+  {
+    "path": "recommended-pull-60mm-study.glb",
+    "configuration": "recommended",
+    "assumed_pull_mm": 60,
+    "rigid_parts": 41,
+    "status": "Uses the fused proposed-shell exports; validation is a separate report",
+    "glb_units": "m",
+    "native_units": "mm"
+  }
+]

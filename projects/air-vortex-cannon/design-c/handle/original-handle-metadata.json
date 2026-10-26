@@ -1,0 +1,263 @@
+{
+  "units": "mm",
+  "transform": [
+    [
+      0.0,
+      0.0,
+      -1.0,
+      12.5
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -237.93128802966945
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      -312.67156097158744
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "bounds": [
+    [
+      -12.5,
+      -187.68074252796046,
+      36.315896303803186
+    ],
+    [
+      12.5,
+      -93.61556842517726,
+      217.1513760401313
+    ]
+  ],
+  "volume_mm3": 91431.47956274364,
+  "mounts": [
+    {
+      "id": "bottom-front",
+      "shell_object": 6,
+      "rail_object": 4,
+      "pin_object": 14,
+      "side": -1,
+      "shell_u_mm": 69.9901726638,
+      "rail_u_mm": 69.91632625929054,
+      "pin_u_mm": 69.95324946154527,
+      "axial_tangent_mismatch_mm": -0.07384640450945312,
+      "slot_tangential_shell_center_mm": 0.0,
+      "slot_tangential_rail_center_mm": 0.0,
+      "pin_tangential_center_mm": 0.0,
+      "inner_normal_coordinate_mm": 89.23129142,
+      "outer_normal_coordinate_mm": 90.23128608,
+      "outer_rail_bearing_normal_coordinate_mm": 100.24989425369998,
+      "nominal_grip_stack_mm": 11.018602833699973,
+      "outer_rail_bearing_plane_pin_local_z_mm": 13.018602833699973,
+      "grip_stack_basis": "inner cone tangent plane to dominant outer rail bearing plane; near-hole chamfers/recesses are lower",
+      "inner_surface_center_mm": [
+        0.0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "pin_base_origin_mm": [
+        0.0,
+        -93.52620895809652,
+        61.28297929243175
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "axial_tangent": [
+        0.0,
+        -0.0957124066442578,
+        0.9954090291002812
+      ],
+      "cross_tangent": [
+        -1,
+        0,
+        0
+      ],
+      "pin_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -93.52620895809652
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.28297929243175
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evidence": "cone-axis radial profile gives tangent-centre wall datum; slot side faces give u; video confirms head inside/tips outward",
+      "uncertainty": "Rigid seated pose assumes head face at inner cone; flexible snap engagement and printed fit not proved"
+    },
+    {
+      "id": "bottom-middle",
+      "shell_object": 8,
+      "rail_object": 4,
+      "pin_object": 15,
+      "side": -1,
+      "shell_u_mm": 153.0006833223236,
+      "rail_u_mm": 153.0389212592906,
+      "pin_u_mm": 153.0198022908071,
+      "axial_tangent_mismatch_mm": 0.0382379369669934,
+      "slot_tangential_shell_center_mm": 0.0,
+      "slot_tangential_rail_center_mm": 0.0,
+      "pin_tangential_center_mm": 0.0,
+      "inner_normal_coordinate_mm": 94.08087649188235,
+      "outer_normal_coordinate_mm": 95.08087698188235,
+      "outer_rail_bearing_normal_coordinate_mm": 105.08870255419998,
+      "nominal_grip_stack_mm": 11.007826062317633,
+      "outer_rail_bearing_plane_pin_local_z_mm": 13.007826062317633,
+      "grip_stack_basis": "inner cone tangent plane to dominant outer rail bearing plane; near-hole chamfers/recesses are lower",
+      "inner_surface_center_mm": [
+        0.0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "pin_base_origin_mm": [
+        0.0,
+        -106.30402940896917,
+        143.50401053645857
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "axial_tangent": [
+        0.0,
+        -0.0957124066442578,
+        0.9954090291002812
+      ],
+      "cross_tangent": [
+        -1,
+        0,
+        0
+      ],
+      "pin_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -106.30402940896917
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.50401053645857
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evidence": "cone-axis radial profile gives tangent-centre wall datum; slot side faces give u; video confirms head inside/tips outward",
+      "uncertainty": "Rigid seated pose assumes head face at inner cone; flexible snap engagement and printed fit not proved"
+    },
+    {
+      "id": "bottom-rear",
+      "shell_object": 7,
+      "rail_object": 4,
+      "pin_object": 16,
+      "side": -1,
+      "shell_u_mm": 201.8459177917481,
+      "rail_u_mm": 201.88152625929058,
+      "pin_u_mm": 201.86372202551934,
+      "axial_tangent_mismatch_mm": 0.03560846754248814,
+      "slot_tangential_shell_center_mm": -0.24357605,
+      "slot_tangential_rail_center_mm": -0.24357605,
+      "pin_tangential_center_mm": -0.24357605,
+      "inner_normal_coordinate_mm": 98.55146522383191,
+      "outer_normal_coordinate_mm": 99.55145684383191,
+      "outer_rail_bearing_normal_coordinate_mm": 109.55950558559996,
+      "nominal_grip_stack_mm": 11.008040361768053,
+      "outer_rail_bearing_plane_pin_local_z_mm": 13.008040361768053,
+      "grip_stack_basis": "inner cone tangent plane to dominant outer rail bearing plane; near-hole chamfers/recesses are lower",
+      "inner_surface_center_mm": [
+        -0.24357605,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "pin_base_origin_mm": [
+        -0.24357605,
+        -115.42906290589401,
+        191.6957984503889
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "axial_tangent": [
+        0.0,
+        -0.0957124066442578,
+        0.9954090291002812
+      ],
+      "cross_tangent": [
+        -1,
+        0,
+        0
+      ],
+      "pin_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -115.42906290589401
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.6957984503889
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "evidence": "cone-axis radial profile gives tangent-centre wall datum; slot side faces give u; video confirms head inside/tips outward",
+      "uncertainty": "Rigid seated pose assumes head face at inner cone; flexible snap engagement and printed fit not proved"
+    }
+  ]
+}

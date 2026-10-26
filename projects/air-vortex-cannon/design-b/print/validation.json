@@ -1,0 +1,46 @@
+[
+  {
+    "file": "keyed-adapter-quantity-6.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      30.0,
+      22.0,
+      18.0
+    ],
+    "sha256": "fe4fbc5bcef31e7b83880211a01616e65937507a109abfd61485ac50a143b594"
+  },
+  {
+    "file": "reinforced-shell-6.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      203.75537109375,
+      203.75537109375,
+      87.66667172939455
+    ],
+    "sha256": "15e08867a2065b86a371f9ad07f05a1948e8b97758e3cd722d8fccdac99bfffb"
+  },
+  {
+    "file": "reinforced-shell-7.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      249.64911651611328,
+      249.64612579345703,
+      88.8896484375
+    ],
+    "sha256": "944994b01438f226e523cc7d82e5faccb00d646dbba86c8ff601a1925417e663"
+  },
+  {
+    "file": "reinforced-shell-8.stl",
+    "watertight": true,
+    "components": 1,
+    "bounds_mm": [
+      229.40487670898438,
+      229.40487670898438,
+      90.22073364257812
+    ],
+    "sha256": "7795fa24d2a96f67a5de226a52de016251129b1499b5b0dea2270876f79b07d1"
+  }
+]

@@ -1,0 +1,266 @@
+[
+  {
+    "joint": "top-front",
+    "shell_object": 6,
+    "radius_mm": 95.52771162615755,
+    "local_to_assembly": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0957124066442578,
+        0.0,
+        0.9954090291002812,
+        95.52771162615755
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        61.20267442169206
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1576.234571681435,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  },
+  {
+    "joint": "top-middle",
+    "shell_object": 8,
+    "radius_mm": 108.29949089590158,
+    "local_to_assembly": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0957124066442578,
+        0.0,
+        0.9954090291002812,
+        108.29949089590158
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        143.3608773819813
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1597.071115586789,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  },
+  {
+    "joint": "top-rear",
+    "shell_object": 7,
+    "radius_mm": 117.43260263455687,
+    "local_to_assembly": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.121788025
+      ],
+      [
+        0.0957124066442578,
+        0.0,
+        0.9954090291002812,
+        117.43253948204773
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        191.63602222381311
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1609.1774453052253,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  },
+  {
+    "joint": "bottom-front",
+    "shell_object": 6,
+    "radius_mm": 95.51702701629709,
+    "local_to_assembly": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0957124066442578,
+        0.0,
+        -0.9954090291002812,
+        -95.51702701629709
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        61.091554479143234
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1576.214791431718,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  },
+  {
+    "joint": "bottom-middle",
+    "shell_object": 8,
+    "radius_mm": 108.29484746716973,
+    "local_to_assembly": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0957124066442578,
+        0.0,
+        -0.9954090291002812,
+        -108.29484746716973
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        143.31258572317003
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1597.0644383487604,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  },
+  {
+    "joint": "bottom-rear",
+    "shell_object": 7,
+    "radius_mm": 117.42013360116003,
+    "local_to_assembly": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        -0.24357605
+      ],
+      [
+        -0.0957124066442578,
+        0.0,
+        -0.9954090291002812,
+        -117.41988096409457
+      ],
+      [
+        0.9954090291002812,
+        0.0,
+        -0.0957124066442578,
+        191.5043736371004
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "collar_volume_mm3": 1609.1622071405543,
+    "inner_depth_mm": 2.5,
+    "source_overlap_mm": 0.3,
+    "footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "opening_mm": [
+      16.4,
+      8.2
+    ],
+    "bearing_screen_thickness_mm": 2.0,
+    "limits": "Continuous fusion and all source-slot boundaries require exact mesh union and inspection; 2mm is conservative collar-only screening thickness, not a printed allowable."
+  }
+]

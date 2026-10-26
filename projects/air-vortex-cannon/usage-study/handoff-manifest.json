@@ -1,0 +1,73 @@
+{
+  "purpose": "Final usage/service conditional geometry handoff",
+  "files": [
+    "README.md",
+    "check_usage.py",
+    "check_recommended.py",
+    "check_offaxis.py",
+    "check_proxies.py",
+    "render_service.py",
+    "certify_envelopes.py",
+    "refine_service_certificate.py",
+    "check_slim_tool_option.py",
+    "record_semantic_rebaseline.py",
+    "recommended-usage-results.json",
+    "offaxis-results.json",
+    "continuous-envelope-certificates.json",
+    "continuous-envelope-certificates-refined.json",
+    "certificate-refinement.json",
+    "slim-tool-option.json",
+    "semantic-rebaseline.json",
+    "bound-sanity.json",
+    "proxy-results.json",
+    "usage-envelope.png",
+    "service-envelope.png",
+    "grip-hand-proxy.stl",
+    "pull-hand-0mm-proxy.stl",
+    "pull-hand-60mm-proxy.stl"
+  ],
+  "file_sha256": {
+    "README.md": "209b299cfe57f0b59376873711590374769a4bab06abacef1b56de1c4c07cafb",
+    "check_usage.py": "eb7334c5b99d95580d3c2ee75137ab786d858f5e44b9aa1334240e31c82b36bd",
+    "check_recommended.py": "8fb255701f0b36520a81013eca1515d1de6db3a07965ea1ae6995068646bb933",
+    "check_offaxis.py": "314ff8da2612419d96275bbfe1f7329f539269ea6c6e5c91b6c5194d127a2d7b",
+    "check_proxies.py": "5209af633335a74544c8096b41126db9ca7c8f076a7b2f46ac7d282c9332fe19",
+    "render_service.py": "dbc3bc7f082cb7f1a19d8f1e082588f98086f770ef764bdee9d40096b285d0a7",
+    "certify_envelopes.py": "47af8a6fa221e8578bf5d4519ac545ba5f179faa102e611469452b2282264b23",
+    "refine_service_certificate.py": "c15c0f69f6dfede5355c56745265e21764a3943d20093043fb1e73a7be1134e2",
+    "check_slim_tool_option.py": "127f6e1ffe06e1ff98bc6b1aae0b8cb8e7ac630bdedbe37aeae352b57014bf1a",
+    "record_semantic_rebaseline.py": "2213242a6ce0adfcefed2fe552f88c29a9f14a37db0430ce70d993ce3ff89211",
+    "recommended-usage-results.json": "7ef68fa641c74e45cde645280feefd9216727ec31ce8d2280a5017884afef429",
+    "offaxis-results.json": "b1e7c8a5af0d4578ffc658b5f46b29ed31301cd450c92b4fe0ec21d2154c7f20",
+    "continuous-envelope-certificates.json": "c26aacffc51e68e70924f9019bae0499f94bec2b4207ff1a6997e1be6f6d8462",
+    "continuous-envelope-certificates-refined.json": "5451be3a8016b3b598d8dab68638c9da72ffda8284732eeb67ff843a78c94838",
+    "certificate-refinement.json": "0062e71d5cf772baff41ba0a1c657529b98bf6116e4aeb150f568c4190941847",
+    "slim-tool-option.json": "a5ee5a7abbd51748b36154fdf9afc00f26f63335791c532d6d9eaa79aeb29691",
+    "semantic-rebaseline.json": "a8fa052ee4b70c0d01f6174113d4bc4332533e8b70e2802bf5ea2ea2707569dc",
+    "bound-sanity.json": "1e9808f6020c20e41ad2ce93b760aee8a811e69030e3927e286641143ca17587",
+    "proxy-results.json": "733e9ee913e0fa125e6ef8e9f62454f836492ca9f15243b6d3eba8c7ad213ef6",
+    "usage-envelope.png": "258721a2c56f9800aea7026c1f983fa6d80cb46160cfddf2508fd7841d092818",
+    "service-envelope.png": "b01c5b0ebd430f8a39db4a7421630c4c22a55ff957cf8c9876524166d74d01f6",
+    "grip-hand-proxy.stl": "b1b7cc172de6dfdf3df8066082939f3e69d91f24fc8f748d1c8da3509172ba3e",
+    "pull-hand-0mm-proxy.stl": "c7060c746415524635e3b120f0feba8d88f4505d85ea52d3778b6e9e73a29cc2",
+    "pull-hand-60mm-proxy.stl": "116bcec8fd5867bd4fd2bff8911d8e36f5ef17926aa3e25a9cd57d32105ef1c7"
+  },
+  "authoritative_result_files": [
+    "recommended-usage-results.json",
+    "offaxis-results.json",
+    "continuous-envelope-certificates-refined.json",
+    "slim-tool-option.json",
+    "semantic-rebaseline.json"
+  ],
+  "excluded_development_diagnostics": [
+    "usage-results.json",
+    "sight-deployed-interference.csv",
+    "film-*-60mm-study.stl"
+  ],
+  "proxy_meshes_are_not_print_parts": [
+    "grip-hand-proxy.stl",
+    "pull-hand-0mm-proxy.stl",
+    "pull-hand-60mm-proxy.stl"
+  ],
+  "freeze": "No further writes planned; parent metadata/geometry are qualified by semantic-rebaseline.json"
+}

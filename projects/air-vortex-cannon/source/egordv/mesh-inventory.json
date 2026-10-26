@@ -1,0 +1,351 @@
+{
+  "source": "https://makerworld.com/en/models/442826-air-vortex-cannon#profileId-348811",
+  "downloaded_utc_date": "2026-10-25",
+  "acquisition": "Designer profile Download STL/CAD Files export via authenticated browser download event; STL meshes only, not editable STEP source. File names include STEP.stl. No source software executed.",
+  "license": "CC BY-NC-SA 4.0 as displayed on base model page",
+  "units": "STL is unitless; values interpreted as mm at original model scale; bounds are measured mesh vertices, not assembly or slice validation.",
+  "archive_path": "/Users/ericfeunekes/Downloads/AirVortexCannon_stls.zip",
+  "archive_sha256": "0505b6d26434e26f3bff0fdfa4a30350d55bdb79fa0e0d0df6e4e060af97519a",
+  "objects": [
+    {
+      "file": "obj_1_SightPin2.STEP.stl",
+      "triangles": 1838,
+      "bounds_min": [
+        371.3040771484375,
+        96.53294372558594,
+        -1.3322676295501878e-15
+      ],
+      "bounds_max": [
+        380.3040466308594,
+        111.42141723632812,
+        4.0
+      ],
+      "size_mm_assumed": [
+        8.999969482421875,
+        14.888473510742188,
+        4.000000000000002
+      ],
+      "sha256": "6adecb4d46bd862d87e2ca63408fc3786eef8ec3e5e42dc491f719e33c04ff17"
+    },
+    {
+      "file": "obj_2_Sight2.STEP.stl",
+      "triangles": 2452,
+      "bounds_min": [
+        105.35102844238281,
+        111.62639617919922,
+        1.8554633385292618e-09
+      ],
+      "bounds_max": [
+        156.14967346191406,
+        141.62640380859375,
+        13.866226196289062
+      ],
+      "size_mm_assumed": [
+        50.79864501953125,
+        30.00000762939453,
+        13.8662261944336
+      ],
+      "sha256": "4710a70a44deb8712f236eeb873e0662a5c42175dbf117f6064797facb480cc6"
+    },
+    {
+      "file": "obj_3_TopClamp3.STEP.stl",
+      "triangles": 148682,
+      "bounds_min": [
+        343.461181640625,
+        137.52671813964844,
+        0.0
+      ],
+      "bounds_max": [
+        544.0467529296875,
+        184.14601135253906,
+        25.0
+      ],
+      "size_mm_assumed": [
+        200.5855712890625,
+        46.619293212890625,
+        25.0
+      ],
+      "sha256": "3bce53f026d618492e42a901097aaa093af55f6b4eb3201c42f5a7f894b44b9f"
+    },
+    {
+      "file": "obj_4_Handle03.STEP.stl",
+      "triangles": 180228,
+      "bounds_min": [
+        348.9874572753906,
+        50.250545501708984,
+        0.0
+      ],
+      "bounds_max": [
+        529.8229370117188,
+        144.3157196044922,
+        25.0
+      ],
+      "size_mm_assumed": [
+        180.83547973632812,
+        94.0651741027832,
+        25.0
+      ],
+      "sha256": "404b462aa45ca9a91f559c2a42df47019ec6e86e9604634e74c31e18872f1093"
+    },
+    {
+      "file": "obj_5_PinchRingCap3.STEP.stl",
+      "triangles": 73918,
+      "bounds_min": [
+        489.61199951171875,
+        55.6336669921875,
+        -4.196777680931518e-08
+      ],
+      "bounds_max": [
+        529.6119995117188,
+        102.28485107421875,
+        47.84174728393555
+      ],
+      "size_mm_assumed": [
+        40.0,
+        46.65118408203125,
+        47.84174732590333
+      ],
+      "sha256": "a15af26acfaa94e5bd40de9bf2ef993d77dfaaefa0f6c17a463fe8aafc64c48d"
+    },
+    {
+      "file": "obj_6_AirZooka03_RingFront.STEP.stl",
+      "triangles": 188398,
+      "bounds_min": [
+        26.122314453125,
+        26.122314453125,
+        2.3535136506325216e-08
+      ],
+      "bounds_max": [
+        229.877685546875,
+        229.877685546875,
+        87.66667175292969
+      ],
+      "size_mm_assumed": [
+        203.75537109375,
+        203.75537109375,
+        87.66667172939455
+      ],
+      "sha256": "494a33610bcdd13a947f7eb4347879592e88e614453147d4ae03c78e1f3f6f65"
+    },
+    {
+      "file": "obj_7_AirZooka03_RingBack.STEP.stl",
+      "triangles": 104176,
+      "bounds_min": [
+        3.1754379272460938,
+        3.1769332885742188,
+        -4.052765234519029e-09
+      ],
+      "bounds_max": [
+        252.82455444335938,
+        252.82305908203125,
+        88.88964080810547
+      ],
+      "size_mm_assumed": [
+        249.64911651611328,
+        249.64612579345703,
+        88.88964081215823
+      ],
+      "sha256": "ee7f9d779d2c9f3de96ed4bb919e22c6b006fa59fc9f26ded2d89d3db5dc31cf"
+    },
+    {
+      "file": "obj_8_AirZooka03_RingMiddle.STEP.stl",
+      "triangles": 132874,
+      "bounds_min": [
+        13.297561645507812,
+        13.297561645507812,
+        -3.598634634727205e-08
+      ],
+      "bounds_max": [
+        242.7024383544922,
+        242.7024383544922,
+        90.22074127197266
+      ],
+      "size_mm_assumed": [
+        229.40487670898438,
+        229.40487670898438,
+        90.220741307959
+      ],
+      "sha256": "7ce89aa4765615a83ea0daecd6effbcda189d537a99fde5d196787f267e28fe3"
+    },
+    {
+      "file": "obj_9_RubberBandCarabiner01.STEP.stl",
+      "triangles": 3008,
+      "bounds_min": [
+        352.6317138671875,
+        99.4811782836914,
+        0.0
+      ],
+      "bounds_max": [
+        367.11199951171875,
+        110.68431091308594,
+        3.0
+      ],
+      "size_mm_assumed": [
+        14.48028564453125,
+        11.203132629394531,
+        3.0
+      ],
+      "sha256": "b678e3e389772d2e39a221e3536d7cc44c5cb8ee792061f6677f72016dc95427"
+    },
+    {
+      "file": "obj_10_BackClampRing4.STEP.stl",
+      "triangles": 17420,
+      "bounds_min": [
+        312.3466796875,
+        5.146690368652344,
+        -4.133327458077929e-09
+      ],
+      "bounds_max": [
+        558.0532836914062,
+        250.85330200195312,
+        11.570428848266602
+      ],
+      "size_mm_assumed": [
+        245.70660400390625,
+        245.70661163330078,
+        11.570428852399928
+      ],
+      "sha256": "5985bc5e332f4624099fe0991d4211561a55bf9b29edb6318dfe4be6c0604165"
+    },
+    {
+      "file": "obj_11_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        345.9476623535156,
+        70.61992645263672,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        369.2476806640625,
+        85.91992950439453,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.300018310546875,
+        15.300003051757812,
+        12.5
+      ],
+      "sha256": "3fe5a4acf8f49d8ae18adf9095c5452ef009c3180eefaa27766edc5be44a2f4d"
+    },
+    {
+      "file": "obj_12_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        375.2547302246094,
+        72.34314727783203,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        398.55474853515625,
+        87.64315032958984,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.300018310546875,
+        15.300003051757812,
+        12.5
+      ],
+      "sha256": "c8d501e707484183c3214f5f875554b169f337c1cd85251d42240aac7d92fde3"
+    },
+    {
+      "file": "obj_13_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        405.1344299316406,
+        26.701478958129883,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        428.4344482421875,
+        42.00148010253906,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.300018310546875,
+        15.30000114440918,
+        12.5
+      ],
+      "sha256": "56b280d611daf163a192ca45a5e6ca8478f8543038e46cc9bee5b43dad05da7d"
+    },
+    {
+      "file": "obj_14_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        349.7214050292969,
+        51.829776763916016,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        373.02142333984375,
+        67.12977600097656,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.300018310546875,
+        15.299999237060547,
+        12.5
+      ],
+      "sha256": "a94091261454c5d044343cb2f9c6add2a39c578bb4f2c788cd817410bf596bd4"
+    },
+    {
+      "file": "obj_15_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        381.1905517578125,
+        43.13102722167969,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        404.4905700683594,
+        58.431026458740234,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.300018310546875,
+        15.299999237060547,
+        12.5
+      ],
+      "sha256": "db0477644afe55df151c29fde91d42dd4852f6f6c18aa375112c2b2ff02fea59"
+    },
+    {
+      "file": "obj_16_AirZookaPin04.STEP.stl",
+      "triangles": 2474,
+      "bounds_min": [
+        438.2343444824219,
+        26.550697326660156,
+        -8.881784197001252e-16
+      ],
+      "bounds_max": [
+        461.5343322753906,
+        41.8506965637207,
+        12.5
+      ],
+      "size_mm_assumed": [
+        23.29998779296875,
+        15.299999237060547,
+        12.5
+      ],
+      "sha256": "ab8cf6e7ff605e3761db4cf5fd2d7d4495e034c7bd85a0d08c7bf440c7f0e005"
+    },
+    {
+      "file": "obj_17_PinchRing3.STEP.stl",
+      "triangles": 26340,
+      "bounds_min": [
+        446.3531494140625,
+        67.83638763427734,
+        4.632566330542431e-09
+      ],
+      "bounds_max": [
+        486.3531494140625,
+        107.83341979980469,
+        11.550000190734863
+      ],
+      "size_mm_assumed": [
+        40.0,
+        39.997032165527344,
+        11.550000186102297
+      ],
+      "sha256": "7a67a6f98de4beac895d72c23829696a502c99ee2d551405100425c751454d87"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "purpose": "Architecture comparison, not final installed connection",
+  "spec": {
+    "radius": 110.0,
+    "cone_slope": 0.09616,
+    "grip_stack": 6.0,
+    "key_length": 14.8,
+    "key_width": 7.4,
+    "flange_length": 24.0,
+    "flange_width": 16.0,
+    "base_thickness": 3.0,
+    "hole_diameter": 6.2,
+    "capture_gap": 0.15,
+    "outer_plate_thickness": 2.0
+  },
+  "known_interface": {
+    "slot_thin_mm": 8.0,
+    "slot_axial_min_mm": 15.8,
+    "shell_thickness_about_mm": 1.0,
+    "cone_half_angle_deg": 5.4926739163110625
+  },
+  "uncertainties": [
+    "grip_stack representative until actual assembly recovery",
+    "capture gap and printed sleeve fit untested",
+    "no complete installed collision proof",
+    "metal threads simplified to envelopes",
+    "custom printed thread not anti-backoff locked",
+    "printed thread and stiffness not physical capacity evidence",
+    "saddle does not reduce in-plane slot bearing by friction assumption"
+  ],
+  "parts": [
+    {
+      "name": "metal-inner-adapter",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1389.6834619581493,
+      "extents_mm": [
+        24.0000002,
+        16.00000029007993,
+        9.150000200000001
+      ]
+    },
+    {
+      "name": "metal-outer-adapter",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 664.6982253605844,
+      "extents_mm": [
+        24.0,
+        16.00000009007993,
+        2.0
+      ]
+    },
+    {
+      "name": "metal-bolt-reference",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 405.2654523130833,
+      "extents_mm": [
+        7.0,
+        7.0,
+        24.0
+      ]
+    },
+    {
+      "name": "metal-spacer-reference",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 156.08885289636376,
+      "extents_mm": [
+        6.0,
+        6.0,
+        11.35
+      ]
+    },
+    {
+      "name": "metal-washer-reference",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.57532348801374,
+      "extents_mm": [
+        12.0,
+        12.0,
+        1.0
+      ]
+    },
+    {
+      "name": "metal-inner-washer-reference",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.57532348801374,
+      "extents_mm": [
+        12.0,
+        12.0,
+        1.0
+      ]
+    },
+    {
+      "name": "metal-nyloc-envelope-reference",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 149.3443708553917,
+      "extents_mm": [
+        8.082903768654761,
+        7.000000000000001,
+        5.0
+      ]
+    },
+    {
+      "name": "printed-stud-option",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 1830.463897048077,
+      "extents_mm": [
+        24.0000002,
+        16.00000029007993,
+        18.1500002
+      ]
+    },
+    {
+      "name": "printed-nut-option",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 635.1517761035279,
+      "extents_mm": [
+        14.0000002,
+        12.124355852982141,
+        6.000000200000143
+      ]
+    }
+  ]
+}

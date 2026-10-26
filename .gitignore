@@ -1,0 +1,20 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv-cache/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.scratch/
+dist/
+.env
+.env.*
+!.env.example
+
+# Rebuilt bundles duplicate the versioned air-vortex source/export files.
+/projects/air-vortex-cannon/air-vortex-cannon*.zip
+/projects/air-vortex-cannon/presentation/inspection-viewer.html
+
+# Do not ignore STL, STEP, 3MF, printer profiles or intentional analysis logs.

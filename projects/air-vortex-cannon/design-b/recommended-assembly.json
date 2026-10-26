@@ -1,0 +1,1405 @@
+{
+  "name": "Recommended Revision B conditional prototype",
+  "units": "mm",
+  "spec": {
+    "adapter_base_mm": [
+      30.0,
+      22.0,
+      4.6
+    ],
+    "key_mm": [
+      15.0,
+      7.4,
+      13.4
+    ],
+    "bore_diameter_mm": 5.4,
+    "collar_inner_depth_mm": 2.5,
+    "shoulder_diameter_mm": 5.0,
+    "shoulder_length_mm": 20.0,
+    "inner_washer_mm": [
+      5.3,
+      15.0,
+      1.2
+    ],
+    "outer_washer_mm": [
+      4.3,
+      12.0,
+      1.6
+    ],
+    "nut_mm": {
+      "across_flats": 7.0,
+      "height": 5.0
+    },
+    "study_assumed_adapter_thickness_error_mm": 0.15,
+    "study_assumed_collar_position_error_mm": 0.15,
+    "study_assumed_rail_stack_error_mm": 0.1,
+    "study_assumed_inner_washer_thickness_error_mm": 0.1,
+    "manufacturer_shoulder_length_tolerance_mm": [
+      0,
+      0.25
+    ]
+  },
+  "source_datum_revision": 2,
+  "joints": [
+    {
+      "id": "top-front",
+      "surface_center_mm": [
+        0.0,
+        95.52771162615755,
+        61.20267442169206
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          93.03918905340686
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.441955438302706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.018735404300017,
+      "reinforced_grip_mm": 13.518735404300017,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6812645956999823,
+      "conditional_capture_gap_bounds_mm": [
+        0.18126459569998232,
+        1.4312645956999823
+      ],
+      "key_recess_at_outer_rail_mm": 0.11873540430001661,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    },
+    {
+      "id": "top-middle",
+      "surface_center_mm": [
+        0.0,
+        108.29949089590158,
+        143.3608773819813
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          105.81096832315089
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.60015839859196
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.007965329617662,
+      "reinforced_grip_mm": 13.507965329617662,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6920346703823377,
+      "conditional_capture_gap_bounds_mm": [
+        0.19203467038233768,
+        1.4420346703823377
+      ],
+      "key_recess_at_outer_rail_mm": 0.10796532961766125,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    },
+    {
+      "id": "top-rear",
+      "surface_center_mm": [
+        0.121788025,
+        117.43253948204773,
+        191.63602222381311
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          114.94401690929703
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.87530324042376
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.0081761534681,
+      "reinforced_grip_mm": 13.5081761534681,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6918238465319,
+      "conditional_capture_gap_bounds_mm": [
+        0.1918238465319,
+        1.4418238465319
+      ],
+      "key_recess_at_outer_rail_mm": 0.10817615346809895,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    },
+    {
+      "id": "bottom-front",
+      "surface_center_mm": [
+        0.0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -93.0285044435464
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.33083549575388
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.018602833699973,
+      "reinforced_grip_mm": 13.518602833699973,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6813971663000267,
+      "conditional_capture_gap_bounds_mm": [
+        0.18139716630002667,
+        1.4313971663000267
+      ],
+      "key_recess_at_outer_rail_mm": 0.11860283369997227,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    },
+    {
+      "id": "bottom-middle",
+      "surface_center_mm": [
+        0.0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -105.80632489441903
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.55186673978068
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.007826062317633,
+      "reinforced_grip_mm": 13.507826062317633,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6921739376823659,
+      "conditional_capture_gap_bounds_mm": [
+        0.1921739376823659,
+        1.442173937682366
+      ],
+      "key_recess_at_outer_rail_mm": 0.10782606231763303,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    },
+    {
+      "id": "bottom-rear",
+      "surface_center_mm": [
+        -0.24357605,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -114.93135839134388
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.74365465371105
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "stock_grip_mm": 11.008040361768053,
+      "reinforced_grip_mm": 13.508040361768053,
+      "bolt_underhead_local_z_mm": -5.8,
+      "head_inner_face_local_z_mm": -9.8,
+      "outer_washer_local_z_mm": 14.2,
+      "nut_outer_face_local_z_mm": 20.799999999999997,
+      "nominal_capture_gap_mm": 0.6919596382319462,
+      "conditional_capture_gap_bounds_mm": [
+        0.19195963823194617,
+        1.4419596382319462
+      ],
+      "key_recess_at_outer_rail_mm": 0.10804036176805276,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "capture_basis": "Head/M5washer and M4washer/nut are wider than openings; outerM4washerID4.3 is smaller than5mmshoulder, providing metalstop. No clamp-friction credit.",
+      "limits": "Hardware undercuts/chamfers, tolerance/torque, FDM fit and actualnutlocking require physical verification.",
+      "gap_basis": "Dominant outer-rail datum-plane separation, not actual washer-footprint first-contact travel. Independent footprint probes add about .05..13mm depending on washer OD; see capture-contact-review.json."
+    }
+  ],
+  "components": [
+    {
+      "joint": "top-front",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/top-front--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          93.03918905340686
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.441955438302706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "top-front",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/top-front--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          87.26581668462522
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.997087396839405
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-front",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-front--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          87.26581668462522
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.997087396839405
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-front",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-front--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          107.17399726663085
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          60.08283926395425
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-front",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/top-front--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          108.7666517131913
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          59.92969941332343
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-middle",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/top-middle--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          105.81096832315089
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.60015839859196
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "top-middle",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/top-middle--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          100.03759595436925
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.15529035712865
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-middle",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-middle--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          100.03759595436925
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.15529035712865
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-middle",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-middle--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          119.94577653637488
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.2410422242435
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-middle",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/top-middle--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          121.53843098293532
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.08790237361268
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-rear",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/top-rear--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          114.94401690929703
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.87530324042376
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "top-rear",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/top-rear--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          109.1706445405154
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.43043519896045
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-rear",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-rear--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          109.1706445405154
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.43043519896045
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-rear",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/top-rear--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          129.07882512252104
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.5161870660753
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "top-rear",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/top-rear--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.121788025
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          130.67147956908147
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.36304721544448
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-front",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/bottom-front--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -93.0285044435464
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.33083549575388
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "bottom-front",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/bottom-front--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -87.25513207476476
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.88596745429058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-front",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-front--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -87.25513207476476
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.88596745429058
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-front",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-front--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -107.16331265677039
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          59.97171932140542
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-front",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/bottom-front--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -108.75596710333083
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          59.81857947077461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/bottom-middle--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -105.80632489441903
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.55186673978068
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/bottom-middle--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -100.0329525256374
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.10699869831737
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-middle--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -100.0329525256374
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.10699869831737
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-middle--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -119.94113310764303
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.19275056543222
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/bottom-middle--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -121.53378755420347
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.0396107148014
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "keyed-adapter-local",
+      "path": "design-b/assembled-joints/bottom-rear--keyed-adapter-local.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -114.93135839134388
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.74365465371105
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "printed PETG candidate",
+      "manufactured_here": true
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "shoulder-bolt-reference",
+      "path": "design-b/assembled-joints/bottom-rear--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -109.15798602256224
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.29878661224774
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-rear--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -109.15798602256224
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.29878661224774
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-b/assembled-joints/bottom-rear--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -129.06616660456788
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.3845384793626
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-b/assembled-joints/bottom-rear--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -130.6588210511283
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.23139862873177
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material": "purchased metal reference",
+      "manufactured_here": false
+    }
+  ],
+  "printed_adapter_quantity": 6,
+  "unique_adapter_geometry_count": 1,
+  "removed_source_pin_ids": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "modified_shell_ids": [
+    6,
+    8,
+    7
+  ],
+  "unmodified_source_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    9,
+    10,
+    17
+  ],
+  "sources": {
+    "shoulder_bolt": "https://www.elesa-ganter.hr/siteassets/PDF/EN/ISO%207379.pdf",
+    "outer_washer": "https://www.accu.co.uk/metric-flat-washers/63172-HDTW-M4-A2",
+    "inner_washer": "https://www.ruuvikeskus.fi/attachments/h7cpz.pdf",
+    "nyloc": "https://www.tme.eu/Document/b2162b4e06623b32cc382f0f3f1ca4a6/B4_BN161.pdf"
+  },
+  "claim_boundary": "Geometric capture under stated dimensional assumptions; not proof of actual printed strength, fatigue, friction, nutlocking, seal or airflow performance.",
+  "metal_reference_meshes_not_to_print": [
+    "shoulder-bolt-reference",
+    "inner-M5-wide-washer-reference",
+    "outer-M4-wide-washer-reference",
+    "M4-nyloc-envelope-reference"
+  ]
+}

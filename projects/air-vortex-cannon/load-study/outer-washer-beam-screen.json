@@ -1,0 +1,34 @@
+{
+  "status": "One-way net-width strip proxy, not 3D plate contact proof",
+  "support_gap_mm": 8,
+  "E_MPa_assumed": 200000,
+  "cases": [
+    {
+      "case": "nominal",
+      "OD_mm": 12.0,
+      "ID_mm": 4.3,
+      "thickness_mm": 1.6,
+      "normal_N": 115.8126521234883,
+      "nominal_strip_bending_MPa": 70.50283205569498,
+      "linear_strip_deflection_mm": 0.002350094401856499
+    },
+    {
+      "case": "worst_dimensions",
+      "OD_mm": 11.3,
+      "ID_mm": 4.48,
+      "thickness_mm": 1.3,
+      "normal_N": 115.8126521234883,
+      "nominal_strip_bending_MPa": 120.57747188757912,
+      "linear_strip_deflection_mm": 0.004946768077439144
+    },
+    {
+      "case": "thin_comparison",
+      "OD_mm": 12.0,
+      "ID_mm": 4.3,
+      "thickness_mm": 1.0,
+      "normal_N": 115.8126521234883,
+      "nominal_strip_bending_MPa": 180.48725006257916,
+      "linear_strip_deflection_mm": 0.009625986670004224
+    }
+  ]
+}

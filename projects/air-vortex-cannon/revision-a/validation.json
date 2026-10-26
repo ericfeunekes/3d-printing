@@ -1,0 +1,98 @@
+{
+  "revision": "A",
+  "status": "UNPRINTED PROTOTYPE \u2014 fit and retention unverified",
+  "base_design": "egordv, Air Vortex Cannon, designer profile 348811",
+  "source_url": "https://makerworld.com/en/models/442826-air-vortex-cannon#profileId-348811",
+  "license": "CC BY-NC-SA 4.0; https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "source_pin_sha256": "3fe5a4acf8f49d8ae18adf9095c5452ef009c3180eefaa27766edc5be44a2f4d",
+  "native_cad_owner": "build_revision.py / Spec; new keeper geometry only",
+  "units": "millimetres",
+  "spec": {
+    "stock_gap": 9.0,
+    "stock_body_depth": 7.3,
+    "stock_u_center_z": 6.5,
+    "stock_tip_z": 12.5,
+    "foot_radius": 4.3,
+    "body_depth": 6.8,
+    "taper_start_z": 10.0,
+    "cap_width": 12.0,
+    "cap_bottom_z": 12.5,
+    "cap_top_z": 14.5,
+    "eye_width": 8.0,
+    "eye_bottom_z": 13.2,
+    "eye_top_z": 18.8,
+    "eye_hole_diameter": 3.2,
+    "eye_hole_center_z": 16.1
+  },
+  "variants": [
+    {
+      "name": "clearance",
+      "seat_width_mm": 8.9,
+      "total_gap_at_full_seat_mm": 0.09999999999999964,
+      "body_depth_total_clearance_mm": 0.5,
+      "bounds_mm": [
+        12.0,
+        16.598663864075206,
+        6.800000190734863
+      ],
+      "volume_mm3": 885.8504879950794,
+      "valid_solid": true,
+      "watertight": true,
+      "connected_components": 1,
+      "step_roundtrip_volume_delta_mm3": 2.864908310584724e-11,
+      "stl_sha256": "10e57c5d09f089446574c47d58f3aa2db114bd047e3b17f993a8ba6c2f27f14c",
+      "step_sha256": "2e9fc2c8bdcd9f8d513f1861196cf29607b4f74c959b54d127e63c3dc008bccb",
+      "designed_seat_interference_per_face_mm": 0
+    },
+    {
+      "name": "nominal",
+      "seat_width_mm": 9.0,
+      "total_gap_at_full_seat_mm": 0.0,
+      "body_depth_total_clearance_mm": 0.5,
+      "bounds_mm": [
+        12.0,
+        16.598663864075206,
+        6.800000190734863
+      ],
+      "volume_mm3": 886.7004879950794,
+      "valid_solid": true,
+      "watertight": true,
+      "connected_components": 1,
+      "step_roundtrip_volume_delta_mm3": 2.921751729445532e-11,
+      "stl_sha256": "b9bcab2789c701868976d8d2844c501d91a1c7868e049ac1d40879c49e315886",
+      "step_sha256": "fd7e9e7a5bf4ec48c94a201865f4d6e1acf7c6acc13a06ec71bf06228718f10e",
+      "designed_seat_interference_per_face_mm": 0
+    }
+  ],
+  "limits": [
+    "No complete-assembly collision or load validation",
+    "Keeper seating assumes access from barbed end of installed clip",
+    "Friction fit/self-retention and removal require a physical test",
+    "Cap geometry is not a positive lock",
+    "No intentional interference variant issued; never force a fit",
+    "No increased elastic load, range, accuracy or ring-coherence claim",
+    "No slicer project, toolpath, print or purchase generated"
+  ],
+  "reference_pin": {
+    "rigid_transform_only": true,
+    "stock_watertight": true,
+    "side_trial_supports": "Required under elevated body; slice inspection pending"
+  },
+  "source_mesh_contact_check": [
+    {
+      "variant": "clearance",
+      "sampled_points": 56992,
+      "max_sampled_penetration_mm": 0.0,
+      "points_more_than_0_02mm_inside_stock_pin": 0,
+      "scope": "stock pin only, seated assumption; not complete assembly"
+    },
+    {
+      "variant": "nominal",
+      "sampled_points": 56992,
+      "max_sampled_penetration_mm": 0.0,
+      "points_more_than_0_02mm_inside_stock_pin": 0,
+      "scope": "stock pin only, seated assumption; not complete assembly"
+    }
+  ],
+  "view": "revision-a-review.png, derived from delivered meshes"
+}

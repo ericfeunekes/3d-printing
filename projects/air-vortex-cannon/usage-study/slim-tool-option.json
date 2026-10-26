@@ -1,0 +1,355 @@
+{
+  "joint": "top-rear",
+  "scope": "Optional exterior7mmnut tool body requirement; no purchased tool verified",
+  "tool_body_maximum_OD_mm": 11.0,
+  "tool_envelope_length_mm": 30.0,
+  "tool_origin_mm": [
+    0.121788025,
+    135.7480656174929,
+    189.87491394155876
+  ],
+  "tool_axis": [
+    0.0,
+    0.9954090291002812,
+    -0.0957124066442578
+  ],
+  "surface_sample_count": 21376,
+  "surface_cover_radius_mm": 0.18397409839334636,
+  "minimum_sample_bound_mm": 1.2036220431375853,
+  "continuous_CAD_clearance_lower_bound_mm": 1.0196479447442388,
+  "no_obstacle_wholly_inside_tool_AABB": true,
+  "conditional_geometric_clear": true,
+  "checks": [
+    {
+      "obstacle": "stock-3",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 1.2036220431375853,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 19572,
+      "exact_triangle_distance_samples": 1804,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "stock-4",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 228.83721580612675,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "stock-6",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 102.31905183087156,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "stock-7",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 10.398588298918241,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "stock-8",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 22.9054305177662,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "rear-clamp",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 56.584266941732324,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-front--keyed-adapter-local",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 111.20250818608383,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-front--shoulder-bolt-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 119.2123732149481,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-front--inner-M5-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 123.81693958035281,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-front--outer-M4-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 121.14173887285146,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-front--M4-nyloc-envelope-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 122.28021878506887,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-middle--keyed-adapter-local",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 29.704703651947458,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-middle--shoulder-bolt-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 36.09217254740557,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-middle--inner-M5-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 46.70642099022839,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-middle--outer-M4-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 38.48790544353388,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "top-middle--M4-nyloc-envelope-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 39.182745857054904,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-front--keyed-adapter-local",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 246.956467954656,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-front--shoulder-bolt-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 247.778480236917,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-front--inner-M5-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 249.82665454453445,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-front--outer-M4-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 269.2663231955854,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-front--M4-nyloc-envelope-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 271.79196627608826,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-middle--keyed-adapter-local",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 236.3902944495286,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-middle--shoulder-bolt-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 233.5456936950545,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-middle--inner-M5-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 236.82333376073316,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-middle--outer-M4-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 257.15445168101314,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-middle--M4-nyloc-envelope-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 259.2192984180906,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-rear--keyed-adapter-local",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 244.13844120419168,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-rear--shoulder-bolt-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 239.9892019722427,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-rear--inner-M5-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 243.66232737753003,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-rear--outer-M4-wide-washer-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 263.7137891045823,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "bottom-rear--M4-nyloc-envelope-reference",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 265.49698072529566,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    },
+    {
+      "obstacle": "deployed-sight",
+      "sample_count": 21376,
+      "minimum_sampled_clearance_mm": 149.2292200411099,
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0,
+      "mesh_bound_only_samples": 21376,
+      "exact_triangle_distance_samples": 0,
+      "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+    }
+  ],
+  "low_bound_refinements": [
+    {
+      "obstacle": "stock-3",
+      "previous_loose_bound_mm": 0.02395522605121414,
+      "exact_triangle_refined_samples": 2097,
+      "bidirectional_ray_disagreement_fallbacks": 0,
+      "minimum_refined_bound_mm": 1.2036220431375853
+    }
+  ],
+  "assembly_json_sha256": "0da393cbfee8e15170a6922520c1d0588d93fee1bd9dc96c5bd5487c4e7d9e0b",
+  "limits": "All other sites retain mainR6envelope. Realtoolshape/OD, FDMandhardwareerror, grasp/reach and movingclearances still require matching the assumptions."
+}

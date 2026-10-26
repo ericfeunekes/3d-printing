@@ -1,0 +1,105 @@
+{
+  "scope": "Post-run input and exact tool-datum verification",
+  "all_recorded_inputs_still_match_before_and_after": true,
+  "C_manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+  "B_manifest_sha256": "0da393cbfee8e15170a6922520c1d0588d93fee1bd9dc96c5bd5487c4e7d9e0b",
+  "C_to_B_six_exact_tool_pose_comparison": [
+    {
+      "joint": "bottom-front",
+      "side": "inside",
+      "B_to_C_tool_origin_max_difference_mm": 1.4210854715202004e-14,
+      "origin_mm": [
+        0.0,
+        -83.1739550554536,
+        62.27838832153203
+      ],
+      "axis": [
+        -0.0,
+        0.9954090291002812,
+        0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    },
+    {
+      "joint": "bottom-front",
+      "side": "outside",
+      "B_to_C_tool_origin_max_difference_mm": 0.0,
+      "origin_mm": [
+        0.0,
+        -113.83255315174227,
+        59.33044619688889
+      ],
+      "axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    },
+    {
+      "joint": "bottom-middle",
+      "side": "inside",
+      "B_to_C_tool_origin_max_difference_mm": 1.4210854715202004e-14,
+      "origin_mm": [
+        0.0,
+        -95.95177550632624,
+        144.49941956555884
+      ],
+      "axis": [
+        -0.0,
+        0.9954090291002812,
+        0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    },
+    {
+      "joint": "bottom-middle",
+      "side": "outside",
+      "B_to_C_tool_origin_max_difference_mm": 0.0,
+      "origin_mm": [
+        0.0,
+        -126.61037360261491,
+        141.55147744091568
+      ],
+      "axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    },
+    {
+      "joint": "bottom-rear",
+      "side": "inside",
+      "B_to_C_tool_origin_max_difference_mm": 1.4210854715202004e-14,
+      "origin_mm": [
+        -0.24357605,
+        -105.07680900325109,
+        192.6912074794892
+      ],
+      "axis": [
+        -0.0,
+        0.9954090291002812,
+        0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    },
+    {
+      "joint": "bottom-rear",
+      "side": "outside",
+      "B_to_C_tool_origin_max_difference_mm": 2.842170943040401e-14,
+      "origin_mm": [
+        -0.24357605,
+        -135.73540709953974,
+        189.74326535484605
+      ],
+      "axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "B_to_C_tool_axis_max_difference": 0.0
+    }
+  ],
+  "limit": "Service-origin equivalence does not transfer strength or prove all-six B checks for modified C geometry."
+}

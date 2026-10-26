@@ -1,0 +1,107 @@
+{
+  "scope": "Revision C whole-assembly conditional CAD usage and lower-three service geometry; not physical validation",
+  "usage_results_sha256": "9abd5d129cf39c73e599dd900c4d2d8862e8b976807f9e8a8df7459cb4c28823",
+  "inputs_unchanged_during_run": true,
+  "fixed_obstacle_count": 26,
+  "all_obstacles_closed_consistent_connected_positive_volume": true,
+  "sampled_checks": {
+    "axial_motion": {
+      "obstacle_checks": 1456,
+      "minimum_reported_clearance_mm": 0.15550239057633708,
+      "limiting_obstacle": "stock-6",
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0
+    },
+    "offaxis_end_positions": {
+      "obstacle_checks": 832,
+      "minimum_reported_clearance_mm": 0.21843368675416142,
+      "limiting_obstacle": "stock-6",
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0
+    },
+    "lower_three_static_tools": {
+      "obstacle_checks": 126,
+      "minimum_reported_clearance_mm": 2.5904897094154222,
+      "limiting_obstacle": "stock-8",
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0
+    },
+    "lower_three_rear_entry": {
+      "obstacle_checks": 63,
+      "minimum_reported_clearance_mm": 2.5904897094154222,
+      "limiting_obstacle": "stock-8",
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0
+    },
+    "lower_three_bolt_withdrawal": {
+      "obstacle_checks": 69,
+      "minimum_reported_clearance_mm": -6.522267456828434e-06,
+      "limiting_obstacle": "bottom-middle--inner-M5-wide-washer-reference",
+      "maximum_sampled_penetration_mm": 6.522267456828434e-06,
+      "points_over_0_02mm_penetration": 0
+    },
+    "deployed_sight": {
+      "obstacle_checks": 24,
+      "minimum_reported_clearance_mm": 7.059924176733507e-05,
+      "limiting_obstacle": "stock-3",
+      "maximum_sampled_penetration_mm": 0.0,
+      "points_over_0_02mm_penetration": 0
+    }
+  },
+  "continuous_tool_families": {
+    "inside-tool-static": {
+      "count": 3,
+      "all_conditionally_clear": true,
+      "minimum_continuous_clearance_lower_bound_mm": 2.0533470964880687,
+      "limiting_joint": "bottom-middle"
+    },
+    "outside-tool-static": {
+      "count": 3,
+      "all_conditionally_clear": true,
+      "minimum_continuous_clearance_lower_bound_mm": 3.239627802576527,
+      "limiting_joint": "bottom-front"
+    },
+    "inside-tool-rear-entry": {
+      "count": 3,
+      "all_conditionally_clear": true,
+      "minimum_continuous_clearance_lower_bound_mm": 1.5549478002238297,
+      "limiting_joint": "bottom-middle"
+    }
+  },
+  "continuous_rigid_radial_bounds": [
+    {
+      "component": "obj_17_PinchRing3.STEP.stl",
+      "complete_rigid_mesh_maximum_radius_mm": 20.0000207463674,
+      "assumed_max_XY_translation_mm": 10.579618842507898,
+      "minimum_fixed_surface_radius_mm": 54.99849561103313,
+      "limiting_fixed_obstacle": "stock-6",
+      "continuous_radial_separation_lower_bound_mm": 24.418856022157826,
+      "conditional_geometric_clear": true,
+      "scope": "All0..60mm axial positions and any XY translation magnitude<=10.5796mm; source rigid orientation retained. Carabiner stays on axis."
+    },
+    {
+      "component": "obj_5_PinchRingCap3.STEP.stl",
+      "complete_rigid_mesh_maximum_radius_mm": 23.326449590349796,
+      "assumed_max_XY_translation_mm": 10.579618842507898,
+      "minimum_fixed_surface_radius_mm": 54.99849561103313,
+      "limiting_fixed_obstacle": "stock-6",
+      "continuous_radial_separation_lower_bound_mm": 21.092427178175434,
+      "conditional_geometric_clear": true,
+      "scope": "All0..60mm axial positions and any XY translation magnitude<=10.5796mm; source rigid orientation retained. Carabiner stays on axis."
+    },
+    {
+      "component": "obj_9_RubberBandCarabiner01.STEP.stl",
+      "complete_rigid_mesh_maximum_radius_mm": 7.393893983519547,
+      "assumed_max_XY_translation_mm": 0.0,
+      "minimum_fixed_surface_radius_mm": 54.99849561103313,
+      "limiting_fixed_obstacle": "stock-6",
+      "continuous_radial_separation_lower_bound_mm": 47.60460162751358,
+      "conditional_geometric_clear": true,
+      "scope": "All0..60mm axial positions and any XY translation magnitude<=10.5796mm; source rigid orientation retained. Carabiner stays on axis."
+    }
+  ],
+  "all_chosen_hand_ellipsoids_clear": true,
+  "minimum_chosen_hand_separation_lower_bound_mm": 1.725793423651224,
+  "limiting_hand_proxy": "grip",
+  "limiting_hand_obstacle": "bottom-middle--M4-nyloc-envelope-reference"
+}

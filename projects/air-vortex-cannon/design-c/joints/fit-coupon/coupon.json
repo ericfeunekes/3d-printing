@@ -1,0 +1,138 @@
+{
+  "joint": "bottom-front",
+  "units": "mm",
+  "parts": [
+    {
+      "name": "c-conical-collar-shell-coupon",
+      "source_object": 6,
+      "source_path": "design-c/joints/reinforced-shells/lower-only-shell-6-assembled.stl",
+      "source_sha256": "a5a8bee7d52a524769c5a9cd3ebffd9d86bca00822911af0bba2cf26f787d3a7",
+      "assembled_path": "design-c/joints/fit-coupon/c-conical-collar-shell-coupon-assembled.stl",
+      "print_path": "design-c/joints/fit-coupon/c-conical-collar-shell-coupon-print.stl",
+      "print_bounds_mm": [
+        36.0,
+        10.084678649902344,
+        50.0
+      ],
+      "assembly_to_print_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          18.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          101.13357543945312
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -36.091552734375
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight": true,
+      "single_solid": true,
+      "method": "Derived from actual interface meshes by intersection with world36x42x50mm box, then simplify(.002mm), STL numerical cleanup, inverse original print rotation and translation to bedZ0. No deliberate mating-surface redesign; final mesh surfaces are not mathematically identical to the unsimplified cut.",
+      "cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "print_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "independent_review_diagnostics": {
+        "final_vs_unsimplified_boxcut_symmetric_difference_mm3": 0.1156813375,
+        "original_surface_vertex_to_final_coupon_sampled_max_distance_mm": 0.0016170786,
+        "original_surface_vertex_probe_count_excluding_cut_planes": 1488,
+        "print_to_assembly_symmetric_difference_mm3": 3.998e-05,
+        "qualification": "Numerical export diagnostics, not manufacturing tolerances or physical fit/strength proof."
+      }
+    },
+    {
+      "name": "original-handle-receiver-coupon",
+      "source_object": 4,
+      "source_path": "assembly-study/parts/assembled-04.stl",
+      "source_sha256": "339923301e0b5a525255d817a2e8989c3c8d23a276f83c3cc3d6a42dee27ae0d",
+      "assembled_path": "design-c/joints/fit-coupon/original-handle-receiver-coupon-assembled.stl",
+      "print_path": "design-c/joints/fit-coupon/original-handle-receiver-coupon-print.stl",
+      "print_bounds_mm": [
+        49.775657653808594,
+        27.901458740234375,
+        25.0
+      ],
+      "assembly_to_print_transform": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -36.315895080566406
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          121.51702880859375
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          12.5
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "watertight": true,
+      "single_solid": true,
+      "method": "Derived from actual interface meshes by intersection with world36x42x50mm box, then simplify(.002mm), STL numerical cleanup, inverse original print rotation and translation to bedZ0. No deliberate mating-surface redesign; final mesh surfaces are not mathematically identical to the unsimplified cut.",
+      "cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "print_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "independent_review_diagnostics": {
+        "final_vs_unsimplified_boxcut_symmetric_difference_mm3": 0.2186796061,
+        "original_surface_vertex_to_final_coupon_sampled_max_distance_mm": 0.0034110404,
+        "original_surface_vertex_probe_count_excluding_cut_planes": 20662,
+        "print_to_assembly_symmetric_difference_mm3": 6.835e-08,
+        "qualification": "Numerical export diagnostics, not manufacturing tolerances or physical fit/strength proof."
+      }
+    }
+  ],
+  "use_with": {
+    "adapter_path": "design-c/joints/print/bottom-front-conforming-keyed-adapter.stl",
+    "quantity": 1,
+    "hardware": "One actual D5/L20/M4 shoulderbolt +ID5.3OD15t1.2innerwasher +ID4.3OD12t1.6outerwasher +AF7h5M4lockingnut; simplified reference meshes DO NOT PRINT"
+  },
+  "limits": [
+    "Fit coupon only, not a load or fatigue specimen.",
+    "Cut edges change stiffness; full shell/handle and all3lowerinstalledpositions remain physical checks.",
+    "C matching curved contact includes0.05mm nominal normalgap; originalslots retained.",
+    "Actual printer/profile/support/bore/neck layer inspection still required; no print started."
+  ],
+  "fit_checks": [
+    "Hand insertion of15x7.4key through collar15.6x7.8andoriginalapproximately16x8slots after normal supportcleanup.",
+    "Conforming curved face fit and flat innerwasher seat.",
+    "Actual shoulderstop, measured positive freecapturegap, nutlocking and threadprojection.",
+    "Unloaded retention, handling wheninverted, deliberate unthreading/removal and tool access."
+  ],
+  "metadata_revision_note": "Coupon wording correction only: actual-interface derivation includes whole-mesh numerical simplification/cleanup. No geometry or print transform changed."
+}

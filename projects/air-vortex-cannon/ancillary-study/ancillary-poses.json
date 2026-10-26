@@ -1,0 +1,258 @@
+{
+  "units": "mm",
+  "canonical_axes": "X horizontal, Y up, Z rearward, outlet Z0",
+  "rear_shell_end_z": 259.8896408,
+  "nominal_membrane_edge_z": 261.8896408,
+  "poses": {
+    "obj_10_BackClampRing4.STEP.stl": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -435.1999817
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          127.9999962
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          261.8896408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Measured sleeve OD120.484 radius versus rear shell lip ID120.584. Clamp shoulder Z2 aligned rear end; sleeve points forward.",
+      "status": "geometry-derived nominal seat; film thickness and snap deformation unverified"
+    },
+    "obj_17_PinchRing3.STEP.stl": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -466.3531494
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -87.8349037
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          256.8896408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Measured flange upper face source Z5, 40mm flange, split cylindrical projection to Z11.55.",
+      "status": "coaxial film-sandwich reconstruction; flexible snap seating not validated"
+    },
+    "obj_5_PinchRingCap3.STEP.stl": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -509.6119995
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -78.959259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          261.9396408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Video2:28/4:18 shows finger loop outside rear diaphragm. Disk axis source Z; large plane areas confirm datum.",
+      "status": "coaxial film-sandwich reconstruction; expects snap-contact interference, not rigid-clearance proof"
+    },
+    "obj_9_RubberBandCarabiner01.STEP.stl": {
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -359.8718567
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          1.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          27.8875733
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Video3:23 connects two additional bands with carabiner;3:48 joins front anchor loops;4:08 passes loops through pinch-ring hole.",
+      "status": "schematic axial junction; its exact Z and orientation depend on unmeasured elastic lengths/stiffness"
+    },
+    "obj_2_Sight2.STEP.stl": {
+      "matrix": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          126.9764
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.821534409999998
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          18.897106960000002
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Measured R2.5 hole centre; ear thickness4.3 versus rail fork gap5.0, nominal0.35mm per face. NativeZ maps canonical+Z; deployed1805point check found no penetration over0.02mm without hinge exclusions. Video5:38 confirms broadly deployed orientation.",
+      "status": "deployed reconstruction only. Sampled15/30degree positive fold poses collide with rail; no continuous folding claim"
+    },
+    "obj_1_SightPin2.STEP.stl": {
+      "matrix": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -103.0329437
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -266.49039631000005
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          28.76465696
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "basis": "Measured axis sourceY, centre X375.8040619/Z2; sourceY98.5329437 shoulder placed outside rail fork at X-4.5.",
+      "status": "geometry-derived axial pose; printed snap retention unverified"
+    }
+  },
+  "elastic_graph": {
+    "nodes": {
+      "front_left": [
+        -72.73,
+        0,
+        4.050995
+      ],
+      "front_right": [
+        72.73,
+        0,
+        4.050995
+      ],
+      "carabiner": [
+        0,
+        0,
+        132.9703179
+      ],
+      "membrane_centre": [
+        0,
+        0,
+        261.8896408
+      ]
+    },
+    "edges": [
+      [
+        "front_left",
+        "carabiner"
+      ],
+      [
+        "front_right",
+        "carabiner"
+      ],
+      [
+        "carabiner",
+        "membrane_centre"
+      ],
+      [
+        "carabiner",
+        "membrane_centre"
+      ]
+    ],
+    "basis": "Four-band topology observed at designer video3:03,3:23,3:48,4:08 and4:18.",
+    "assumption": "Band loops represented as line segments. Junction Z, routing at tie points, rest lengths and constitutive law unmeasured. The default midpoint is a display parameter, not a static equilibrium solution."
+  },
+  "motion_study": {
+    "stroke_values_mm": [
+      0,
+      15,
+      30,
+      45,
+      60
+    ],
+    "status": "Illustrative user-approved assumed travel. Not measured travel, recommended maximum, or energy optimization."
+  },
+  "membrane_area_requirements_60mm": {
+    "stroke_mm": 60,
+    "flat_annular_area_mm2": 41640.84841913079,
+    "cone_envelope_area_mm2": 48983.734237078126,
+    "area_ratio": 1.1763385256716778,
+    "minimum_extra_area_fraction": 0.17633852567167785,
+    "meridian_length_mm": 113.93226812843673,
+    "extra_meridian_length_mm": 17.078968128436728,
+    "meaning": "Necessary geometric slack/strain bound for the idealized cone, not a recovered bag pattern or constitutive proof. Source bag wrinkles/slack are unmeasured."
+  },
+  "remaining_checks": [
+    "Central snap fit contact/deformation",
+    "Rear clamp bead snap insertion/removal deformation",
+    "Sight sweep against assembled rail/shell",
+    "Actual film slack/thickness and band properties"
+  ]
+}

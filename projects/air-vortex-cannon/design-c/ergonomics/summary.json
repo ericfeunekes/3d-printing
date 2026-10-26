@@ -1,0 +1,630 @@
+{
+  "verification": {
+    "sensitivity_rows": 1944,
+    "max_relocation_identity_error_Nmm": 7.673861546209082e-13,
+    "max_fixed_root_invariance_error_Nmm": 9.094947017729282e-13,
+    "max_retained_mount_reaction_change_N": 7.105427357601002e-15,
+    "published_inputs_unchanged_during_run": true
+  },
+  "prior_replay": {
+    "cases": 14,
+    "max_hand_moment_difference_Nmm": 0.0,
+    "max_external_wrench_difference_mixed_N_Nmm": 0.0,
+    "max_stored_mount_equilibrium_residual_mixed_N_Nmm": 8.003553375601768e-11,
+    "scope": "Algebraic replay only; prior scripts and files are unchanged"
+  },
+  "nominal20N": [
+    {
+      "variant": "same_height_0",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -2.9257744000000003,
+      "abs_hand_Cx_Nm": 2.9257744000000003,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "same_height_15",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0140644,
+      "abs_hand_Cx_Nm": 3.0140644,
+      "signed_delta_Cx_Nm": -0.08828999999999997,
+      "absolute_couple_reduction_Nm": -0.08828999999999997,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "same_height_30",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1023544000000003,
+      "abs_hand_Cx_Nm": 3.1023544000000003,
+      "signed_delta_Cx_Nm": -0.17657999999999993,
+      "absolute_couple_reduction_Nm": -0.17657999999999993,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "same_height_45",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1906444,
+      "abs_hand_Cx_Nm": 3.1906444,
+      "signed_delta_Cx_Nm": -0.2648699999999999,
+      "absolute_couple_reduction_Nm": -0.2648699999999999,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "cone_slope_0",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -2.9257744000000003,
+      "abs_hand_Cx_Nm": 2.9257744000000003,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "cone_slope_15",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0429105538461534,
+      "abs_hand_Cx_Nm": 3.0429105538461534,
+      "signed_delta_Cx_Nm": -0.11713615384615332,
+      "absolute_couple_reduction_Nm": -0.11713615384615332,
+      "fixed_root_Cx_Nm": -2.0942775404700056
+    },
+    {
+      "variant": "cone_slope_30",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1600467076923078,
+      "abs_hand_Cx_Nm": 3.1600467076923078,
+      "signed_delta_Cx_Nm": -0.23427230769230756,
+      "absolute_couple_reduction_Nm": -0.23427230769230756,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "cone_slope_45",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.2771828615384617,
+      "abs_hand_Cx_Nm": 3.2771828615384617,
+      "signed_delta_Cx_Nm": -0.35140846153846134,
+      "absolute_couple_reduction_Nm": -0.35140846153846134,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "rear15_drop1p5",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0440644000000003,
+      "abs_hand_Cx_Nm": 3.0440644000000003,
+      "signed_delta_Cx_Nm": -0.11828999999999996,
+      "absolute_couple_reduction_Nm": -0.11828999999999996,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "rear30_drop3",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1623544000000003,
+      "abs_hand_Cx_Nm": 3.1623544000000003,
+      "signed_delta_Cx_Nm": -0.23657999999999993,
+      "absolute_couple_reduction_Nm": -0.23657999999999993,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "rear30_drop10_source_pin",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.3023544,
+      "abs_hand_Cx_Nm": 3.3023544,
+      "signed_delta_Cx_Nm": -0.3765799999999999,
+      "absolute_couple_reduction_Nm": -0.3765799999999999,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "rear30_drop20_B_hardware",
+      "load_case": "axial20",
+      "gravity_factor": -1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.5023544,
+      "abs_hand_Cx_Nm": 3.5023544,
+      "signed_delta_Cx_Nm": -0.57658,
+      "absolute_couple_reduction_Nm": -0.57658,
+      "fixed_root_Cx_Nm": -2.094277540470006
+    },
+    {
+      "variant": "same_height_0",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1,
+      "abs_hand_Cx_Nm": 3.1,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "same_height_15",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1,
+      "abs_hand_Cx_Nm": 3.1,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "same_height_30",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1,
+      "abs_hand_Cx_Nm": 3.1,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "same_height_45",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1,
+      "abs_hand_Cx_Nm": 3.1,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "cone_slope_0",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1,
+      "abs_hand_Cx_Nm": 3.1,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "cone_slope_15",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1288461538461534,
+      "abs_hand_Cx_Nm": 3.1288461538461534,
+      "signed_delta_Cx_Nm": -0.028846153846153355,
+      "absolute_couple_reduction_Nm": -0.028846153846153355,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "cone_slope_30",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1576923076923076,
+      "abs_hand_Cx_Nm": 3.1576923076923076,
+      "signed_delta_Cx_Nm": -0.05769230769230762,
+      "absolute_couple_reduction_Nm": -0.05769230769230762,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "cone_slope_45",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1865384615384613,
+      "abs_hand_Cx_Nm": 3.1865384615384613,
+      "signed_delta_Cx_Nm": -0.08653846153846144,
+      "absolute_couple_reduction_Nm": -0.08653846153846144,
+      "fixed_root_Cx_Nm": -2.1415450363170763
+    },
+    {
+      "variant": "rear15_drop1p5",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.13,
+      "abs_hand_Cx_Nm": 3.13,
+      "signed_delta_Cx_Nm": -0.03,
+      "absolute_couple_reduction_Nm": -0.03,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "rear30_drop3",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.16,
+      "abs_hand_Cx_Nm": 3.16,
+      "signed_delta_Cx_Nm": -0.06,
+      "absolute_couple_reduction_Nm": -0.06,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "rear30_drop10_source_pin",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.3,
+      "abs_hand_Cx_Nm": 3.3,
+      "signed_delta_Cx_Nm": -0.2,
+      "absolute_couple_reduction_Nm": -0.2,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "rear30_drop20_B_hardware",
+      "load_case": "axial20",
+      "gravity_factor": 0,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        -0.0,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.5,
+      "abs_hand_Cx_Nm": 3.5,
+      "signed_delta_Cx_Nm": -0.4,
+      "absolute_couple_reduction_Nm": -0.4,
+      "fixed_root_Cx_Nm": -2.141545036317076
+    },
+    {
+      "variant": "same_height_0",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.2742256,
+      "abs_hand_Cx_Nm": 3.2742256,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.188812532164146
+    },
+    {
+      "variant": "same_height_15",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1859355999999996,
+      "abs_hand_Cx_Nm": 3.1859355999999996,
+      "signed_delta_Cx_Nm": 0.08828999999999997,
+      "absolute_couple_reduction_Nm": 0.08828999999999997,
+      "fixed_root_Cx_Nm": -2.188812532164146
+    },
+    {
+      "variant": "same_height_30",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0976456,
+      "abs_hand_Cx_Nm": 3.0976456,
+      "signed_delta_Cx_Nm": 0.17657999999999993,
+      "absolute_couple_reduction_Nm": 0.17657999999999993,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "same_height_45",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0093555999999997,
+      "abs_hand_Cx_Nm": 3.0093555999999997,
+      "signed_delta_Cx_Nm": 0.2648699999999999,
+      "absolute_couple_reduction_Nm": 0.2648699999999999,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "cone_slope_0",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.2742256,
+      "abs_hand_Cx_Nm": 3.2742256,
+      "signed_delta_Cx_Nm": 0.0,
+      "absolute_couple_reduction_Nm": 0.0,
+      "fixed_root_Cx_Nm": -2.188812532164146
+    },
+    {
+      "variant": "cone_slope_15",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.214781753846153,
+      "abs_hand_Cx_Nm": 3.214781753846153,
+      "signed_delta_Cx_Nm": 0.05944384615384661,
+      "absolute_couple_reduction_Nm": 0.05944384615384661,
+      "fixed_root_Cx_Nm": -2.188812532164146
+    },
+    {
+      "variant": "cone_slope_30",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1553379076923074,
+      "abs_hand_Cx_Nm": 3.1553379076923074,
+      "signed_delta_Cx_Nm": 0.1188876923076923,
+      "absolute_couple_reduction_Nm": 0.1188876923076923,
+      "fixed_root_Cx_Nm": -2.188812532164146
+    },
+    {
+      "variant": "cone_slope_45",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.0958940615384614,
+      "abs_hand_Cx_Nm": 3.0958940615384614,
+      "signed_delta_Cx_Nm": 0.17833153846153846,
+      "absolute_couple_reduction_Nm": 0.17833153846153846,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "rear15_drop1p5",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.2159356,
+      "abs_hand_Cx_Nm": 3.2159356,
+      "signed_delta_Cx_Nm": 0.05828999999999997,
+      "absolute_couple_reduction_Nm": 0.05828999999999997,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "rear30_drop3",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.1576456,
+      "abs_hand_Cx_Nm": 3.1576456,
+      "signed_delta_Cx_Nm": 0.11657999999999993,
+      "absolute_couple_reduction_Nm": 0.11657999999999993,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "rear30_drop10_source_pin",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.2976455999999996,
+      "abs_hand_Cx_Nm": 3.2976455999999996,
+      "signed_delta_Cx_Nm": -0.023420000000000073,
+      "absolute_couple_reduction_Nm": -0.023420000000000073,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    },
+    {
+      "variant": "rear30_drop20_B_hardware",
+      "load_case": "axial20",
+      "gravity_factor": 1,
+      "mass_kg": 0.6,
+      "com_z_mm": 140,
+      "hand_force_xyz_N": [
+        -0.0,
+        5.886,
+        -20.0
+      ],
+      "signed_hand_Cx_Nm": -3.4976456,
+      "abs_hand_Cx_Nm": 3.4976456,
+      "signed_delta_Cx_Nm": -0.22342000000000006,
+      "absolute_couple_reduction_Nm": -0.22342000000000006,
+      "fixed_root_Cx_Nm": -2.1888125321641465
+    }
+  ]
+}

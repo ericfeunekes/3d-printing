@@ -1,0 +1,42 @@
+{
+  "scope": "Method regression: rejected pure-X containment degeneracy at annular washer end-face plane",
+  "truth_basis": "Selected points lie strictly inside an infinite axial cylinder free of every actual washer surface triangle. Closed washer volume cannot fill this cylinder; it reaches unbounded exterior along its axis.",
+  "current_method": "Two independent paired oblique lines; all4rays must agree, else original-library signed-query fallback.",
+  "manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+  "cases": [
+    {
+      "joint": "bottom-front",
+      "analytical_actual_mesh_hole_radius_lower_bound_mm": 2.649473087271159,
+      "pure_X_false_inside_queries_strictly_in_open_hole": 69,
+      "maximum_false_pure_X_penetration_mm": 0.6498732460826725,
+      "maximum_selected_point_radius_mm": 2.500003092163918,
+      "minimum_corrected_outside_distance_mm": 0.14996468074726196,
+      "corrected_vs_original_library_max_difference_mm": 0.0,
+      "four_oblique_ray_disagreement_fallbacks": 0,
+      "all_selected_queries_correctly_outside": true
+    },
+    {
+      "joint": "bottom-middle",
+      "analytical_actual_mesh_hole_radius_lower_bound_mm": 2.6494695927155902,
+      "pure_X_false_inside_queries_strictly_in_open_hole": 83,
+      "maximum_false_pure_X_penetration_mm": 0.649879254628103,
+      "maximum_selected_point_radius_mm": 2.500005729284605,
+      "minimum_corrected_outside_distance_mm": 0.1499594259798637,
+      "corrected_vs_original_library_max_difference_mm": 0.0,
+      "four_oblique_ray_disagreement_fallbacks": 0,
+      "all_selected_queries_correctly_outside": true
+    },
+    {
+      "joint": "bottom-rear",
+      "analytical_actual_mesh_hole_radius_lower_bound_mm": 2.6494691354250532,
+      "pure_X_false_inside_queries_strictly_in_open_hole": 63,
+      "maximum_false_pure_X_penetration_mm": 0.6498760124977156,
+      "maximum_selected_point_radius_mm": 2.5000066782893757,
+      "minimum_corrected_outside_distance_mm": 0.14995858389347674,
+      "corrected_vs_original_library_max_difference_mm": 0.0,
+      "four_oblique_ray_disagreement_fallbacks": 0,
+      "all_selected_queries_correctly_outside": true
+    }
+  ],
+  "passed": true
+}

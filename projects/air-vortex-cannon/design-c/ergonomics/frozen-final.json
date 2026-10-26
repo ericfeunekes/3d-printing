@@ -1,0 +1,69 @@
+{
+  "status": "Frozen ergonomics supplement; final provenance and history-safe reproduction instructions",
+  "date_UTC": "2026-10-26",
+  "accepted_lower_manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+  "accepted_handle_validation_sha256": "a8b2b08bc3abdf7c117a8c700e451d0964bcb3a0a75da08495774d65039cc708",
+  "original_joint_screen_sha256_preserved": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+  "original_hand_results_sha256_preserved": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+  "previous_freeze_sha256": "b80af196911f668f3a58ea9694e0f697c4e7e8964937a06eafa1f5c098db3a50",
+  "previous_freeze_record": {
+    "status": "Frozen ergonomics supplement after explicit joint and handle metadata rebaselines",
+    "date_UTC": "2026-10-26",
+    "accepted_lower_manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+    "accepted_handle_validation_sha256": "a8b2b08bc3abdf7c117a8c700e451d0964bcb3a0a75da08495774d65039cc708",
+    "original_joint_screen_sha256_preserved": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+    "original_hand_results_sha256_preserved": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+    "previous_freeze_sha256": "e50fcb4639daec58285edf9b3ede3778b001af72849e8a7d1f29fbaafbe2f618",
+    "previous_freeze_record": {
+      "status": "Frozen ergonomics supplement after explicit metadata-only C manifest rebaseline",
+      "date_UTC": "2026-10-26",
+      "accepted_lower_manifest_sha256": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+      "original_joint_screen_sha256_preserved": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+      "artifact_sha256": {
+        "design-c/ergonomics/README.md": "a4e09ae9bace3ba6bac7dc23481438b3ef10e37a2dfab189afadd82a62bc1dfe",
+        "design-c/ergonomics/analyze_handle_position.py": "ca3debfc54a551fe43f6ea5fe6ee267e46e09130ba676b3acc13f9272233b7d5",
+        "design-c/ergonomics/audit.md": "d45cc6f78dfd5d144ac62b58f5ae356a619269a31198fac292d767c8f7d52bfd",
+        "design-c/ergonomics/final-lower-joint-demand-screen.json": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+        "design-c/ergonomics/handle-position-comparison.png": "b09f9cec772a82fc584b4e4674a59ee00c50e57ac0d74281d652c6ad59bed41e",
+        "design-c/ergonomics/joint-screen-semantic-rebaseline.json": "1556cda49e73a17924ca8e2d6f97e11e9f24de86c30fa3998f053dd192081902",
+        "design-c/ergonomics/parameters.json": "be52f84fea88be33c644e933fca0763164b2de2b8ed1b548f8a95b9201bf41b5",
+        "design-c/ergonomics/rebaseline_joint_screen.py": "6e8f7f14a390c10bad06e493df47bbf0a2acaf249ea7c318d57c62981edb7dce",
+        "design-c/ergonomics/results.json": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+        "design-c/ergonomics/screen_final_lower_joints.py": "9ed7b74e85e78dd006af190d2ed4c73935240935152d3585268ecac98e9b80dc",
+        "design-c/ergonomics/stock-geometric-centroid.json": "2ccb8ac8b0ad5ebd28f8c1be67d88450e331bc4ddf86bea8af30df8bc1aa6692",
+        "design-c/ergonomics/stock_geometric_centroid.py": "e6a7667cd478ce593a92e0e951151e03946d4c9f00bb62899a678c1489c25e4b",
+        "design-c/ergonomics/summary.json": "79fdc957b79513b78fc749720bb6f2ae48cc17d8ec62054c54526079d9e5fb94"
+      }
+    },
+    "artifact_sha256": {
+      "design-c/ergonomics/README.md": "883c46f5198a0f03536e82627544782bd6030b74a73de1324b206763101cdb72",
+      "design-c/ergonomics/analyze_handle_position.py": "ca3debfc54a551fe43f6ea5fe6ee267e46e09130ba676b3acc13f9272233b7d5",
+      "design-c/ergonomics/audit.md": "8bce8f3af7d2f5e8acea6e1d7360859777d286edf36255dbaa1d15a55b0323ff",
+      "design-c/ergonomics/final-lower-joint-demand-screen.json": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+      "design-c/ergonomics/handle-position-comparison.png": "b09f9cec772a82fc584b4e4674a59ee00c50e57ac0d74281d652c6ad59bed41e",
+      "design-c/ergonomics/joint-screen-semantic-rebaseline.json": "57c378a4f24793c370679dae9f6551bd0d6ba5992230c13b8ea06b0edba147a2",
+      "design-c/ergonomics/parameters.json": "be52f84fea88be33c644e933fca0763164b2de2b8ed1b548f8a95b9201bf41b5",
+      "design-c/ergonomics/rebaseline_joint_screen.py": "b93ce69c8c2251428526b596340c167a16890939ffc44c65a26f3f7778a022c8",
+      "design-c/ergonomics/results.json": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+      "design-c/ergonomics/screen_final_lower_joints.py": "9ed7b74e85e78dd006af190d2ed4c73935240935152d3585268ecac98e9b80dc",
+      "design-c/ergonomics/stock-geometric-centroid.json": "2ccb8ac8b0ad5ebd28f8c1be67d88450e331bc4ddf86bea8af30df8bc1aa6692",
+      "design-c/ergonomics/stock_geometric_centroid.py": "e6a7667cd478ce593a92e0e951151e03946d4c9f00bb62899a678c1489c25e4b",
+      "design-c/ergonomics/summary.json": "79fdc957b79513b78fc749720bb6f2ae48cc17d8ec62054c54526079d9e5fb94"
+    }
+  },
+  "artifact_sha256": {
+    "design-c/ergonomics/README.md": "2b6473f66bfe5e4a18fdca18db1a3f4db768bee9ca8fd2758fb0f2ce435f826a",
+    "design-c/ergonomics/analyze_handle_position.py": "ca3debfc54a551fe43f6ea5fe6ee267e46e09130ba676b3acc13f9272233b7d5",
+    "design-c/ergonomics/audit.md": "b219bb845b6d7aa2cbadf266bd5897105e29e731b3a55b7065b9795f91a2e844",
+    "design-c/ergonomics/final-lower-joint-demand-screen.json": "2d1b8edafa7af5be1dec0220523da2ba15ae809cfbcb5486428f7b4c60746146",
+    "design-c/ergonomics/handle-position-comparison.png": "b09f9cec772a82fc584b4e4674a59ee00c50e57ac0d74281d652c6ad59bed41e",
+    "design-c/ergonomics/joint-screen-semantic-rebaseline.json": "57c378a4f24793c370679dae9f6551bd0d6ba5992230c13b8ea06b0edba147a2",
+    "design-c/ergonomics/parameters.json": "be52f84fea88be33c644e933fca0763164b2de2b8ed1b548f8a95b9201bf41b5",
+    "design-c/ergonomics/rebaseline_joint_screen.py": "b93ce69c8c2251428526b596340c167a16890939ffc44c65a26f3f7778a022c8",
+    "design-c/ergonomics/results.json": "7c12c53663195190373cdd19b4a040f20e2c66e359ff15ce00ee204b39a775be",
+    "design-c/ergonomics/screen_final_lower_joints.py": "9ed7b74e85e78dd006af190d2ed4c73935240935152d3585268ecac98e9b80dc",
+    "design-c/ergonomics/stock-geometric-centroid.json": "2ccb8ac8b0ad5ebd28f8c1be67d88450e331bc4ddf86bea8af30df8bc1aa6692",
+    "design-c/ergonomics/stock_geometric_centroid.py": "e6a7667cd478ce593a92e0e951151e03946d4c9f00bb62899a678c1489c25e4b",
+    "design-c/ergonomics/summary.json": "79fdc957b79513b78fc749720bb6f2ae48cc17d8ec62054c54526079d9e5fb94"
+  }
+}

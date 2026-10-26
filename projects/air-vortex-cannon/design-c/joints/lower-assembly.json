@@ -1,0 +1,1210 @@
+{
+  "name": "Revision C lower-three conical-collar candidate",
+  "units": "mm",
+  "source_datum_revision": 2,
+  "spec": {
+    "collar_footprint_mm": [
+      32.0,
+      24.0
+    ],
+    "collar_corner_radius_mm": 5.0,
+    "collar_inward_depth_mm": 2.5,
+    "collar_source_overlap_mm": 0.3,
+    "collar_aperture_mm": [
+      15.6,
+      7.8
+    ],
+    "collar_aperture_corner_radius_mm": 3.5,
+    "adapter_footprint_mm": [
+      30.0,
+      22.0
+    ],
+    "adapter_corner_radius_mm": 4.0,
+    "adapter_flat_washer_seat_z_mm": -7.1,
+    "adapter_center_thickness_mm": 4.55,
+    "conforming_face_normal_clearance_mm": 0.05,
+    "key_mm": [
+      15.0,
+      7.4
+    ],
+    "key_corner_radius_mm": 3.5,
+    "key_outer_end_original_frame_mm": 10.9,
+    "bore_diameter_mm": 5.4,
+    "shoulder_diameter_mm": 5.0,
+    "shoulder_length_mm": 20.0,
+    "thread_M4_length_mm": 8.0,
+    "inner_washer_mm": [
+      5.3,
+      15.0,
+      1.2
+    ],
+    "outer_washer_mm": [
+      4.3,
+      12.0,
+      1.6
+    ],
+    "nut_mm": {
+      "across_flats": 7.0,
+      "height": 5.0
+    },
+    "assumed_stack_errors_mm": {
+      "adapter_thickness": 0.15,
+      "collar_position": 0.15,
+      "rail_stack": 0.1,
+      "inner_washer_thickness": 0.1
+    },
+    "manufacturer_shoulder_length_tolerance_mm": [
+      0.0,
+      0.25
+    ]
+  },
+  "joints": [
+    {
+      "id": "bottom-front",
+      "shell_object": 6,
+      "rail_object": 4,
+      "replaced_pin_object": 14,
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -95.51702701629709
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.091554479143234
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "surface_center_mm": [
+        0.0,
+        -95.51702701629709,
+        61.091554479143234
+      ],
+      "stock_grip_mm": 11.018602833699973,
+      "bolt_underhead_local_z_mm": -8.299999999999999,
+      "head_inner_face_local_z_mm": -12.299999999999999,
+      "outer_washer_local_z_mm": 11.700000000000001,
+      "nut_outer_face_local_z_mm": 18.3,
+      "nominal_capture_gap_mm": 0.6813971663000284,
+      "conditional_capture_gap_bounds_mm": [
+        0.18139716630002845,
+        1.4313971663000284
+      ],
+      "key_recess_at_outer_datum_mm": 0.11860283369997227,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "adapter_min_sampled_body_thickness_mm": 3.910350179672241,
+      "conforming_face_nominal_normal_gap_mm": 0.05,
+      "adapter_print_path": "design-c/joints/print/bottom-front-conforming-keyed-adapter.stl",
+      "adapter_print_local_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          15.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adapter_print_extents_mm": [
+        30.0,
+        22.0,
+        17.999999904632567
+      ],
+      "key_to_collar_clearance_per_face_mm": {
+        "axial": 0.3,
+        "circumferential": 0.2
+      },
+      "source_slot_min_about_mm": [
+        16.0,
+        8.0
+      ],
+      "source_aperture_cut": false,
+      "conical_source_probe": {
+        "probe_count": 134,
+        "analytic_cone_to_source_inner_ray_hit_signed_range_mm": [
+          -0.002952054377814126,
+          -3.4355306464281916e-05
+        ],
+        "max_absolute_signed_surface_residual_mm": 0.002952054377814126,
+        "basis": "First outward ray contact on original triangulated source shell; points span collar footprint outside aperture. Conical inference, not exact source BREP."
+      },
+      "exact_boolean_fit": {
+        "adapter_vs_original_shell_intersection_mm3": 0.0,
+        "adapter_vs_original_handle_intersection_mm3": 0.0,
+        "adapter_vs_reinforced_shell_intersection_mm3": 0.0,
+        "adapter_vs_collar_intersection_mm3": 0.0
+      },
+      "source_aperture_cut_qualification": "False means no deliberate source aperture recut. Entire final shell mesh undergoes numerical Boolean simplification/STL cleanup; source and exported surfaces are not mathematically identical.",
+      "conforming_face_nominal_gap_qualification": "0.05mm is the native CAD design gap, not a uniform exported-STL clearance. Independent mesh first-overlap probes along outward normal are approximately0.0138/0.0133/0.0163mm(front/middle/rear); no overlap at rest. Independent tessellation and STL serialization change the curved-face envelope. Physical fit remains untested."
+    },
+    {
+      "id": "bottom-middle",
+      "shell_object": 8,
+      "rail_object": 4,
+      "replaced_pin_object": 15,
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -108.29484746716973
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.31258572317003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "surface_center_mm": [
+        0.0,
+        -108.29484746716973,
+        143.31258572317003
+      ],
+      "stock_grip_mm": 11.007826062317633,
+      "bolt_underhead_local_z_mm": -8.299999999999999,
+      "head_inner_face_local_z_mm": -12.299999999999999,
+      "outer_washer_local_z_mm": 11.700000000000001,
+      "nut_outer_face_local_z_mm": 18.3,
+      "nominal_capture_gap_mm": 0.6921739376823677,
+      "conditional_capture_gap_bounds_mm": [
+        0.19217393768236768,
+        1.4421739376823677
+      ],
+      "key_recess_at_outer_datum_mm": 0.10782606231763303,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "adapter_min_sampled_body_thickness_mm": 3.9869879245758053,
+      "conforming_face_nominal_normal_gap_mm": 0.05,
+      "adapter_print_path": "design-c/joints/print/bottom-middle-conforming-keyed-adapter.stl",
+      "adapter_print_local_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          15.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adapter_print_extents_mm": [
+        30.0,
+        22.0,
+        17.999999904632567
+      ],
+      "key_to_collar_clearance_per_face_mm": {
+        "axial": 0.3,
+        "circumferential": 0.2
+      },
+      "source_slot_min_about_mm": [
+        16.0,
+        8.0
+      ],
+      "source_aperture_cut": false,
+      "conical_source_probe": {
+        "probe_count": 134,
+        "analytic_cone_to_source_inner_ray_hit_signed_range_mm": [
+          -0.005716576791035629,
+          5.073854752522868e-06
+        ],
+        "max_absolute_signed_surface_residual_mm": 0.005716576791035629,
+        "basis": "First outward ray contact on original triangulated source shell; points span collar footprint outside aperture. Conical inference, not exact source BREP."
+      },
+      "exact_boolean_fit": {
+        "adapter_vs_original_shell_intersection_mm3": 0.0,
+        "adapter_vs_original_handle_intersection_mm3": 0.0,
+        "adapter_vs_reinforced_shell_intersection_mm3": 0.0,
+        "adapter_vs_collar_intersection_mm3": 0.0
+      },
+      "source_aperture_cut_qualification": "False means no deliberate source aperture recut. Entire final shell mesh undergoes numerical Boolean simplification/STL cleanup; source and exported surfaces are not mathematically identical.",
+      "conforming_face_nominal_gap_qualification": "0.05mm is the native CAD design gap, not a uniform exported-STL clearance. Independent mesh first-overlap probes along outward normal are approximately0.0138/0.0133/0.0163mm(front/middle/rear); no overlap at rest. Independent tessellation and STL serialization change the curved-face envelope. Physical fit remains untested."
+    },
+    {
+      "id": "bottom-rear",
+      "shell_object": 7,
+      "rail_object": 4,
+      "replaced_pin_object": 16,
+      "adapter_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -117.41988096409457
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.5043736371004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "outward_axis": [
+        0.0,
+        -0.9954090291002812,
+        -0.0957124066442578
+      ],
+      "surface_center_mm": [
+        -0.24357605,
+        -117.41988096409457,
+        191.5043736371004
+      ],
+      "stock_grip_mm": 11.008040361768053,
+      "bolt_underhead_local_z_mm": -8.299999999999999,
+      "head_inner_face_local_z_mm": -12.299999999999999,
+      "outer_washer_local_z_mm": 11.700000000000001,
+      "nut_outer_face_local_z_mm": 18.3,
+      "nominal_capture_gap_mm": 0.691959638231948,
+      "conditional_capture_gap_bounds_mm": [
+        0.19195963823194795,
+        1.441959638231948
+      ],
+      "key_recess_at_outer_datum_mm": 0.10804036176805276,
+      "thread_beyond_nut_nominal_mm": 1.4000000000000004,
+      "adapter_min_sampled_body_thickness_mm": 4.0083154201507565,
+      "conforming_face_nominal_normal_gap_mm": 0.05,
+      "adapter_print_path": "design-c/joints/print/bottom-rear-conforming-keyed-adapter.stl",
+      "adapter_print_local_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          15.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.1
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "adapter_print_extents_mm": [
+        30.0,
+        22.0,
+        17.999999904632567
+      ],
+      "key_to_collar_clearance_per_face_mm": {
+        "axial": 0.3,
+        "circumferential": 0.2
+      },
+      "source_slot_min_about_mm": [
+        16.0,
+        8.0
+      ],
+      "source_aperture_cut": false,
+      "conical_source_probe": {
+        "probe_count": 134,
+        "analytic_cone_to_source_inner_ray_hit_signed_range_mm": [
+          -0.007702843438212626,
+          -0.00040532567775490206
+        ],
+        "max_absolute_signed_surface_residual_mm": 0.007702843438212626,
+        "basis": "First outward ray contact on original triangulated source shell; points span collar footprint outside aperture. Conical inference, not exact source BREP."
+      },
+      "exact_boolean_fit": {
+        "adapter_vs_original_shell_intersection_mm3": 0.0,
+        "adapter_vs_original_handle_intersection_mm3": 0.0,
+        "adapter_vs_reinforced_shell_intersection_mm3": 0.0,
+        "adapter_vs_collar_intersection_mm3": 0.0
+      },
+      "source_aperture_cut_qualification": "False means no deliberate source aperture recut. Entire final shell mesh undergoes numerical Boolean simplification/STL cleanup; source and exported surfaces are not mathematically identical.",
+      "conforming_face_nominal_gap_qualification": "0.05mm is the native CAD design gap, not a uniform exported-STL clearance. Independent mesh first-overlap probes along outward normal are approximately0.0138/0.0133/0.0163mm(front/middle/rear); no overlap at rest. Independent tessellation and STL serialization change the curved-face envelope. Physical fit remains untested."
+    }
+  ],
+  "components": [
+    {
+      "joint": "bottom-front",
+      "name": "conforming-keyed-adapter",
+      "path": "design-c/joints/assembled/bottom-front--conforming-keyed-adapter.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -95.51702701629709
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.091554479143234
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": true,
+      "material": "printed PETG candidate"
+    },
+    {
+      "joint": "bottom-front",
+      "name": "shoulder-bolt-reference",
+      "path": "design-c/joints/assembled/bottom-front--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -87.25513207476476
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.88596745429057
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-front",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-front--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -87.25513207476476
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.88596745429057
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-front",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-front--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -107.16331265677039
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          59.971719321405416
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-front",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-c/joints/assembled/bottom-front--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -108.75596710333083
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          59.81857947077461
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "conforming-keyed-adapter",
+      "path": "design-c/joints/assembled/bottom-middle--conforming-keyed-adapter.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -108.29484746716973
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.31258572317003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": true,
+      "material": "printed PETG candidate"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "shoulder-bolt-reference",
+      "path": "design-c/joints/assembled/bottom-middle--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -100.0329525256374
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.10699869831737
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-middle--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -100.0329525256374
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          144.10699869831737
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-middle--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -119.94113310764303
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.19275056543222
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-c/joints/assembled/bottom-middle--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -121.53378755420347
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          142.0396107148014
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "conforming-keyed-adapter",
+      "path": "design-c/joints/assembled/bottom-rear--conforming-keyed-adapter.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -117.41988096409457
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.5043736371004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": true,
+      "material": "printed PETG candidate"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "shoulder-bolt-reference",
+      "path": "design-c/joints/assembled/bottom-rear--shoulder-bolt-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -109.15798602256224
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.29878661224774
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "inner-M5-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-rear--inner-M5-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -109.15798602256224
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          192.29878661224774
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "outer-M4-wide-washer-reference",
+      "path": "design-c/joints/assembled/bottom-rear--outer-M4-wide-washer-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -129.06616660456785
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.3845384793626
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "M4-nyloc-envelope-reference",
+      "path": "design-c/joints/assembled/bottom-rear--M4-nyloc-envelope-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -130.6588210511283
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          190.23139862873177
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "purchased metal reference, DO NOT PRINT"
+    }
+  ],
+  "collar_reference_components": [
+    {
+      "joint": "bottom-front",
+      "name": "continuous-collar-reference",
+      "path": "design-c/joints/assembled/bottom-front--continuous-collar-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -95.51702701629709
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          61.091554479143234
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "integrated portion of replacement shell; NOT a loose saddle or separate print"
+    },
+    {
+      "joint": "bottom-middle",
+      "name": "continuous-collar-reference",
+      "path": "design-c/joints/assembled/bottom-middle--continuous-collar-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -108.29484746716973
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          143.31258572317003
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "integrated portion of replacement shell; NOT a loose saddle or separate print"
+    },
+    {
+      "joint": "bottom-rear",
+      "name": "continuous-collar-reference",
+      "path": "design-c/joints/assembled/bottom-rear--continuous-collar-reference.stl",
+      "matrix_local_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -0.24357605
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -117.41988096409457
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          191.5043736371004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "manufactured_here": false,
+      "material": "integrated portion of replacement shell; NOT a loose saddle or separate print"
+    }
+  ],
+  "replacement_shells": [
+    {
+      "source_id": 6,
+      "path": "design-c/joints/reinforced-shells/lower-only-shell-6-assembled.stl",
+      "print_path": "design-c/joints/print/lower-only-shell-6.stl",
+      "source_mesh_path": "assembly-study/parts/assembled-06.stl",
+      "source_sha256": "81a51607a8ca5d18506134c15b63dfd2a79ae3c256fa78ac8783f467cb9f7312",
+      "source_subtraction_mm3": 9.22532332242511e-06,
+      "continuous_collar_source_overlap_mm3": 173.91678352338252,
+      "added_volume_mm3": 1605.1658626913559,
+      "print_extents_mm": [
+        203.75537109375,
+        203.75537109375,
+        87.66667172939455
+      ],
+      "print_transform_assembly_to_print": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_orientation": "Original source shell orientation; open cone axis vertical; no support-free claim for inward collar ledge",
+      "top_geometry": "No deliberately redesigned top slot/wall, upper collar or aperture cut. Whole-mesh simplify(.002mm) and float32 STL serialization alter tiny source facets; actual exported upper-half difference and sampled surface residuals are recorded separately. Not mathematical surface identity.",
+      "roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "print_roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "source_subtraction_measurement_stage": "Pre-simplification union diagnostic only; not the final STL source-difference measurement. No deliberate source subtraction operation is used.",
+      "post_export_source_removed_mm3": 0.731357410940867,
+      "post_export_upper_half_symmetric_difference_mm3": 0.9073849804415703,
+      "upper_source_vertex_to_export_sampled_max_distance_mm": 0.0030117537665542617,
+      "upper_source_vertex_to_export_sample_count": 47051,
+      "upper_export_vertex_to_source_sampled_max_distance_mm": 0.0,
+      "upper_export_vertex_to_source_sample_count": 19905
+    },
+    {
+      "source_id": 8,
+      "path": "design-c/joints/reinforced-shells/lower-only-shell-8-assembled.stl",
+      "print_path": "design-c/joints/print/lower-only-shell-8.stl",
+      "source_mesh_path": "assembly-study/parts/assembled-08.stl",
+      "source_sha256": "9985942f045aafdd596514771f8b6430167f5e0956046e9a28fef6b301a67903",
+      "source_subtraction_mm3": 1.7489086868351794e-05,
+      "continuous_collar_source_overlap_mm3": 164.98185207259777,
+      "added_volume_mm3": 1614.0682357996266,
+      "print_extents_mm": [
+        229.40487670898438,
+        229.40487670898438,
+        90.22073364257812
+      ],
+      "print_transform_assembly_to_print": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -84.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_orientation": "Original source shell orientation; open cone axis vertical; no support-free claim for inward collar ledge",
+      "top_geometry": "No deliberately redesigned top slot/wall, upper collar or aperture cut. Whole-mesh simplify(.002mm) and float32 STL serialization alter tiny source facets; actual exported upper-half difference and sampled surface residuals are recorded separately. Not mathematical surface identity.",
+      "roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "print_roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "source_subtraction_measurement_stage": "Pre-simplification union diagnostic only; not the final STL source-difference measurement. No deliberate source subtraction operation is used.",
+      "post_export_source_removed_mm3": 0.5811969017922025,
+      "post_export_upper_half_symmetric_difference_mm3": 0.6576780729657341,
+      "upper_source_vertex_to_export_sampled_max_distance_mm": 0.0015076829199519436,
+      "upper_source_vertex_to_export_sample_count": 33195,
+      "upper_export_vertex_to_source_sampled_max_distance_mm": 0.0,
+      "upper_export_vertex_to_source_sample_count": 10839
+    },
+    {
+      "source_id": 7,
+      "path": "design-c/joints/reinforced-shells/lower-only-shell-7-assembled.stl",
+      "print_path": "design-c/joints/print/lower-only-shell-7.stl",
+      "source_mesh_path": "assembly-study/parts/assembled-07.stl",
+      "source_sha256": "a3c3ed576cf4e7adbe50695f70f97fea2aa0bcf98799acadbc232afae6b8d4a9",
+      "source_subtraction_mm3": 5.41144589408498e-06,
+      "continuous_collar_source_overlap_mm3": 166.67717625735025,
+      "added_volume_mm3": 1612.4685986762051,
+      "print_extents_mm": [
+        249.64911651611328,
+        249.64612579345703,
+        88.8896484375
+      ],
+      "print_transform_assembly_to_print": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          -171.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "print_orientation": "Original source shell orientation; open cone axis vertical; no support-free claim for inward collar ledge",
+      "top_geometry": "No deliberately redesigned top slot/wall, upper collar or aperture cut. Whole-mesh simplify(.002mm) and float32 STL serialization alter tiny source facets; actual exported upper-half difference and sampled surface residuals are recorded separately. Not mathematical surface identity.",
+      "roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "print_roundtrip_cleanup": {
+        "duplicate_or_degenerate_faces_removed": 0,
+        "numerical_pinhole_cap_area_mm2": 0.0
+      },
+      "source_subtraction_measurement_stage": "Pre-simplification union diagnostic only; not the final STL source-difference measurement. No deliberate source subtraction operation is used.",
+      "post_export_source_removed_mm3": 0.3696011981092525,
+      "post_export_upper_half_symmetric_difference_mm3": 0.5037401469896923,
+      "upper_source_vertex_to_export_sampled_max_distance_mm": 0.0009857398480348863,
+      "upper_source_vertex_to_export_sample_count": 26034,
+      "upper_export_vertex_to_source_sampled_max_distance_mm": 0.0,
+      "upper_export_vertex_to_source_sample_count": 5520
+    }
+  ],
+  "printed_quantities": {
+    "lower_only_reinforced_shells": 3,
+    "conforming_keyed_adapters": 3
+  },
+  "removed_source_pin_ids": [
+    14,
+    15,
+    16
+  ],
+  "unchanged_upper_source_ids": [
+    3,
+    11,
+    12,
+    13
+  ],
+  "outer_pad_decision": "No outer printed pad: fewer parts. OD12 metal washer remains over the actual curved/recessed handle receiver, with limited bearing patches after free play closes; not broad exterior conformal contact. No washer-strength or prior-FEA transfer claim.",
+  "load_path": "Normal capture: head/inner metal washer -> flat adapter seat -> curved adapter/collar contact after0.05mm nominal face gap closes -> continuous shell. Opposite capture: outer washer/nut -> original rail. Shear: key into smaller reinforced collar opening, then continuous shell; no clamp-friction credit. Nominal collar-edge precedence is small and must survive real print tolerances.",
+  "why_continuous": "Loose curved pads distribute normal pull-through but do not automatically thicken the source1mm slot edge against in-plane shear without justified preload/friction. This collar is manufactured continuously with the replacement shell.",
+  "hardware_stop": "Outer washer ID4.3 < shoulder D5 creates metal stop at end of20mm shoulder. Nut must seat on washer against shoulder, leaving positive plastic capture gap. Physical hardware tolerances, undercut/chamfer/nyloc and locking remain unverified.",
+  "capture_gap_basis": "Dominant outer receiver datum plane; footprint contact travel is separately probed. Stated interval includes the inherited assumed stack errors, not measured printer accuracy.",
+  "source_mutation": "No original source or design-b files written. C lower shells are source-mesh union one added collar each with no deliberate source subtraction or opening recut. Whole-mesh simplify(.002mm) and float32 export cleanup alter tiny facets including the upper half; actual final export differences are recorded per shell.",
+  "print_scope": "Selective STL geometry and proposed orientations only. Actual printer/material/plate/slicer project, supports, layer paths and fit not verified; no print started.",
+  "claim_boundary": "Geometric candidate only; no manufactured strength, fatigue, creep, comfort, airflow, range or safety rating. Existing B load/FE results do not transfer automatically.",
+  "metal_reference_meshes_not_to_print": [
+    "shoulder-bolt-reference",
+    "inner-M5-wide-washer-reference",
+    "outer-M4-wide-washer-reference",
+    "M4-nyloc-envelope-reference"
+  ],
+  "metadata_revision_note": "Metadata correction only: prior source_subtraction_mm3 values measured the pre-simplification union, not final exported shell. Added independent actual-export differences and sampled surface distances; component geometry, poses and hardware stack unchanged. Additional qualification: native0.05mm curved-face gap is not a uniform STL clearance; actual exported normal contact travel is separately probed.",
+  "conforming_face_gap_qualification": "0.05mm is the native CAD design gap, not a uniform exported-STL clearance. Independent mesh first-overlap probes along outward normal are approximately0.0138/0.0133/0.0163mm(front/middle/rear); no overlap at rest. Independent tessellation and STL serialization change the curved-face envelope. Physical fit remains untested."
+}

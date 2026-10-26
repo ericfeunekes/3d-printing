@@ -1,0 +1,1553 @@
+{
+  "units": "mm",
+  "proxy_radii_mm": [
+    32.5,
+    45.0,
+    32.5
+  ],
+  "coordinate_system": "Xhorizontal,Yup,Zrearward",
+  "proof": "For each actual closed obstacle mesh, minimize the Euclidean radius of its triangles after scalingXYZ by 1/radii around grasp. If normalized minimumd>1, obstacle surface is separated from analytic ellipsoid by at least min(radii)*(d-1). A disjoint-surface enclosed obstacle is excluded because its whole surface also hasradius>1; an obstacle enclosing the hand center is excluded by each meshAABB or hollow-bodyradiallocation. Negative signed normalizedmargin reports an actual surface point inside chosenproxy, not exact penetrationdepth.",
+  "hand_limit": "Chosen analytic ellipsoid repeats prior illustrative dimensions. Handle4 intended contact is excluded; allotherstockparts,actualC reinforcedshells and all3Ccaptureassemblies included. No populationcoverage,knucklearticulation,gripforce orcomfortclaim.",
+  "selected_hand_point_mm": [
+    0,
+    -155,
+    110.4
+  ],
+  "optional_hand_point_mm": [
+    0,
+    -175,
+    140.4
+  ],
+  "C_inputs_sha256": {
+    "design-c/joints/reinforced-shells/lower-only-shell-6-assembled.stl": "a5a8bee7d52a524769c5a9cd3ebffd9d86bca00822911af0bba2cf26f787d3a7",
+    "design-c/joints/reinforced-shells/lower-only-shell-8-assembled.stl": "1674ece3b370bc76df8a2f15f266c6b90c6259989de2db5a8b48937e6c46b0d2",
+    "design-c/joints/reinforced-shells/lower-only-shell-7-assembled.stl": "1b9a62fcea3e1fc66acc4e4632e265320423186b8056c1b5cbc8e653dde6b3b6",
+    "design-c/joints/assembled/bottom-rear--M4-nyloc-envelope-reference.stl": "7dafacdbae034085f5836d1dccd2f03d9732e0829ae85dbb59f1d545403c33cd",
+    "design-c/joints/assembled/bottom-rear--shoulder-bolt-reference.stl": "44786798a7a2bd6b69ac38bf0b81cb649edf30ba4ec943421649a0d9a3c024d1",
+    "design-c/joints/assembled/bottom-rear--conforming-keyed-adapter.stl": "1cf7eefe0cfa6446dbad521d65991e01432cec808eee2c408b95a8a5091ee2b4",
+    "design-c/joints/assembled/bottom-middle--inner-M5-wide-washer-reference.stl": "862dc198cbfe89d8f0146608f9214408467e4c687edec77c12eb606752e96a28",
+    "design-c/joints/assembled/bottom-front--M4-nyloc-envelope-reference.stl": "91b6b63d705b6b2b85475328bc2bac26ad2bbd6401455ff41a0002f55e32222a",
+    "design-c/joints/assembled/bottom-middle--shoulder-bolt-reference.stl": "9120a74e85fcba061b30a00322021e49e5577dda4303a365cf0a0027df22728d",
+    "design-c/joints/assembled/bottom-middle--outer-M4-wide-washer-reference.stl": "605f794fc12c3575417de92e5457b5d9abb70cdc8bbe0dc8062de6440af921f2",
+    "design-c/joints/assembled/bottom-front--outer-M4-wide-washer-reference.stl": "377a9e8b09d51114f02809326d4356407b9b4cfd1ffc30d2be02f882ffcb97c4",
+    "design-c/joints/assembled/bottom-rear--outer-M4-wide-washer-reference.stl": "236c1f3aefae7011159fedfa0a8d4aed58e111b6be6a1728bd6e0edf4287d545",
+    "design-c/joints/assembled/bottom-rear--inner-M5-wide-washer-reference.stl": "7ba8982f2c7c0efebd46a3add0c88b87aa2ebaa8e931000f79097846329e98ba",
+    "design-c/joints/assembled/bottom-front--inner-M5-wide-washer-reference.stl": "b620bd9d71f42efe52eff9a307173405e00869dd245f0ca4259a89725bd3325f",
+    "design-c/joints/assembled/bottom-front--conforming-keyed-adapter.stl": "18831090ca94b288be4e962416d48237e1a58c1b1a29fd56234e90f230b758a6",
+    "design-c/joints/assembled/bottom-middle--M4-nyloc-envelope-reference.stl": "ff18ba30b6f1b062c1d12e1d3cff280ea0a7d8c97f3609af00865588a0008f26",
+    "design-c/joints/assembled/bottom-front--shoulder-bolt-reference.stl": "93ec8d3becfdf5bc5ac19feb79be5c5033198945dc933c75bf2133c29e893f4a",
+    "design-c/joints/assembled/bottom-middle--conforming-keyed-adapter.stl": "433fb0b50905f6d313c3b7574ad258ffb6006bd5b396464bad4f7413dc38973d"
+  },
+  "cases": [
+    {
+      "hand_point_mm": [
+        0,
+        -155,
+        110.4
+      ],
+      "obstacles_intersecting_proxy": [],
+      "whole_proxy_minimum_clearance_lower_bound_mm": 1.725793423651224,
+      "checks": [
+        {
+          "obstacle": "source-3",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.692177899071586,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 152.49578171982654,
+          "signed_normalized_margin_times_min_radius_mm": 152.49578171982654,
+          "closest_obstacle_point_mm": [
+            12.5,
+            97.96162262455152,
+            84.1339189577497
+          ]
+        },
+        {
+          "obstacle": "source-11",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.668069505996196,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 151.71225894487637,
+          "signed_normalized_margin_times_min_radius_mm": 151.71225894487637,
+          "closest_obstacle_point_mm": [
+            -2.8189256484623115e-17,
+            94.60394757459301,
+            72.49146090399557
+          ]
+        },
+        {
+          "obstacle": "source-12",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.822818015209152,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 156.74158549429745,
+          "signed_normalized_margin_times_min_radius_mm": 156.74158549429745,
+          "closest_obstacle_point_mm": [
+            0.0,
+            105.24147862734429,
+            132.45348240755985
+          ]
+        },
+        {
+          "obstacle": "source-13",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.365228015238486,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 174.3699104952508,
+          "signed_normalized_margin_times_min_radius_mm": 174.3699104952508,
+          "closest_obstacle_point_mm": [
+            0.12178707132568434,
+            114.37452721349041,
+            180.72862724939168
+          ]
+        },
+        {
+          "obstacle": "source-10",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 4.383631357909464,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 109.96801913205758,
+          "signed_normalized_margin_times_min_radius_mm": 109.96801913205758,
+          "closest_obstacle_point_mm": [
+            3.050703122653431e-05,
+            -117.85330580195313,
+            250.31921195983887
+          ]
+        },
+        {
+          "obstacle": "source-17",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.4392148240450044,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 144.27448178146264,
+          "signed_normalized_margin_times_min_radius_mm": 144.27448178146264,
+          "closest_obstacle_point_mm": [
+            1.4062493391975295e-08,
+            -18.000003797656234,
+            256.88964081273804
+          ]
+        },
+        {
+          "obstacle": "source-5",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.568658348372152,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 148.48139632209492,
+          "signed_normalized_margin_times_min_radius_mm": 148.48139632209492,
+          "closest_obstacle_point_mm": [
+            1.1718725545506459e-08,
+            -17.999999966796878,
+            261.9396407661377
+          ]
+        },
+        {
+          "obstacle": "source-9",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.4508380921469284,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 79.65223799477518,
+          "signed_normalized_margin_times_min_radius_mm": 79.65223799477518,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -1.5,
+            127.36875158774414
+          ]
+        },
+        {
+          "obstacle": "source-2",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.261514894264765,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 170.9992340636049,
+          "signed_normalized_margin_times_min_radius_mm": 170.9992340636049,
+          "closest_obstacle_point_mm": [
+            4.510281037539698e-16,
+            103.54964325687575,
+            29.50664979271062
+          ]
+        },
+        {
+          "obstacle": "source-1",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.30726142258795,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 172.48599623410837,
+          "signed_normalized_margin_times_min_radius_mm": 172.48599623410837,
+          "closest_obstacle_point_mm": [
+            -4.499999974414067,
+            105.2733671112702,
+            28.764656946030925
+          ]
+        },
+        {
+          "obstacle": "C-shell-6",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.3772026589256225,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 12.259086415082733,
+          "signed_normalized_margin_times_min_radius_mm": 12.259086415082733,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -101.7729263305664,
+            87.47390747070312
+          ]
+        },
+        {
+          "obstacle": "C-shell-8",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.083347555033291,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 2.7087955385819558,
+          "signed_normalized_margin_times_min_radius_mm": 2.7087955385819558,
+          "closest_obstacle_point_mm": [
+            -3.7733962547463473e-14,
+            -106.36648081908118,
+            112.83911351999548
+          ]
+        },
+        {
+          "obstacle": "C-shell-7",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.0756108559969393,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 34.95735281990053,
+          "signed_normalized_margin_times_min_radius_mm": 34.95735281990053,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -113.96923065185547,
+            171.0
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.359046323905729,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 44.169005526936196,
+          "signed_normalized_margin_times_min_radius_mm": 44.169005526936196,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -135.24905395507812,
+            185.7299346923828
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.410289980823506,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 45.83442437676395,
+          "signed_normalized_margin_times_min_radius_mm": 45.83442437676395,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -136.8380126953125,
+            187.62802124023438
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.2427620980620078,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 40.38976818701525,
+          "signed_normalized_margin_times_min_radius_mm": 40.38976818701525,
+          "closest_obstacle_point_mm": [
+            -0.1093639992108269,
+            -113.42860811525892,
+            176.81896414856203
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.4534511990044647,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 14.737163967645104,
+          "signed_normalized_margin_times_min_radius_mm": 14.737163967645104,
+          "closest_obstacle_point_mm": [
+            1.5734860110824464e-14,
+            -100.50959777832031,
+            136.52658081054688
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.708783448406623,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 23.03546207321525,
+          "signed_normalized_margin_times_min_radius_mm": 23.03546207321525,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -114.11982727050781,
+            63.3629150390625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.0797677426342929,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 2.5924516356145184,
+          "signed_normalized_margin_times_min_radius_mm": 2.5924516356145184,
+          "closest_obstacle_point_mm": [
+            4.195962780923152e-15,
+            -127.71298217773438,
+            139.4362335205078
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.0935919087702874,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 3.041737035034342,
+          "signed_normalized_margin_times_min_radius_mm": 3.041737035034342,
+          "closest_obstacle_point_mm": [
+            1.2587887919252982e-14,
+            -120.95951080322266,
+            136.06715393066406
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.70703679627832,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.978695879045397,
+          "signed_normalized_margin_times_min_radius_mm": 22.978695879045397,
+          "closest_obstacle_point_mm": [
+            1.469576117223083e-15,
+            -109.33023834228516,
+            65.79103088378906
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.339069627138592,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 43.519762882004244,
+          "signed_normalized_margin_times_min_radius_mm": 43.519762882004244,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -130.0845489501953,
+            184.25894165039062
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.4990887188017425,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 48.72038336105663,
+          "signed_normalized_margin_times_min_radius_mm": 48.72038336105663,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -109.63463592529297,
+            184.71836853027344
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.9350432471065229,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 30.388905530961992,
+          "signed_normalized_margin_times_min_radius_mm": 30.388905530961992,
+          "closest_obstacle_point_mm": [
+            1.8369700935892946e-15,
+            -89.16746520996094,
+            69.23667907714844
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6955926496334675,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.606761113087693,
+          "signed_normalized_margin_times_min_radius_mm": 22.606761113087693,
+          "closest_obstacle_point_mm": [
+            4.566659550508945e-15,
+            -107.08483123779297,
+            67.51385498046875
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.0531013361123454,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 1.725793423651224,
+          "signed_normalized_margin_times_min_radius_mm": 1.725793423651224,
+          "closest_obstacle_point_mm": [
+            -4.949351153660806e-16,
+            -126.12401580810547,
+            137.53814697265625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.752037335317613,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 24.441213397822423,
+          "signed_normalized_margin_times_min_radius_mm": 24.441213397822423,
+          "closest_obstacle_point_mm": [
+            4.898587410340671e-16,
+            -115.31800842285156,
+            61.19683837890625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.1065101871852703,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 3.461581083521284,
+          "signed_normalized_margin_times_min_radius_mm": 3.461581083521284,
+          "closest_obstacle_point_mm": [
+            4.594848806993568e-15,
+            -118.42696380615234,
+            134.8037567138672
+          ]
+        }
+      ]
+    },
+    {
+      "hand_point_mm": [
+        0,
+        -155,
+        125.4
+      ],
+      "obstacles_intersecting_proxy": [
+        "C-bottom-middle--shoulder-bolt-reference",
+        "C-bottom-middle--outer-M4-wide-washer-reference",
+        "C-bottom-middle--M4-nyloc-envelope-reference",
+        "C-bottom-middle--conforming-keyed-adapter"
+      ],
+      "whole_proxy_minimum_clearance_lower_bound_mm": null,
+      "checks": [
+        {
+          "obstacle": "source-3",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.775805212781797,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 155.2136694154084,
+          "signed_normalized_margin_times_min_radius_mm": 155.2136694154084,
+          "closest_obstacle_point_mm": [
+            12.5,
+            97.96162262455152,
+            84.1339189577497
+          ]
+        },
+        {
+          "obstacle": "source-11",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.780719843666763,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 155.37339491916978,
+          "signed_normalized_margin_times_min_radius_mm": 155.37339491916978,
+          "closest_obstacle_point_mm": [
+            -1.1275702593849246e-16,
+            94.60394757459301,
+            72.49146090399557
+          ]
+        },
+        {
+          "obstacle": "source-12",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.787214899393087,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 155.5844842302753,
+          "signed_normalized_margin_times_min_radius_mm": 155.5844842302753,
+          "closest_obstacle_point_mm": [
+            0.0,
+            105.24147862734429,
+            132.45348240755985
+          ]
+        },
+        {
+          "obstacle": "source-13",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.223475392839928,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 169.76295026729767,
+          "signed_normalized_margin_times_min_radius_mm": 169.76295026729767,
+          "closest_obstacle_point_mm": [
+            0.12178707132568434,
+            114.37452721349041,
+            180.72862724939168
+          ]
+        },
+        {
+          "obstacle": "source-10",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.93131083026191,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 95.26760198351208,
+          "signed_normalized_margin_times_min_radius_mm": 95.26760198351208,
+          "closest_obstacle_point_mm": [
+            3.050703122653431e-05,
+            -117.85330580195313,
+            250.31921195983887
+          ]
+        },
+        {
+          "obstacle": "source-17",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.063341103803409,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 132.05858587361078,
+          "signed_normalized_margin_times_min_radius_mm": 132.05858587361078,
+          "closest_obstacle_point_mm": [
+            1.4062493391975295e-08,
+            -18.000003797656234,
+            256.88964081273804
+          ]
+        },
+        {
+          "obstacle": "source-5",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.188341650364776,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 136.1211036368552,
+          "signed_normalized_margin_times_min_radius_mm": 136.1211036368552,
+          "closest_obstacle_point_mm": [
+            1.1718725545506459e-08,
+            -17.999999966796878,
+            261.9396407661377
+          ]
+        },
+        {
+          "obstacle": "source-9",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.4116489534935974,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 78.37859098854192,
+          "signed_normalized_margin_times_min_radius_mm": 78.37859098854192,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -1.5,
+            127.36875158774414
+          ]
+        },
+        {
+          "obstacle": "source-2",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.458881414921364,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 177.4136459849443,
+          "signed_normalized_margin_times_min_radius_mm": 177.4136459849443,
+          "closest_obstacle_point_mm": [
+            4.510281037539698e-16,
+            103.54964325687575,
+            29.50664979271062
+          ]
+        },
+        {
+          "obstacle": "source-1",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.5048598268390885,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 178.90794437227038,
+          "signed_normalized_margin_times_min_radius_mm": 178.90794437227038,
+          "closest_obstacle_point_mm": [
+            -4.499999974414067,
+            105.2733671112702,
+            28.764656946030925
+          ]
+        },
+        {
+          "obstacle": "C-shell-6",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6611055946091378,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 21.485931824796978,
+          "signed_normalized_margin_times_min_radius_mm": 21.485931824796978,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -101.66177368164062,
+            87.57762145996094
+          ]
+        },
+        {
+          "obstacle": "C-shell-8",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.05137416076302,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 1.6696602247981511,
+          "signed_normalized_margin_times_min_radius_mm": 1.6696602247981511,
+          "closest_obstacle_point_mm": [
+            7.473676625485703e-15,
+            -107.80182691489114,
+            127.7671267066387
+          ]
+        },
+        {
+          "obstacle": "C-shell-7",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6733184828534509,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 21.882850692737154,
+          "signed_normalized_margin_times_min_radius_mm": 21.882850692737154,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -113.96923065185547,
+            171.0
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.9075033076892263,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 29.493857499899853,
+          "signed_normalized_margin_times_min_radius_mm": 29.493857499899853,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -135.24905395507812,
+            185.7299346923828
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.9567976266591434,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 31.09592286642216,
+          "signed_normalized_margin_times_min_radius_mm": 31.09592286642216,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -136.8380126953125,
+            187.62802124023438
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.832087269678637,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 27.042836264555703,
+          "signed_normalized_margin_times_min_radius_mm": 27.042836264555703,
+          "closest_obstacle_point_mm": [
+            -0.10375400659669023,
+            -113.42858624763247,
+            176.81896624671344
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.258364576061399,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 8.39684872199547,
+          "signed_normalized_margin_times_min_radius_mm": 8.39684872199547,
+          "closest_obstacle_point_mm": [
+            1.5734860110824464e-14,
+            -100.50959777832031,
+            136.52658081054688
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.1139827738884134,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 36.20444015137343,
+          "signed_normalized_margin_times_min_radius_mm": 36.20444015137343,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -114.11982727050781,
+            63.3629150390625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.7444584425724236,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -8.305100616396235,
+          "closest_obstacle_point_mm": [
+            4.195962780923152e-15,
+            -127.71298217773438,
+            139.4362335205078
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.8245926825506521,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -5.700737817103807,
+          "closest_obstacle_point_mm": [
+            1.2587887919252982e-14,
+            -120.95951080322266,
+            136.06715393066406
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.096185268907948,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 35.62602123950831,
+          "signed_normalized_margin_times_min_radius_mm": 35.62602123950831,
+          "closest_obstacle_point_mm": [
+            1.469576117223083e-15,
+            -109.33023834228516,
+            65.79103088378906
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.8938045609691068,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 29.04864823149597,
+          "signed_normalized_margin_times_min_radius_mm": 29.04864823149597,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -130.0845489501953,
+            184.25894165039062
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.085100623039014,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 35.26577024876795,
+          "signed_normalized_margin_times_min_radius_mm": 35.26577024876795,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -109.63463592529297,
+            184.71836853027344
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.264187682556229,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 41.08609968307744,
+          "signed_normalized_margin_times_min_radius_mm": 41.08609968307744,
+          "closest_obstacle_point_mm": [
+            1.8369700935892946e-15,
+            -89.16746520996094,
+            69.23667907714844
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.0244768704941225,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 33.29549829105898,
+          "signed_normalized_margin_times_min_radius_mm": 33.29549829105898,
+          "closest_obstacle_point_mm": [
+            -0.365734192871261,
+            -94.41016195718043,
+            76.26716889113487
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.7424638504849461,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -8.369924859239251,
+          "closest_obstacle_point_mm": [
+            -4.949351153660806e-16,
+            -126.12401580810547,
+            137.53814697265625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.1633628505298095,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 37.80929264221881,
+          "signed_normalized_margin_times_min_radius_mm": 37.80929264221881,
+          "closest_obstacle_point_mm": [
+            4.898587410340671e-16,
+            -115.31800842285156,
+            61.19683837890625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.862703943876069,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -4.462121824027759,
+          "closest_obstacle_point_mm": [
+            4.594848806993568e-15,
+            -118.42696380615234,
+            134.8037567138672
+          ]
+        }
+      ]
+    },
+    {
+      "hand_point_mm": [
+        0,
+        -155,
+        140.4
+      ],
+      "obstacles_intersecting_proxy": [
+        "C-bottom-middle--shoulder-bolt-reference",
+        "C-bottom-middle--outer-M4-wide-washer-reference",
+        "C-bottom-middle--M4-nyloc-envelope-reference",
+        "C-bottom-middle--conforming-keyed-adapter"
+      ],
+      "whole_proxy_minimum_clearance_lower_bound_mm": null,
+      "checks": [
+        {
+          "obstacle": "source-3",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.849706541462282,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 157.61546259752419,
+          "signed_normalized_margin_times_min_radius_mm": 157.61546259752419,
+          "closest_obstacle_point_mm": [
+            12.5,
+            107.0273968184024,
+            127.16741827982747
+          ]
+        },
+        {
+          "obstacle": "source-11",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.9272647486070635,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 160.13610432972956,
+          "signed_normalized_margin_times_min_radius_mm": 160.13610432972956,
+          "closest_obstacle_point_mm": [
+            -2.8189256484623115e-17,
+            94.60394757459301,
+            72.49146090399557
+          ]
+        },
+        {
+          "obstacle": "source-12",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.788310500329868,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 155.62009126072073,
+          "signed_normalized_margin_times_min_radius_mm": 155.62009126072073,
+          "closest_obstacle_point_mm": [
+            0.0,
+            105.24147862734429,
+            132.45348240755985
+          ]
+        },
+        {
+          "obstacle": "source-13",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.113362392951189,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 166.18427777091367,
+          "signed_normalized_margin_times_min_radius_mm": 166.18427777091367,
+          "closest_obstacle_point_mm": [
+            0.12178707132568434,
+            114.37452721349041,
+            180.72862724939168
+          ]
+        },
+        {
+          "obstacle": "source-10",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.481410821661326,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 80.64585170399309,
+          "signed_normalized_margin_times_min_radius_mm": 80.64585170399309,
+          "closest_obstacle_point_mm": [
+            3.050703122653431e-05,
+            -117.85330580195313,
+            250.31921195983887
+          ]
+        },
+        {
+          "obstacle": "source-17",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 4.702746417549843,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 120.33925857036989,
+          "signed_normalized_margin_times_min_radius_mm": 120.33925857036989,
+          "closest_obstacle_point_mm": [
+            1.4062493391975295e-08,
+            -18.000003797656234,
+            256.88964081273804
+          ]
+        },
+        {
+          "obstacle": "source-5",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 4.8222254057523575,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 124.22232568695162,
+          "signed_normalized_margin_times_min_radius_mm": 124.22232568695162,
+          "closest_obstacle_point_mm": [
+            1.1718725545506459e-08,
+            -17.999999966796878,
+            261.9396407661377
+          ]
+        },
+        {
+          "obstacle": "source-9",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.41213234553722,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 78.39430122995965,
+          "signed_normalized_margin_times_min_radius_mm": 78.39430122995965,
+          "closest_obstacle_point_mm": [
+            -1.7373657332031485,
+            -1.5,
+            138.31633764731447
+          ]
+        },
+        {
+          "obstacle": "source-2",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.682347266933399,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 184.67628617533546,
+          "signed_normalized_margin_times_min_radius_mm": 184.67628617533546,
+          "closest_obstacle_point_mm": [
+            4.510281037539698e-16,
+            103.54964325687575,
+            29.50664979271062
+          ]
+        },
+        {
+          "obstacle": "source-1",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.72836470353254,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 186.17185286480753,
+          "signed_normalized_margin_times_min_radius_mm": 186.17185286480753,
+          "closest_obstacle_point_mm": [
+            -4.499999974414067,
+            105.2733671112702,
+            28.764656946030925
+          ]
+        },
+        {
+          "obstacle": "C-shell-6",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.011504430597666,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 32.873893994424144,
+          "signed_normalized_margin_times_min_radius_mm": 32.873893994424144,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -101.59648132324219,
+            87.61589050292969
+          ]
+        },
+        {
+          "obstacle": "C-shell-8",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.0283519089233046,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 0.9214370400074007,
+          "signed_normalized_margin_times_min_radius_mm": 0.9214370400074007,
+          "closest_obstacle_point_mm": [
+            -4.0,
+            -109.16732103596215,
+            142.70024899681408
+          ]
+        },
+        {
+          "obstacle": "C-shell-7",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.3106733260214696,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 10.09688309569776,
+          "signed_normalized_margin_times_min_radius_mm": 10.09688309569776,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -113.96923065185547,
+            171.0
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.4622153337713715,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 15.021998347569573,
+          "signed_normalized_margin_times_min_radius_mm": 15.021998347569573,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -135.24905395507812,
+            185.7299346923828
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.5081948198751105,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 16.51633164594109,
+          "signed_normalized_margin_times_min_radius_mm": 16.51633164594109,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -136.8380126953125,
+            187.62802124023438
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.4456155534555803,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 14.482505487306362,
+          "signed_normalized_margin_times_min_radius_mm": 14.482505487306362,
+          "closest_obstacle_point_mm": [
+            -0.04357604682445526,
+            -127.55199432373047,
+            182.99554443359375
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.2009406041934847,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 6.530569636288252,
+          "signed_normalized_margin_times_min_radius_mm": 6.530569636288252,
+          "closest_obstacle_point_mm": [
+            0.034109602610976765,
+            -100.97387251088156,
+            141.35498588634712
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.53849186841401,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 50.00098572345533,
+          "signed_normalized_margin_times_min_radius_mm": 50.00098572345533,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -114.11982727050781,
+            63.3629150390625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.6028670026259424,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -12.906822414656872,
+          "closest_obstacle_point_mm": [
+            -7.599579063171172e-06,
+            -127.93616188013705,
+            141.75734120560367
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.748213461541178,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -8.183062499911717,
+          "closest_obstacle_point_mm": [
+            0.04013836990917611,
+            -121.73949179962273,
+            144.17894509583672
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.50998929126875,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 49.07465196623438,
+          "signed_normalized_margin_times_min_radius_mm": 49.07465196623438,
+          "closest_obstacle_point_mm": [
+            1.469576117223083e-15,
+            -109.33023834228516,
+            65.79103088378906
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.4586912670785033,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 14.907466180051356,
+          "signed_normalized_margin_times_min_radius_mm": 14.907466180051356,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -130.0845489501953,
+            184.25894165039062
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6958420607214018,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.614866973445558,
+          "signed_normalized_margin_times_min_radius_mm": 22.614866973445558,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -109.63463592529297,
+            184.71836853027344
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.633388474658594,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 53.085125426404296,
+          "signed_normalized_margin_times_min_radius_mm": 53.085125426404296,
+          "closest_obstacle_point_mm": [
+            1.8369700935892946e-15,
+            -89.16746520996094,
+            69.23667907714844
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.3889354702502947,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 45.140402783134576,
+          "signed_normalized_margin_times_min_radius_mm": 45.140402783134576,
+          "closest_obstacle_point_mm": [
+            -0.3461313977441522,
+            -94.40989527477946,
+            76.26719451162349
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.6362722033766829,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -11.821153390257805,
+          "closest_obstacle_point_mm": [
+            -0.03396110184154231,
+            -126.70219007664846,
+            143.5511933485612
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.5916555181421517,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 51.72880433961993,
+          "signed_normalized_margin_times_min_radius_mm": 51.72880433961993,
+          "closest_obstacle_point_mm": [
+            4.898587410340671e-16,
+            -115.31800842285156,
+            61.19683837890625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 0.8029180684158915,
+          "obstacle_surface_point_inside_proxy": true,
+          "outside_clearance_lower_bound_mm": null,
+          "signed_normalized_margin_times_min_radius_mm": -6.405162776483525,
+          "closest_obstacle_point_mm": [
+            -0.05241280211911132,
+            -118.88648363837802,
+            139.58275388529898
+          ]
+        }
+      ]
+    },
+    {
+      "hand_point_mm": [
+        0,
+        -175,
+        140.4
+      ],
+      "obstacles_intersecting_proxy": [],
+      "whole_proxy_minimum_clearance_lower_bound_mm": 1.5029186069634752,
+      "checks": [
+        {
+          "obstacle": "source-3",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.292176586385194,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 171.99573905751882,
+          "signed_normalized_margin_times_min_radius_mm": 171.99573905751882,
+          "closest_obstacle_point_mm": [
+            12.5,
+            106.9300849506227,
+            126.16231747602397
+          ]
+        },
+        {
+          "obstacle": "source-11",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.345112025128472,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 173.71614081667533,
+          "signed_normalized_margin_times_min_radius_mm": 173.71614081667533,
+          "closest_obstacle_point_mm": [
+            -1.973247953923618e-16,
+            94.60394757459301,
+            72.49146090399557
+          ]
+        },
+        {
+          "obstacle": "source-12",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.232386519605215,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 170.05256188716947,
+          "signed_normalized_margin_times_min_radius_mm": 170.05256188716947,
+          "closest_obstacle_point_mm": [
+            0.0,
+            105.24147862734429,
+            132.45348240755985
+          ]
+        },
+        {
+          "obstacle": "source-13",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 6.5491762021704405,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 180.3482265705393,
+          "signed_normalized_margin_times_min_radius_mm": 180.3482265705393,
+          "closest_obstacle_point_mm": [
+            0.12178707132568434,
+            114.37452721349041,
+            180.72862724939168
+          ]
+        },
+        {
+          "obstacle": "source-10",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.6126879237044927,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 84.91235752039601,
+          "signed_normalized_margin_times_min_radius_mm": 84.91235752039601,
+          "closest_obstacle_point_mm": [
+            3.050703122653431e-05,
+            -117.85330580195313,
+            250.31921195983887
+          ]
+        },
+        {
+          "obstacle": "source-17",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.001952368472351,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 130.0634519753514,
+          "signed_normalized_margin_times_min_radius_mm": 130.0634519753514,
+          "closest_obstacle_point_mm": [
+            1.4062493391975295e-08,
+            -18.000003797656234,
+            256.88964081273804
+          ]
+        },
+        {
+          "obstacle": "source-5",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 5.114446359894984,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 133.719506696587,
+          "signed_normalized_margin_times_min_radius_mm": 133.719506696587,
+          "closest_obstacle_point_mm": [
+            1.1718725545506459e-08,
+            -17.999999966796878,
+            261.9396407661377
+          ]
+        },
+        {
+          "obstacle": "source-9",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 3.856459097811224,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 92.83492067886478,
+          "signed_normalized_margin_times_min_radius_mm": 92.83492067886478,
+          "closest_obstacle_point_mm": [
+            -1.7373657332031485,
+            -1.5,
+            138.31633764731447
+          ]
+        },
+        {
+          "obstacle": "source-2",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 7.0681291235474175,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 197.21419651529106,
+          "signed_normalized_margin_times_min_radius_mm": 197.21419651529106,
+          "closest_obstacle_point_mm": [
+            4.510281037539698e-16,
+            103.54964325687575,
+            29.50664979271062
+          ]
+        },
+        {
+          "obstacle": "source-1",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 7.114044191685141,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 198.7064362297671,
+          "signed_normalized_margin_times_min_radius_mm": 198.7064362297671,
+          "closest_obstacle_point_mm": [
+            -4.499999974414067,
+            105.2733671112702,
+            28.764656946030925
+          ]
+        },
+        {
+          "obstacle": "C-shell-6",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.3016646317439884,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 42.30410053167962,
+          "signed_normalized_margin_times_min_radius_mm": 42.30410053167962,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -101.66177368164062,
+            87.57762145996094
+          ]
+        },
+        {
+          "obstacle": "C-shell-8",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.469498583910617,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 15.25870397709505,
+          "signed_normalized_margin_times_min_radius_mm": 15.25870397709505,
+          "closest_obstacle_point_mm": [
+            -4.0,
+            -109.26343696171604,
+            143.69918448148022
+          ]
+        },
+        {
+          "obstacle": "C-shell-7",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6432767512957813,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 20.906494417112892,
+          "signed_normalized_margin_times_min_radius_mm": 20.906494417112892,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -116.66666412353516,
+            173.2229766845703
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.650983552495565,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 21.156965456105862,
+          "signed_normalized_margin_times_min_radius_mm": 21.156965456105862,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -135.24905395507812,
+            185.7299346923828
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6825390883065983,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.182520369964443,
+          "signed_normalized_margin_times_min_radius_mm": 22.182520369964443,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -136.8380126953125,
+            187.62802124023438
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6821171245675612,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.16880654844574,
+          "signed_normalized_margin_times_min_radius_mm": 22.16880654844574,
+          "closest_obstacle_point_mm": [
+            -0.04357604682445526,
+            -127.55199432373047,
+            182.99554443359375
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.6449603932986423,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 20.961212782205873,
+          "signed_normalized_margin_times_min_radius_mm": 20.961212782205873,
+          "closest_obstacle_point_mm": [
+            0.050491315720795335,
+            -101.48098403540669,
+            146.62897982698894
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.729282216074709,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 56.20167202242805,
+          "signed_normalized_margin_times_min_radius_mm": 56.20167202242805,
+          "closest_obstacle_point_mm": [
+            0.0,
+            -114.11982727050781,
+            63.3629150390625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.04624364944503,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 1.5029186069634752,
+          "signed_normalized_margin_times_min_radius_mm": 1.5029186069634752,
+          "closest_obstacle_point_mm": [
+            1.636412645541173e-05,
+            -128.0321516856746,
+            142.755642350705
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.1892651276897717,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 6.151116649917579,
+          "signed_normalized_margin_times_min_radius_mm": 6.151116649917579,
+          "closest_obstacle_point_mm": [
+            0.019661227108639958,
+            -121.73953200973915,
+            144.17934719700105
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.720238198260531,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 55.90774144346725,
+          "signed_normalized_margin_times_min_radius_mm": 55.90774144346725,
+          "closest_obstacle_point_mm": [
+            1.469576117223083e-15,
+            -109.33023834228516,
+            65.79103088378906
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--outer-M4-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.678531541146171,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 22.052275087250557,
+          "signed_normalized_margin_times_min_radius_mm": 22.052275087250557,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -130.0845489501953,
+            184.25894165039062
+          ]
+        },
+        {
+          "obstacle": "C-bottom-rear--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.9923647046011912,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 32.25185289953871,
+          "signed_normalized_margin_times_min_radius_mm": 32.25185289953871,
+          "closest_obstacle_point_mm": [
+            -0.2435760498046875,
+            -109.63463592529297,
+            184.71836853027344
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--inner-M5-wide-washer-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.9039045217777546,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 61.87689695777703,
+          "signed_normalized_margin_times_min_radius_mm": 61.87689695777703,
+          "closest_obstacle_point_mm": [
+            1.8369700935892946e-15,
+            -89.16746520996094,
+            69.23667907714844
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.6648388418150697,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 54.107262358989765,
+          "signed_normalized_margin_times_min_radius_mm": 54.107262358989765,
+          "closest_obstacle_point_mm": [
+            -0.48803890790040766,
+            -94.41182582780917,
+            76.26700904114709
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--M4-nyloc-envelope-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.0776557365896169,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 2.523811439162549,
+          "signed_normalized_margin_times_min_radius_mm": 2.523811439162549,
+          "closest_obstacle_point_mm": [
+            -0.01394944772091891,
+            -126.70222847961408,
+            143.55158889910703
+          ]
+        },
+        {
+          "obstacle": "C-bottom-front--shoulder-bolt-reference",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 2.774536177065551,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 57.67242575463041,
+          "signed_normalized_margin_times_min_radius_mm": 57.67242575463041,
+          "closest_obstacle_point_mm": [
+            4.898587410340671e-16,
+            -115.31800842285156,
+            61.19683837890625
+          ]
+        },
+        {
+          "obstacle": "C-bottom-middle--conforming-keyed-adapter",
+          "hand_center_outside_obstacle_AABB": true,
+          "minimum_normalized_obstacle_surface_radius": 1.2434141772457634,
+          "obstacle_surface_point_inside_proxy": false,
+          "outside_clearance_lower_bound_mm": 7.910960760487312,
+          "signed_normalized_margin_times_min_radius_mm": 7.910960760487312,
+          "closest_obstacle_point_mm": [
+            -0.03437532636069717,
+            -119.40316279248455,
+            144.95624521980483
+          ]
+        }
+      ]
+    }
+  ]
+}

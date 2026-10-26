@@ -1,0 +1,36 @@
+{
+  "joint": "bottom-front",
+  "parts": [
+    {
+      "name": "reinforced-shell-coupon",
+      "source_object": 6,
+      "source_path": "design-b/reinforced-shells/shell-6-assembled.stl",
+      "print_bounds_mm": [
+        36.0,
+        9.777372360229492,
+        50.0
+      ],
+      "watertight": true,
+      "method": "Intersection with world36x42x50mm box; inverse original print rotation; translation tobedZ0. Mating surfaces not redesigned."
+    },
+    {
+      "name": "original-rail-coupon",
+      "source_object": 4,
+      "source_path": "assembly-study/parts/assembled-04.stl",
+      "print_bounds_mm": [
+        49.775657653808594,
+        27.901458740234375,
+        25.0
+      ],
+      "watertight": true,
+      "method": "Intersection with world36x42x50mm box; inverse original print rotation; translation tobedZ0. Mating surfaces not redesigned."
+    }
+  ],
+  "use_with": "one keyed-adapter-print.stl plus actual specified hardware",
+  "limits": [
+    "Fit trial only, not load or fatigue specimen",
+    "Cut free edges alter stiffness relative to whole cannon",
+    "Shell collar lower ledge support/slice inspection still required",
+    "Other five installed positions remain separate checks"
+  ]
+}

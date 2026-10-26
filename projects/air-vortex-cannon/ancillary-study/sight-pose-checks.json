@@ -1,0 +1,426 @@
+[
+  {
+    "pose_choice": "original_Z_reversed",
+    "fold_angle_degrees": 0,
+    "matrix": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        -126.9764
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.821534409999998
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        34.63220696
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1805,
+        "minimum_sampled_clearance_mm": -1.5059758405637007,
+        "maximum_sampled_penetration_mm": 1.5059758405637007,
+        "points_over_0_02mm_penetration": 3,
+        "mesh_bound_only_samples": 1246,
+        "exact_triangle_distance_samples": 559,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1805,
+        "minimum_sampled_clearance_mm": 0.6743347442941854,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1805,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 0,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        -2.821534409999998
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        18.897106960000002
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1805,
+        "minimum_sampled_clearance_mm": 7.060433915533563e-05,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1246,
+        "exact_triangle_distance_samples": 559,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1805,
+        "minimum_sampled_clearance_mm": 0.6743347442941854,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1805,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 15,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        0.9659258262890683,
+        0.0,
+        -0.25881904510252074,
+        3.0356516522063983
+      ],
+      [
+        0.25881904510252074,
+        0.0,
+        0.9659258262890683,
+        -9.857538161000734
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": -0.35911822150942935,
+        "maximum_sampled_penetration_mm": 0.35911822150942935,
+        "points_over_0_02mm_penetration": 2,
+        "mesh_bound_only_samples": 1250,
+        "exact_triangle_distance_samples": 556,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.1810974457000327,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 30,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        0.8660254037844387,
+        0.0,
+        -0.49999999999999994,
+        16.1355087315512
+      ],
+      [
+        0.49999999999999994,
+        0.0,
+        0.8660254037844387,
+        -36.11644120554425
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": -0.2849386226637889,
+        "maximum_sampled_penetration_mm": 0.2849386226637889,
+        "points_over_0_02mm_penetration": 3,
+        "mesh_bound_only_samples": 1252,
+        "exact_triangle_distance_samples": 554,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.095627878827088,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 45,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        0.7071067811865476,
+        0.0,
+        -0.7071067811865475,
+        35.58530321661447
+      ],
+      [
+        0.7071067811865475,
+        0.0,
+        0.7071067811865476,
+        -58.09010132603396
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 7.143932272070407e-05,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1251,
+        "exact_triangle_distance_samples": 555,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.4336529726604255,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 60,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        0.5000000000000001,
+        0.0,
+        -0.8660254037844386,
+        60.05956375554425
+      ],
+      [
+        0.8660254037844386,
+        0.0,
+        0.5000000000000001,
+        -74.28104989844879
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 0.00013683210847769797,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1247,
+        "exact_triangle_distance_samples": 559,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.4448447144367975,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 75,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        0.25881904510252074,
+        0.0,
+        -0.9659258262890683,
+        87.89040993824037
+      ],
+      [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074,
+        -83.58590053438628
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 0.0003356681279858589,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1247,
+        "exact_triangle_distance_samples": 559,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.4397735465602324,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  },
+  {
+    "pose_choice": "candidate_Z_forward",
+    "fold_angle_degrees": 90,
+    "matrix": [
+      [
+        0.0,
+        -1.0,
+        0.0,
+        126.9764
+      ],
+      [
+        6.123233995736766e-17,
+        0.0,
+        -1.0,
+        117.18121559
+      ],
+      [
+        1.0,
+        0.0,
+        6.123233995736766e-17,
+        -85.37054304
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "checks": [
+      {
+        "obstacle": "top_rail",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 0.000664434858469985,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 846,
+        "exact_triangle_distance_samples": 960,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      },
+      {
+        "obstacle": "front_shell",
+        "sample_count": 1806,
+        "minimum_sampled_clearance_mm": 1.4399895370319769,
+        "maximum_sampled_penetration_mm": 0.0,
+        "points_over_0_02mm_penetration": 0,
+        "mesh_bound_only_samples": 1806,
+        "exact_triangle_distance_samples": 0,
+        "distance_reporting": "Outside lower bounds where positive; exact triangle signed distances only for ambiguous near samples. Reported clearance is conservative, not exact minimum."
+      }
+    ],
+    "hinge_exclusion": "None; complete selected sight samples checked"
+  }
+]

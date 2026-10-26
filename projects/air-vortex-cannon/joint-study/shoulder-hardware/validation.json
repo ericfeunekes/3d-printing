@@ -1,0 +1,42 @@
+[
+  {
+    "name": "shoulder-bolt-reference",
+    "valid": true,
+    "solids": 1,
+    "extents_mm": [
+      9.0,
+      9.0,
+      28.0
+    ]
+  },
+  {
+    "name": "inner-M5-wide-washer-reference",
+    "valid": true,
+    "solids": 1,
+    "extents_mm": [
+      15.0,
+      15.0,
+      1.2
+    ]
+  },
+  {
+    "name": "outer-M4-wide-washer-reference",
+    "valid": true,
+    "solids": 1,
+    "extents_mm": [
+      12.0,
+      12.0,
+      1.0
+    ]
+  },
+  {
+    "name": "M4-nyloc-envelope-reference",
+    "valid": true,
+    "solids": 1,
+    "extents_mm": [
+      8.082903768654761,
+      7.000000000000001,
+      5.0
+    ]
+  }
+]

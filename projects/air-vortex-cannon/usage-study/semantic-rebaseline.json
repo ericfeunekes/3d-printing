@@ -1,0 +1,124 @@
+{
+  "old_assembly_json_sha256": "5741d10d62f7e97ac4c52399aff9d07fd589e951db9800e203f2fea183246022",
+  "new_assembly_json_sha256": "0da393cbfee8e15170a6922520c1d0588d93fee1bd9dc96c5bd5487c4e7d9e0b",
+  "reason": "Parent owner reported adding gap_basis explanatory text only; no geometry, numeric values or poses changed.",
+  "owner_report_not_substituted_for_geometry_check": true,
+  "independently_checked_mesh_hashes": {
+    "design-b/assembled-joints/top-front--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/top-front--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/top-front--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-front--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-front--M4-nyloc-envelope-reference.stl": true,
+    "design-b/assembled-joints/top-middle--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/top-middle--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/top-middle--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-middle--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-middle--M4-nyloc-envelope-reference.stl": true,
+    "design-b/assembled-joints/top-rear--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/top-rear--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/top-rear--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-rear--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/top-rear--M4-nyloc-envelope-reference.stl": true,
+    "design-b/assembled-joints/bottom-front--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/bottom-front--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/bottom-front--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-front--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-front--M4-nyloc-envelope-reference.stl": true,
+    "design-b/assembled-joints/bottom-middle--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/bottom-middle--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/bottom-middle--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-middle--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-middle--M4-nyloc-envelope-reference.stl": true,
+    "design-b/assembled-joints/bottom-rear--keyed-adapter-local.stl": true,
+    "design-b/assembled-joints/bottom-rear--shoulder-bolt-reference.stl": true,
+    "design-b/assembled-joints/bottom-rear--inner-M5-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-rear--outer-M4-wide-washer-reference.stl": true,
+    "design-b/assembled-joints/bottom-rear--M4-nyloc-envelope-reference.stl": true,
+    "design-b/reinforced-shells/shell-6-assembled.stl": true,
+    "design-b/reinforced-shells/shell-8-assembled.stl": true,
+    "design-b/reinforced-shells/shell-7-assembled.stl": true
+  },
+  "other_governing_input_hashes": {
+    "assembly-study/core-assembly.json": true,
+    "ancillary-study/model_ancillary.py": true,
+    "assembly-study/recover_core.py": true,
+    "usage-study/check_usage.py": true,
+    "design-b/recommended-shells.json": true
+  },
+  "all12_service_pose_comparisons": [
+    {
+      "joint": "top-front",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "top-front",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "top-middle",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "top-middle",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "top-rear",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "top-rear",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-front",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-front",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-middle",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-middle",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-rear",
+      "side": "inside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    },
+    {
+      "joint": "bottom-rear",
+      "side": "outside",
+      "origin_max_change_mm": 0.0,
+      "axis_max_change": 0.0
+    }
+  ],
+  "semantic_geometry_inputs_match": true,
+  "scope": "Preserves old report hashes. Qualifies metadata-only JSON mismatch for these geometry/service calculations; does not independently re-attest every nongeometric narrative/capacity field."
+}

@@ -1,0 +1,236 @@
+{
+  "status": "Conditional branch-force geometry, not rubber-band force or capacity prediction",
+  "observed_topology": "Two opposite front annulus anchors to a central junction, then two parallel bands to moving rear cap",
+  "evidence": {
+    "url": "https://www.youtube.com/watch?v=NKO3LCNGTJY",
+    "video_stages": "3:03 front anchors; 3:23 second pair joined by carabiner; 3:48 junction; 4:08-4:18 central cap routing",
+    "front_anchor_points_xyz_mm": [
+      [
+        72.73,
+        0,
+        4.050995
+      ],
+      [
+        -72.73,
+        0,
+        4.050995
+      ]
+    ],
+    "source": "ancillary_motion mesh/video reconstruction"
+  },
+  "assumptions": [
+    "Symmetric anchors and centered massless junction",
+    "Rear pair locally axial and equally loaded",
+    "F is the axial elastic resultant, conservatively set equal to the entire manual-force scenario",
+    "Film tension may share manual force; no sharing benefit is credited",
+    "Junction distance and band rest lengths/stiffness are not measured",
+    "4 MPa is an analyst-selected nominal screening stress, not a printed-part allowable"
+  ],
+  "formulas": {
+    "front_tension": "F * sqrt(a^2+d^2) / (2*d)",
+    "front_radial_component": "F*a/(2*d)",
+    "rear_parallel_each": "F/2"
+  },
+  "cases": [
+    {
+      "front_plane_to_junction_mm_assumed": 60.0,
+      "axial_resultant_N_assumed": 1.0,
+      "front_branch_tension_N": 0.7857079654327328,
+      "front_anchor_axial_component_N_each": 0.5,
+      "front_anchor_inward_radial_component_N_each": 0.6060833333333334,
+      "rear_parallel_band_tension_N_each": 0.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.1964269913581832,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 0.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 60.0,
+      "axial_resultant_N_assumed": 5.0,
+      "front_branch_tension_N": 3.928539827163664,
+      "front_anchor_axial_component_N_each": 2.5,
+      "front_anchor_inward_radial_component_N_each": 3.030416666666667,
+      "rear_parallel_band_tension_N_each": 2.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.982134956790916,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 1.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 60.0,
+      "axial_resultant_N_assumed": 10.0,
+      "front_branch_tension_N": 7.857079654327328,
+      "front_anchor_axial_component_N_each": 5.0,
+      "front_anchor_inward_radial_component_N_each": 6.060833333333334,
+      "rear_parallel_band_tension_N_each": 5.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 1.964269913581832,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 2.5
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 60.0,
+      "axial_resultant_N_assumed": 20.0,
+      "front_branch_tension_N": 15.714159308654656,
+      "front_anchor_axial_component_N_each": 10.0,
+      "front_anchor_inward_radial_component_N_each": 12.121666666666668,
+      "rear_parallel_band_tension_N_each": 10.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 3.928539827163664,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 5.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 60.0,
+      "axial_resultant_N_assumed": 40.0,
+      "front_branch_tension_N": 31.428318617309312,
+      "front_anchor_axial_component_N_each": 20.0,
+      "front_anchor_inward_radial_component_N_each": 24.243333333333336,
+      "rear_parallel_band_tension_N_each": 20.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 7.857079654327328,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 10.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 100.0,
+      "axial_resultant_N_assumed": 1.0,
+      "front_branch_tension_N": 0.6182566801094833,
+      "front_anchor_axial_component_N_each": 0.5,
+      "front_anchor_inward_radial_component_N_each": 0.36365000000000003,
+      "rear_parallel_band_tension_N_each": 0.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.15456417002737083,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 0.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 100.0,
+      "axial_resultant_N_assumed": 5.0,
+      "front_branch_tension_N": 3.091283400547417,
+      "front_anchor_axial_component_N_each": 2.5,
+      "front_anchor_inward_radial_component_N_each": 1.8182500000000001,
+      "rear_parallel_band_tension_N_each": 2.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.7728208501368542,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 1.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 100.0,
+      "axial_resultant_N_assumed": 10.0,
+      "front_branch_tension_N": 6.182566801094834,
+      "front_anchor_axial_component_N_each": 5.0,
+      "front_anchor_inward_radial_component_N_each": 3.6365000000000003,
+      "rear_parallel_band_tension_N_each": 5.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 1.5456417002737084,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 2.5
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 100.0,
+      "axial_resultant_N_assumed": 20.0,
+      "front_branch_tension_N": 12.365133602189667,
+      "front_anchor_axial_component_N_each": 10.0,
+      "front_anchor_inward_radial_component_N_each": 7.273000000000001,
+      "rear_parallel_band_tension_N_each": 10.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 3.091283400547417,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 5.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 100.0,
+      "axial_resultant_N_assumed": 40.0,
+      "front_branch_tension_N": 24.730267204379334,
+      "front_anchor_axial_component_N_each": 20.0,
+      "front_anchor_inward_radial_component_N_each": 14.546000000000001,
+      "rear_parallel_band_tension_N_each": 20.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 6.182566801094834,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 10.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 160.0,
+      "axial_resultant_N_assumed": 1.0,
+      "front_branch_tension_N": 0.5492328892205587,
+      "front_anchor_axial_component_N_each": 0.5,
+      "front_anchor_inward_radial_component_N_each": 0.22728125000000002,
+      "rear_parallel_band_tension_N_each": 0.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.13730822230513967,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 0.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 160.0,
+      "axial_resultant_N_assumed": 5.0,
+      "front_branch_tension_N": 2.7461644461027936,
+      "front_anchor_axial_component_N_each": 2.5,
+      "front_anchor_inward_radial_component_N_each": 1.13640625,
+      "rear_parallel_band_tension_N_each": 2.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.6865411115256984,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 1.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 160.0,
+      "axial_resultant_N_assumed": 10.0,
+      "front_branch_tension_N": 5.492328892205587,
+      "front_anchor_axial_component_N_each": 5.0,
+      "front_anchor_inward_radial_component_N_each": 2.2728125,
+      "rear_parallel_band_tension_N_each": 5.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 1.3730822230513968,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 2.5
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 160.0,
+      "axial_resultant_N_assumed": 20.0,
+      "front_branch_tension_N": 10.984657784411175,
+      "front_anchor_axial_component_N_each": 10.0,
+      "front_anchor_inward_radial_component_N_each": 4.545625,
+      "rear_parallel_band_tension_N_each": 10.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 2.7461644461027936,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 5.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 160.0,
+      "axial_resultant_N_assumed": 40.0,
+      "front_branch_tension_N": 21.96931556882235,
+      "front_anchor_axial_component_N_each": 20.0,
+      "front_anchor_inward_radial_component_N_each": 9.09125,
+      "rear_parallel_band_tension_N_each": 20.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 5.492328892205587,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 10.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 240.0,
+      "axial_resultant_N_assumed": 1.0,
+      "front_branch_tension_N": 0.5224543644511239,
+      "front_anchor_axial_component_N_each": 0.5,
+      "front_anchor_inward_radial_component_N_each": 0.15152083333333335,
+      "rear_parallel_band_tension_N_each": 0.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.13061359111278098,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 0.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 240.0,
+      "axial_resultant_N_assumed": 5.0,
+      "front_branch_tension_N": 2.61227182225562,
+      "front_anchor_axial_component_N_each": 2.5,
+      "front_anchor_inward_radial_component_N_each": 0.7576041666666667,
+      "rear_parallel_band_tension_N_each": 2.5,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 0.653067955563905,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 1.25
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 240.0,
+      "axial_resultant_N_assumed": 10.0,
+      "front_branch_tension_N": 5.22454364451124,
+      "front_anchor_axial_component_N_each": 5.0,
+      "front_anchor_inward_radial_component_N_each": 1.5152083333333335,
+      "rear_parallel_band_tension_N_each": 5.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 1.30613591112781,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 2.5
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 240.0,
+      "axial_resultant_N_assumed": 20.0,
+      "front_branch_tension_N": 10.44908728902248,
+      "front_anchor_axial_component_N_each": 10.0,
+      "front_anchor_inward_radial_component_N_each": 3.030416666666667,
+      "rear_parallel_band_tension_N_each": 10.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 2.61227182225562,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 5.0
+    },
+    {
+      "front_plane_to_junction_mm_assumed": 240.0,
+      "axial_resultant_N_assumed": 40.0,
+      "front_branch_tension_N": 20.89817457804496,
+      "front_anchor_axial_component_N_each": 20.0,
+      "front_anchor_inward_radial_component_N_each": 6.060833333333334,
+      "rear_parallel_band_tension_N_each": 20.0,
+      "front_ligament_area_required_at_assumed_4MPa_mm2": 5.22454364451124,
+      "central_loop_area_required_at_assumed_4MPa_mm2": 10.0
+    }
+  ]
+}

@@ -1,0 +1,1009 @@
+{
+  "status": "UNIFORM-SOLID GEOMETRIC CENTROID PROXY; not sliced, measured, or a physical COM estimate",
+  "coordinate_system": "mm; X horizontal, Y up, Z rearward; outlet Z0",
+  "pose": {
+    "stroke_mm": 0,
+    "sight_fold_deg": 0,
+    "source": "assemble.load_assembly(stroke=0, sight_fold_degrees=0)"
+  },
+  "saved_assembly_max_transform_difference": 0.0,
+  "input_sha256": {
+    "assembly-study/assemble.py": "22ed80436a4256675cae4fd8bd971b66ad4500cf5aa5481b2f3e00651f8dbb30",
+    "assembly-study/recover_core.py": "52c7920175461d319946096bf82e81a2d47057a56d80de20aec2bb3b5d893c1e",
+    "ancillary-study/model_ancillary.py": "42943051775331a76603efdf00881403f4b7a116984de22b2c5b09abf951b132",
+    "assembly-study/full-stock-assembly.json": "5895d624b43a2f5530a3a19929d7e13ec83322bcf06febc408350445b2b12964"
+  },
+  "method": "Each processed watertight positive-winding STL volume and volume center_mass after the exact rigid assembly transforms; C = sum(V_i C_i) / sum(V_i). No Boolean union; interpart overlap is counted additively.",
+  "reference_density_g_cm3": 1.28,
+  "groups": [
+    {
+      "name": "whole_stock_17_meshes",
+      "objects": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "total_additive_volume_mm3": 424834.2974256647,
+      "uniform_solid_centroid_xyz_mm": [
+        0.00019169898278893096,
+        -16.373742182950377,
+        135.15786425568544
+      ],
+      "full_density_mass_g_at_reference_1p28_g_cm3": 543.7879007048509
+    },
+    {
+      "name": "stock_handle_only_object4",
+      "objects": [
+        4
+      ],
+      "total_additive_volume_mm3": 91431.47956274364,
+      "uniform_solid_centroid_xyz_mm": [
+        0.0042879490492560195,
+        -133.46931005880856,
+        114.35275369862184
+      ],
+      "full_density_mass_g_at_reference_1p28_g_cm3": 117.03229384031187
+    },
+    {
+      "name": "whole_stock_except_handle4",
+      "objects": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "total_additive_volume_mm3": 333402.8178629211,
+      "uniform_solid_centroid_xyz_mm": [
+        -0.0009316454647377835,
+        15.73822702521409,
+        140.86340103816363
+      ],
+      "full_density_mass_g_at_reference_1p28_g_cm3": 426.75560686453906
+    },
+    {
+      "name": "whole_stock_except_handle4_and_its_three_lower_clips",
+      "objects": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "total_additive_volume_mm3": 329899.3389668574,
+      "uniform_solid_centroid_xyz_mm": [
+        -7.929315475082229e-05,
+        17.05895519873342,
+        140.95943425010685
+      ],
+      "full_density_mass_g_at_reference_1p28_g_cm3": 422.27115387757755
+    }
+  ],
+  "parts": [
+    {
+      "object": 1,
+      "source_file": "source/egordv/obj_1_SightPin2.STEP.stl",
+      "source_sha256": "6adecb4d46bd862d87e2ca63408fc3786eef8ec3e5e42dc491f719e33c04ff17",
+      "volume_mm3": 217.20224223866225,
+      "volume_centroid_xyz_mm": [
+        -1.15268634825283,
+        109.31362044036503,
+        26.77079029330682
+      ],
+      "bounds_xyz_mm": [
+        [
+          -6.499999974414067,
+          104.81368083197333,
+          24.76465694603092
+        ],
+        [
+          8.38847353632812,
+          113.8136503143952,
+          28.76465694603092
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -103.0329437
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -266.49039631646417
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          28.76465694603092
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 2,
+      "source_file": "source/egordv/obj_2_Sight2.STEP.stl",
+      "source_sha256": "4710a70a44deb8712f236eeb873e0662a5c42175dbf117f6064797facb480cc6",
+      "volume_mm3": 1802.2459399131992,
+      "volume_centroid_xyz_mm": [
+        0.20769558625140372,
+        126.91126553363253,
+        22.450669004047715
+      ],
+      "bounds_xyz_mm": [
+        [
+          -14.650003808593752,
+          102.52949402591872,
+          18.897106947886385
+        ],
+        [
+          15.35000382080078,
+          153.32813904544997,
+          32.763333142319986
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          126.9764
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -2.8215344164640896
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          18.897106946030924
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 3,
+      "source_file": "source/egordv/obj_3_TopClamp3.STEP.stl",
+      "source_sha256": "3bce53f026d618492e42a901097aaa093af55f6b4eb3201c42f5a7f894b44b9f",
+      "volume_mm3": 45204.42873115824,
+      "volume_centroid_xyz_mm": [
+        -0.00834134601345894,
+        110.4908282823804,
+        113.75274863005245
+      ],
+      "bounds_xyz_mm": [
+        [
+          -12.5,
+          91.70876923099684,
+          16.66278858665595
+        ],
+        [
+          12.5,
+          138.32806244388746,
+          217.24835987571845
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          -12.5
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          275.8547805835359
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -326.79839305396905
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 4,
+      "source_file": "source/egordv/obj_4_Handle03.STEP.stl",
+      "source_sha256": "404b462aa45ca9a91f559c2a42df47019ec6e86e9604634e74c31e18872f1093",
+      "volume_mm3": 91431.47956274364,
+      "volume_centroid_xyz_mm": [
+        0.0042879490492560195,
+        -133.46931005880856,
+        114.35275369862184
+      ],
+      "bounds_xyz_mm": [
+        [
+          -12.5,
+          -187.68074252796046,
+          36.315896303803186
+        ],
+        [
+          12.5,
+          -93.61556842517726,
+          217.1513760401313
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          12.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -237.93128802966945
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -312.67156097158744
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 5,
+      "source_file": "source/egordv/obj_5_PinchRingCap3.STEP.stl",
+      "source_sha256": "a15af26acfaa94e5bd40de9bf2ef993d77dfaaefa0f6c17a463fe8aafc64c48d",
+      "volume_mm3": 10600.087539278087,
+      "volume_centroid_xyz_mm": [
+        -9.061493097903042e-06,
+        -4.801711691779785e-07,
+        276.99161548943124
+      ],
+      "bounds_xyz_mm": [
+        [
+          -19.999999988281274,
+          -23.325592007812503,
+          261.9396407661377
+        ],
+        [
+          20.000000011718726,
+          23.325592074218747,
+          309.781388092041
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -509.6119995
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -78.959259
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          261.9396408081055
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 6,
+      "source_file": "source/egordv/obj_6_AirZooka03_RingFront.STEP.stl",
+      "source_sha256": "494a33610bcdd13a947f7eb4347879592e88e614453147d4ae03c78e1f3f6f65",
+      "volume_mm3": 87417.04227918728,
+      "volume_centroid_xyz_mm": [
+        2.199989999614585e-05,
+        -2.4209731143413948e-05,
+        29.904205007292518
+      ],
+      "bounds_xyz_mm": [
+        [
+          -101.877685546875,
+          -101.877685546875,
+          2.3535136506325216e-08
+        ],
+        [
+          101.877685546875,
+          101.877685546875,
+          87.66667175292969
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 7,
+      "source_file": "source/egordv/obj_7_AirZooka03_RingBack.STEP.stl",
+      "source_sha256": "ee7f9d779d2c9f3de96ed4bb919e22c6b006fa59fc9f26ded2d89d3db5dc31cf",
+      "volume_mm3": 76424.60247926631,
+      "volume_centroid_xyz_mm": [
+        0.00038549529953469893,
+        -7.420749358949789e-05,
+        218.9644875385228
+      ],
+      "bounds_xyz_mm": [
+        [
+          -124.8245620727539,
+          -124.82306671142578,
+          170.99999999594723
+        ],
+        [
+          124.82455444335938,
+          124.82305908203125,
+          259.88964080810547
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          171.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 8,
+      "source_file": "source/egordv/obj_8_AirZooka03_RingMiddle.STEP.stl",
+      "source_sha256": "7ce89aa4765615a83ea0daecd6effbcda189d537a99fde5d196787f267e28fe3",
+      "volume_mm3": 65829.96733436857,
+      "volume_centroid_xyz_mm": [
+        -1.585232016135857e-05,
+        1.4170539143706381e-05,
+        130.3652958827511
+      ],
+      "bounds_xyz_mm": [
+        [
+          -114.70243835449219,
+          -114.70243835449219,
+          83.99999996401365
+        ],
+        [
+          114.70243835449219,
+          114.70243835449219,
+          174.22074127197266
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -128.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          84.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 9,
+      "source_file": "source/egordv/obj_9_RubberBandCarabiner01.STEP.stl",
+      "source_sha256": "b678e3e389772d2e39a221e3536d7cc44c5cb8ee792061f6677f72016dc95427",
+      "volume_mm3": 210.07467425209566,
+      "volume_centroid_xyz_mm": [
+        0.26012667489115593,
+        2.7926646492455065e-06,
+        132.46786482726245
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.2401428328125235,
+          -1.5,
+          127.36875158774414
+        ],
+        [
+          7.2401428117187265,
+          1.5,
+          138.5718842171387
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -359.8718567
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          1.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          27.887573304052736
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 10,
+      "source_file": "source/egordv/obj_10_BackClampRing4.STEP.stl",
+      "source_sha256": "5985bc5e332f4624099fe0991d4211561a55bf9b29edb6318dfe4be6c0604165",
+      "volume_mm3": 32965.43856101386,
+      "volume_centroid_xyz_mm": [
+        -1.7505638696858882e-06,
+        1.4028457669072686e-06,
+        256.9580206951232
+      ],
+      "bounds_xyz_mm": [
+        [
+          -122.85330201250002,
+          -122.85330580195313,
+          250.31921195983887
+        ],
+        [
+          122.85330199140623,
+          122.85330583134765,
+          261.8896408122388
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -435.1999817
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          127.9999962
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          261.88964080810547
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 11,
+      "source_file": "source/egordv/obj_11_AirZookaPin04.STEP.stl",
+      "source_sha256": "3fe5a4acf8f49d8ae18adf9095c5452ef009c3180eefaa27766edc5be44a2f4d",
+      "volume_mm3": 1167.8267345515803,
+      "volume_centroid_xyz_mm": [
+        -4.770917738611749e-07,
+        97.07643386490494,
+        61.05376273794544
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.650001525878906,
+          92.46969935760025,
+          49.654006322754014
+        ],
+        [
+          7.650001525878906,
+          106.58188149438246,
+          72.94130921522355
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -78.26992797851562
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          59.31035981746804
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -294.56185177010445
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 12,
+      "source_file": "source/egordv/obj_12_AirZookaPin04.STEP.stl",
+      "source_sha256": "c8d501e707484183c3214f5f875554b169f337c1cd85251d42240aac7d92fde3",
+      "volume_mm3": 1167.8267432035482,
+      "volume_centroid_xyz_mm": [
+        -8.027239347757213e-08,
+        109.84821309297662,
+        143.2119656953046
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.650001525878906,
+          105.24147862734429,
+          131.81220928304336
+        ],
+        [
+          7.650001525878906,
+          119.3536607641265,
+          155.09951217551287
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -79.99314880371094
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          69.27708908958309
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -241.57616878515663
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 13,
+      "source_file": "source/egordv/obj_13_AirZookaPin04.STEP.stl",
+      "source_sha256": "56b280d611daf163a192ca45a5e6ca8478f8543038e46cc9bee5b43dad05da7d",
+      "volume_mm3": 1167.8265515963428,
+      "volume_centroid_xyz_mm": [
+        0.12178769095556839,
+        118.98126161934432,
+        191.48711054372822
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.528212547204589,
+          114.37452721349041,
+          180.08735412487513
+        ],
+        [
+          7.771788597204591,
+          128.48670935027263,
+          203.37465701734465
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          -34.22969150533447
+        ],
+        [
+          0.0957124066442578,
+          0.0,
+          0.9954090291002812,
+          75.55027970696153
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -223.04354681850876
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 14,
+      "source_file": "source/egordv/obj_14_AirZookaPin04.STEP.stl",
+      "source_sha256": "a94091261454c5d044343cb2f9c6add2a39c578bb4f2c788cd817410bf596bd4",
+      "volume_mm3": 1167.8263789339385,
+      "volume_centroid_xyz_mm": [
+        -3.012236201130198e-08,
+        -97.06574905084636,
+        60.94264280666483
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.649999618530273,
+          -106.57119688452201,
+          49.54288638020529
+        ],
+        [
+          7.649999618530273,
+          -92.45901474773979,
+          72.83018927267483
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          59.47977638244629
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -58.938481214052416
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -298.4293892456269
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 15,
+      "source_file": "source/egordv/obj_15_AirZookaPin04.STEP.stl",
+      "source_sha256": "db0477644afe55df151c29fde91d42dd4852f6f6c18aa375112c2b2ff02fea59",
+      "volume_mm3": 1167.826371758422,
+      "volume_centroid_xyz_mm": [
+        1.3151217453558113e-08,
+        -109.84356949402788,
+        143.1636740405099
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.649999618530273,
+          -119.34901733539466,
+          131.76391762423208
+        ],
+        [
+          7.649999618530273,
+          -105.23683519861245,
+          155.0512205167016
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          50.78102684020996
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -68.70431389649757
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -247.53303079324616
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 16,
+      "source_file": "source/egordv/obj_16_AirZookaPin04.STEP.stl",
+      "source_sha256": "ab8cf6e7ff605e3761db4cf5fd2d7d4495e034c7bd85a0d08c7bf440c7f0e005",
+      "volume_mm3": 1167.82614537129,
+      "volume_centroid_xyz_mm": [
+        -0.24357601956762748,
+        -118.96860354560557,
+        191.35546897786034
+      ],
+      "bounds_xyz_mm": [
+        [
+          -7.893575668530275,
+          -128.47405229277493,
+          179.95572072689885
+        ],
+        [
+          7.406423568530272,
+          -114.3618701559927,
+          203.24299324189553
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          0.0,
+          -1.0,
+          0.0,
+          33.95712089519043
+        ],
+        [
+          -0.0957124066442578,
+          0.0,
+          -0.9954090291002812,
+          -72.36955016808926
+        ],
+        [
+          0.9954090291002812,
+          0.0,
+          -0.0957124066442578,
+          -256.1231340227805
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "object": 17,
+      "source_file": "source/egordv/obj_17_PinchRing3.STEP.stl",
+      "source_sha256": "7a67a6f98de4beac895d72c23829696a502c99ee2d551405100425c751454d87",
+      "volume_mm3": 5724.769156829653,
+      "volume_centroid_xyz_mm": [
+        -1.8322674512581824e-05,
+        -8.11957419092697e-07,
+        259.713100563647
+      ],
+      "bounds_xyz_mm": [
+        [
+          -19.999999985937507,
+          -19.998516065722654,
+          256.88964081273804
+        ],
+        [
+          20.000000014062493,
+          19.99851609980469,
+          268.43964099884033
+        ]
+      ],
+      "watertight": true,
+      "winding_consistent": true,
+      "is_positive_valid_volume": true,
+      "source_to_assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -466.3531494
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -87.8349037
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          256.88964080810547
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Uniform density across every solid source component is an explicit geometric proxy. Real perimeter/infill choices, print orientation, voids, hardware, film and bands alter both mass and COM.",
+    "Mass at reference density is a full-density reference only and must not replace the separately assumed 0.6 kg operating scenario.",
+    "Stock only. Does not include Design B/C hardware, collars, adapters, changed handle, or revised shells.",
+    "Nominal recovered rigid rest pose; source seating uncertainty and small interpart penetrations remain. The cap and junction move during actuation.",
+    "Excluding handle4 is an accounting sensitivity, not a fully resolved free-body partition of lower clip/hardware masses. The separate group excluding its three clips makes that choice inspectable.",
+    "Geometric checks establish closed positive-volume input surfaces, not printing feasibility, fit, strength or uniform physical density."
+  ]
+}

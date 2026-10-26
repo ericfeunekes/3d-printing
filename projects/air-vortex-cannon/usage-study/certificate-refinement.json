@@ -1,0 +1,17 @@
+[
+  {
+    "joint": "top-rear",
+    "envelope": "outside-tool-static",
+    "changes": [
+      {
+        "obstacle": "stock-3",
+        "prior_minimum_bound_mm": 0.02420740240930286,
+        "exact_refined_samples": 1669,
+        "axis_ray_disagreement_fallback_count": 0,
+        "new_minimum_bound_mm": 0.2401389430501979
+      }
+    ],
+    "new_continuous_bound_mm": 0.029936531376838993,
+    "conditional_geometric_clear": true
+  }
+]

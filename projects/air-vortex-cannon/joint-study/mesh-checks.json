@@ -1,0 +1,222 @@
+[
+  {
+    "file": "joint-study/parts/metal-bolt-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      7.0,
+      7.0,
+      24.0
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-inner-adapter.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      24.0,
+      16.0,
+      9.150000095367432
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-inner-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      12.0,
+      12.0,
+      1.0
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-nyloc-envelope-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      8.082903861999512,
+      7.0,
+      5.0
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-outer-adapter.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      24.0,
+      16.0,
+      1.9999995231628418
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-spacer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      6.0,
+      6.0,
+      11.349999904632568
+    ]
+  },
+  {
+    "file": "joint-study/parts/metal-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      12.0,
+      12.0,
+      1.0
+    ]
+  },
+  {
+    "file": "joint-study/parts/printed-nut-option.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      14.0,
+      12.12435531616211,
+      5.999999523162842
+    ]
+  },
+  {
+    "file": "joint-study/parts/printed-stud-option.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      24.0,
+      16.0,
+      18.149999618530273
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-hardware/M4-nyloc-envelope-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      8.082903861999512,
+      7.0,
+      5.0
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-hardware/inner-M5-wide-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      15.0,
+      14.99533748626709,
+      1.2000000476837158
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-hardware/normal-axis-inner-adapter-study.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      30.0,
+      22.0,
+      10.25
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-hardware/outer-M4-wide-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      12.0,
+      11.996270179748535,
+      1.0
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-hardware/shoulder-bolt-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      9.0,
+      8.99720287322998,
+      28.0
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/M4-nyloc-envelope-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      8.082903861999512,
+      7.0,
+      4.999999046325684
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/inner-M5-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      15.0,
+      14.99533748626709,
+      1.1999998092651367
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/inner-adapter.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      30.0,
+      22.0,
+      9.900000095367432
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/outer-M4-washer-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      12.0,
+      11.996270179748535,
+      1.0
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/outer-adapter.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      30.0,
+      22.0,
+      4.550000190734863
+    ]
+  },
+  {
+    "file": "joint-study/shoulder-stack-study/shoulder-bolt-reference.stl",
+    "watertight": true,
+    "winding": true,
+    "components": 1,
+    "extents_mm": [
+      9.0,
+      8.99720287322998,
+      27.999999046325684
+    ]
+  }
+]

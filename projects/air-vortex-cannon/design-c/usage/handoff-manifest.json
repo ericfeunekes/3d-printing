@@ -1,0 +1,19 @@
+{
+  "scope": "Authoritative final C usage/service handoff; development diagnostics excluded",
+  "files": {
+    "README.md": "3da82c8366cb79a6e7f76b007700e557a495a334147a6f42a6545322e2e32c9c",
+    "usage-results.json": "9abd5d129cf39c73e599dd900c4d2d8862e8b976807f9e8a8df7459cb4c28823",
+    "summary.json": "0a40d50dfa80ac42e03b2fe0d5c77877aaafbec51991f6bd3717e97d467048fb",
+    "check_c_usage.py": "cddffdd52f3fff474cb6f63f8f7b802a9049aa6bd01b99984d1ae43054b1e650",
+    "summarize_c_usage.py": "968717ab0e427969ee14ff010cfac0e215a6117ba51961152e1d48cff45d480d",
+    "input-lower-assembly.json": "a929c43cb72985358db654601949dcae3e858ff9305faa5b6aebcae9e5b92949",
+    "verify_ray_containment.py": "9ec266d33aeef715cdcc984711dff0004c1724a3adb5bbd6bf6eeacf5e176bab",
+    "ray-containment-regression.json": "6c81f9fce9b5f63c56fa19429bdae1306fd5507e87c7cace7b8424f70f1e0116",
+    "input-and-pose-verification.json": "d1c3adf1432e9d8a64d981288bcc610994b585c65a16a698944bd6979b25a51c"
+  },
+  "excluded_development_diagnostics": [
+    "usage-results-axis-ray-diagnostic.json",
+    "input-lower-assembly-axis-ray-diagnostic.json"
+  ],
+  "final_inputs_unchanged_during_run": true
+}

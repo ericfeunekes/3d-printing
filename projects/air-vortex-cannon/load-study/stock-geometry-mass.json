@@ -1,0 +1,126 @@
+{
+  "units": "mm, g",
+  "source_density_g_cm3": 1.28,
+  "mass_status": "geometric full-density reference only; not sliced or measured",
+  "parts": [
+    {
+      "file": "obj_1_SightPin2.STEP.stl",
+      "volume_mm3": 217.20224223865807,
+      "mesh_valid_volume": true,
+      "area_mm2": 347.1012871060727,
+      "mass_full_density_PETG_g": 0.27801887006548237
+    },
+    {
+      "file": "obj_2_Sight2.STEP.stl",
+      "volume_mm3": 1802.245939913195,
+      "mesh_valid_volume": true,
+      "area_mm2": 2240.0885698356597,
+      "mass_full_density_PETG_g": 2.3068748030888897
+    },
+    {
+      "file": "obj_3_TopClamp3.STEP.stl",
+      "volume_mm3": 45204.42873115822,
+      "mesh_valid_volume": true,
+      "area_mm2": 15416.167850531192,
+      "mass_full_density_PETG_g": 57.86166877588253
+    },
+    {
+      "file": "obj_4_Handle03.STEP.stl",
+      "volume_mm3": 91431.47956274367,
+      "mesh_valid_volume": true,
+      "area_mm2": 20475.097161044025,
+      "mass_full_density_PETG_g": 117.03229384031191
+    },
+    {
+      "file": "obj_5_PinchRingCap3.STEP.stl",
+      "volume_mm3": 10600.087539278058,
+      "mesh_valid_volume": true,
+      "area_mm2": 5369.644262547676,
+      "mass_full_density_PETG_g": 13.568112050275916
+    },
+    {
+      "file": "obj_6_AirZooka03_RingFront.STEP.stl",
+      "volume_mm3": 87417.04227918736,
+      "mesh_valid_volume": true,
+      "area_mm2": 137590.37160276293,
+      "mass_full_density_PETG_g": 111.89381411735982
+    },
+    {
+      "file": "obj_7_AirZooka03_RingBack.STEP.stl",
+      "volume_mm3": 76424.60247926647,
+      "mesh_valid_volume": true,
+      "area_mm2": 141328.17166427444,
+      "mass_full_density_PETG_g": 97.8234911734611
+    },
+    {
+      "file": "obj_8_AirZooka03_RingMiddle.STEP.stl",
+      "volume_mm3": 65829.9673343695,
+      "mesh_valid_volume": true,
+      "area_mm2": 128022.92588111719,
+      "mass_full_density_PETG_g": 84.26235818799297
+    },
+    {
+      "file": "obj_9_RubberBandCarabiner01.STEP.stl",
+      "volume_mm3": 210.07467425209597,
+      "mesh_valid_volume": true,
+      "area_mm2": 368.1365993038811,
+      "mass_full_density_PETG_g": 0.26889558304268285
+    },
+    {
+      "file": "obj_10_BackClampRing4.STEP.stl",
+      "volume_mm3": 32965.438561013936,
+      "mesh_valid_volume": true,
+      "area_mm2": 24884.61391445192,
+      "mass_full_density_PETG_g": 42.19576135809784
+    },
+    {
+      "file": "obj_11_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8267345515778,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9843051740304,
+      "mass_full_density_PETG_g": 1.4948182202260198
+    },
+    {
+      "file": "obj_12_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8267432035452,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9842936269615,
+      "mass_full_density_PETG_g": 1.494818231300538
+    },
+    {
+      "file": "obj_13_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8265515963456,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9841655242944,
+      "mass_full_density_PETG_g": 1.4948179860433224
+    },
+    {
+      "file": "obj_14_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8263789339373,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9840302316186,
+      "mass_full_density_PETG_g": 1.49481776503544
+    },
+    {
+      "file": "obj_15_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8263717584243,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9840325412772,
+      "mass_full_density_PETG_g": 1.4948177558507834
+    },
+    {
+      "file": "obj_16_AirZookaPin04.STEP.stl",
+      "volume_mm3": 1167.8261453712912,
+      "mesh_valid_volume": true,
+      "area_mm2": 1146.9839342899597,
+      "mass_full_density_PETG_g": 1.494817466075253
+    },
+    {
+      "file": "obj_17_PinchRing3.STEP.stl",
+      "volume_mm3": 5724.769156829665,
+      "mesh_valid_volume": true,
+      "area_mm2": 3179.725576129401,
+      "mass_full_density_PETG_g": 7.327704520741972
+    }
+  ]
+}

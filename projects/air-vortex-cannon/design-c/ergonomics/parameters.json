@@ -1,0 +1,42 @@
+{
+  "status": "Explicit scenario assumptions; no measured mass, COM, load, comfort or capacity",
+  "coordinates": "mm; X horizontal, Y up, Z rearward; positive Cx follows right hand rule",
+  "baseline_grasp_xyz_mm": [0, -155, 110.4],
+  "rear_plane_z_mm": 259.88964080810547,
+  "load_point_offset_behind_rear_plane_mm": 80,
+  "load_point_status": "Retained prior load-analysis assumption. Separate usage motion study is 0..60 mm and is not replaced by this load point.",
+  "cone_half_angle_deg": 5.492324557127438,
+  "rearward_shifts_mm": [0, 15, 30, 45],
+  "clearance_drop_sensitivities": [
+    {"name": "rear15_drop1p5", "rearward_mm": 15, "down_mm": 1.5},
+    {"name": "rear30_drop3", "rearward_mm": 30, "down_mm": 3},
+    {"name": "rear30_drop10_source_pin", "rearward_mm": 30, "down_mm": 10},
+    {"name": "rear30_drop20_B_hardware", "rearward_mm": 30, "down_mm": 20}
+  ],
+  "nominal_body_mass_kg": 0.6,
+  "nominal_body_com_xyz_mm": [0, -20, 140],
+  "body_mass_sensitivity_kg": [0.4, 0.6, 0.8],
+  "body_com_z_sensitivity_mm": [110, 140, 170],
+  "sensitivity_status": "Analyst-chosen plausible comparisons, not measured uncertainty distributions or bounds",
+  "gravity_m_s2": 9.81,
+  "gravity_factors": [-1, 0, 1],
+  "load_cases": [
+    {"name": "hold", "force_N": 0, "angle_deg": 0},
+    {"name": "axial5", "force_N": 5, "angle_deg": 0},
+    {"name": "axial10", "force_N": 10, "angle_deg": 0},
+    {"name": "axial20", "force_N": 20, "angle_deg": 0},
+    {"name": "up10deg20", "force_N": 20, "angle_deg": 10},
+    {"name": "down10deg20", "force_N": 20, "angle_deg": -10}
+  ],
+  "angle_definition": "In Y/Z plane; positive angle gives upward Fy, positive Fz is rearward pull on cannon",
+  "selected_geometry": {
+    "name": "same_height_0",
+    "grasp_xyz_mm": [0, -155, 110.4],
+    "status": "Retained original source grip; rear30/down20 native handle is an optional comparison",
+    "geometry_evidence": "../handle/handle-validation.json"
+  },
+  "closer_axis_grasp": {
+    "status": "Not a proposed geometry: no higher grasp is analyzed until hand clearance is demonstrated",
+    "conditional_algebra_only": "At fixed Z, a +1 mm Y change gives delta Cx = Fz/1000 N m; at axial20N this reduces negative signed couple magnitude by0.020 N m only if it stays negative."
+  }
+}

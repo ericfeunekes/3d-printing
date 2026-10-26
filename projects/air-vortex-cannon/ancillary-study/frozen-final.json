@@ -1,0 +1,20 @@
+{
+  "status": "Final deployed0 ancillary reconstruction; no qualified fold path",
+  "date": "2026-10-25",
+  "files": {
+    "ancillary-study/model_ancillary.py": "42943051775331a76603efdf00881403f4b7a116984de22b2c5b09abf951b132",
+    "ancillary-study/ancillary-poses.json": "eb4dcffccf6973206946c7a619e2cd31e0c008c23dd20d040c577238c75d88a2",
+    "ancillary-study/ancillary-checks.json": "dcf6a7f92891e6a90d37364601e82b6f09fcfef2906bb3fe317e4f23c38af4a3",
+    "ancillary-study/sight-pose-checks.json": "39aa5e6717430cc03efc6f5c7af97ec018d58ae4d357303d13d99dd93bfabc84",
+    "ancillary-study/README.md": "e90d1beb79274dbbe6eb212e863fa97560e638c5365ab4956a097f2f3aa17149",
+    "ancillary-study/ancillary-sections.png": "dafad76f675d5c322b4f567e0ff2a6a1b3f5aa7ba36f32302ed5d605e7ed019d",
+    "ancillary-study/posed/membrane-60mm-pull-study.stl": "7ddaf68db90617c424852c25b6f61e80f7a2a052ec3b4b68ffc5610225382460",
+    "ancillary-study/posed/membrane-flat-study.stl": "5da2bd99a5875ac18a87f35a5c4c9830a350ca236a2b26c0ce71ff9a5827b4bb",
+    "ancillary-study/posed/obj_10_BackClampRing4.STEP.stl": "6bdef65f9da419943d665cb9bc1395834d979d8d86e6e2ce1348b2ebbb07a74d",
+    "ancillary-study/posed/obj_17_PinchRing3.STEP.stl": "5dd180c8f154f6e2b629226e6c9f4c508a649f550cc27eb6035ff451354a062c",
+    "ancillary-study/posed/obj_1_SightPin2.STEP.stl": "c513d949982178d9c06007da2224640381274a4f586b8be6bbd3e595d054f17a",
+    "ancillary-study/posed/obj_2_Sight2.STEP.stl": "aebe4635f7717734a99096c7e27c0f6648e743e36d7930495c32905725040656",
+    "ancillary-study/posed/obj_5_PinchRingCap3.STEP.stl": "e0e481c6adc99082b03f0757dbff8c25a9a900dd6d2cf5f8891ac6f0c1ab5eb8",
+    "ancillary-study/posed/obj_9_RubberBandCarabiner01.STEP.stl": "31cf8c0d3aa91b9b445ddc5be41634e0dadefa48c1afb31a99206718a5b6fa41"
+  }
+}
