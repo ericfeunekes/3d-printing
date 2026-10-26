@@ -1,0 +1,8 @@
+[2026-10-26 18:30:57.006023] [0x00007ff854a9cc40] [trace]   Initializing StaticPrintConfigs
+[2026-10-26 18:30:57.206990] [0x00007ff854a9cc40] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-26 18:30:57.296852] [0x00007ff854a9cc40] [warning] run:2873, can not find system preset file: /private/tmp/vortex-bambu-mounted/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab X2D 0.4 nozzle.json 
+[2026-10-26 18:30:57.298984] [0x00007ff854a9cc40] [warning] run:2895, can not find system preset file: /private/tmp/vortex-bambu-mounted/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Air vortex C - draft PLA 0.16.json 
+[2026-10-26 18:30:57.299137] [0x00007ff854a9cc40] [warning] no filament colors found in projects
+[2026-10-26 18:30:57.312018] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:30:59.554166] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:30:59.554191] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).

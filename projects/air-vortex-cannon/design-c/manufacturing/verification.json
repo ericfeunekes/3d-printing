@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-26",
+  "native_exporter": "Bambu Studio 2.8.2.61",
+  "delivered_format": "Editable unsliced native Bambu project",
+  "source_geometry_changed": false,
+  "independent_review": {
+    "full_objects": 17,
+    "full_plate_counts": [
+      1,
+      1,
+      1,
+      1,
+      13
+    ],
+    "fit_objects": 3,
+    "fit_plates": 1,
+    "units": "millimeter",
+    "all_source_sha256_match": true,
+    "all_triangle_counts_preserved": true,
+    "all_meshes_closed_wound_positive_volume": true,
+    "max_bidirectional_vertex_difference_mm": {
+      "full": 1.69203e-05,
+      "fit": 2.93461e-07
+    },
+    "max_full_relative_volume_difference": 2.81323e-08,
+    "minimum_geometry_bed_margin_mm": 3.17544,
+    "minimum_margin_after_2_1mm_brim_buffer_mm": 1.07544,
+    "same_plate_bbox_gap_mm": 6.0,
+    "remaining_gap_after_two_brim_buffers_mm": 1.8,
+    "embedded_generated_gcode": false,
+    "attribution_and_license_embedded": true
+  },
+  "lib3mf_2_5_0": {
+    "default_import": "success, build counts17 and3",
+    "strict_import": "rejects native Bambu vendor metadata",
+    "full_warning_count": 24,
+    "fit_warning_count": 10,
+    "warning_kinds": [
+      "32935 Invalid Attribute in namespace",
+      "32946 Unknown Model Metadata"
+    ],
+    "scope": "Bambu-specific project, not claimed strict core-only3MF conformance"
+  },
+  "slice_checks": {
+    "full": {
+      "native_exit_code": 0,
+      "gcode_plate_count": 5,
+      "plates": [
+        {
+          "index": 1,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 1
+        },
+        {
+          "index": 2,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 1
+        },
+        {
+          "index": 3,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 1
+        },
+        {
+          "index": 4,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 1
+        },
+        {
+          "index": 5,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 13
+        }
+      ],
+      "temporary_sliced_sha256": "57284237867e746339544a806cf729fb3dc013af0c004ac91c20177872d87342",
+      "log_warnings": [
+        "Embedded settings used; missing expanded system preset cache paths",
+        "No explicit filament color found; preset display color used",
+        "Nozzle mapping inferred from filament map and volume types",
+        "G-code processor logged Invalid T command T65279/T65535 from upstream machine templates"
+      ],
+      "scope": "Native reopen and toolpath generation only; generated G-code not delivered or machine-qualified"
+    },
+    "coupon": {
+      "native_exit_code": 0,
+      "gcode_plate_count": 1,
+      "plates": [
+        {
+          "index": 1,
+          "outside": "false",
+          "support_used": "true",
+          "object_count": 3
+        }
+      ],
+      "temporary_sliced_sha256": "1c6231a52f2192df2e4e062f85f4c5aada301e961f526d7842e76b29d9ef7caf",
+      "log_warnings": [
+        "Embedded settings used; missing expanded system preset cache paths",
+        "No explicit filament color found; preset display color used",
+        "Nozzle mapping inferred from filament map and volume types",
+        "G-code processor logged Invalid T command T65279/T65535 from upstream machine templates"
+      ],
+      "scope": "Native reopen and toolpath generation only; generated G-code not delivered or machine-qualified"
+    }
+  },
+  "limits": [
+    "Slice generation is not physical fit or strength qualification.",
+    "Inspect support removal, mating surfaces, bores and actual spool/nozzle/plate before printing.",
+    "No physical print, printer connection or settings change performed.",
+    "Delivered files remain unsliced and contain no generated G-code.",
+    "The Generic PLA green display color is a placeholder, not observed available stock."
+  ],
+  "artifacts": {
+    "air-vortex-cannon-revision-c.3mf": {
+      "bytes": 8452078,
+      "sha256": "c2ee908f50e43e927a2e7159091d9f6a4c42e0ed282bba5a4a68f953f00f01fb"
+    },
+    "revision-c-fit-coupon.3mf": {
+      "bytes": 466471,
+      "sha256": "cc18267f017737b6866567414499dbc0a433f08f1b0278848b49e0c54690d328"
+    }
+  }
+}

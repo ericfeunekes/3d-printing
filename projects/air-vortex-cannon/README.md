@@ -7,7 +7,8 @@
 ## Current work
 
 - [Design choices, rejected handle movement and proof limits](design-c/README.md)
-- [Selected print files and quantities](design-c/joints/print/README.md)
+- [Editable Bambu Studio 3MFs: full build and fit coupon](design-c/manufacturing/README.md)
+- [Selected individual print files and quantities](design-c/joints/print/README.md)
 - [Small actual-interface fit coupon](design-c/joints/fit-coupon/README.md)
 - [Selected 3D assembly](design-c/presentation/selected-rest.glb)
 - [Independent review](design-c/review.md)
@@ -40,7 +41,7 @@ python design-c/assembly.py
 
 Read the owning study instructions before rebuilding numerical evidence. Work in a disposable copy for fresh calculations; historical output/rebaseline records must remain intact. Old absolute task-workspace or Python/FreeCAD paths in preserved notes describe the preparation machine, not portable setup commands. The current geometry scripts derive their asset paths from the project directory; `/tmp/vortex-manifold` is an optional preparation fallback when Manifold is not installed normally. Gmsh/CalculiX are optional dependencies for replaying the old washer FEA, not for viewing the current CAD.
 
-The original target printer was a Bambu Lab X2D, 0.4 mm nozzle, with a verified 256 × 256 × 260 mm bare main-hotend envelope. That is context for this project, not a global default for future builds. Profile/plate/support/filament validation remains outstanding.
+The original target printer was a Bambu Lab X2D, 0.4 mm nozzle, with a verified 256 × 256 × 260 mm bare main-hotend envelope. That is context for this project, not a global default for future builds. The [new Bambu projects](design-c/manufacturing/README.md) include proposed X2D/0.4 mm/PLA settings and passed local toolpath generation. Actual spool/plate confirmation, support-removal inspection and physical fit/strength remain outstanding.
 
 ## Sources and history
 

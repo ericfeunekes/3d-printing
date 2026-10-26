@@ -1,0 +1,20 @@
+[2026-10-26 18:30:57.639771] [0x00007ff854a9cc40] [trace]   Initializing StaticPrintConfigs
+[2026-10-26 18:30:57.657923] [0x00007ff854a9cc40] [warning] cli mode, Current BambuStudio Version 02.08.02.61
+[2026-10-26 18:30:59.668827] [0x00007ff854a9cc40] [warning] run:2873, can not find system preset file: /private/tmp/vortex-bambu-mounted/BambuStudio.app/Contents/Resources/profiles/BBL/machine_full/Bambu Lab X2D 0.4 nozzle.json 
+[2026-10-26 18:30:59.668873] [0x00007ff854a9cc40] [warning] run:2895, can not find system preset file: /private/tmp/vortex-bambu-mounted/BambuStudio.app/Contents/Resources/profiles/BBL/process_full/Air vortex C - draft PLA 0.16.json 
+[2026-10-26 18:30:59.668920] [0x00007ff854a9cc40] [warning] no filament colors found in projects
+[2026-10-26 18:30:59.669974] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:30:59.670024] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:30:59.670080] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:30:59.670155] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:30:59.670250] [0x00007ff854a9cc40] [warning] load_nozzle_infos_with_compatibility: building nozzle list from filament map and volume types
+[2026-10-26 18:31:08.332719] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:31:08.333126] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).
+[2026-10-26 18:31:18.949913] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:31:18.949947] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).
+[2026-10-26 18:31:28.849461] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:31:28.849495] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).
+[2026-10-26 18:31:31.778837] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:31:31.778868] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).
+[2026-10-26 18:31:40.628754] [0x00007ff854a9cc40] [error]   Invalid T command (T65279).
+[2026-10-26 18:31:40.628789] [0x00007ff854a9cc40] [error]   Invalid T command (T65535).
